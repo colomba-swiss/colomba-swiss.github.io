@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T15:00:01Z",
+  "generatedAt": "2026-04-27T15:17:34Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T15:00:01Z",
+      "lastHeartbeatAt": "2026-04-27T15:17:34Z",
       "lastSuccessAt": "2026-04-27T14:59:58Z",
       "lastSuccessfulAction": "Colomba 17:00 tick: waiting on Papu gates + Oscar/Mazal tasks",
       "currentTask": "Wait for Papu legal/email confirmations and collect Oscar pronunciation QA + Mazal prospect variants; do not deploy webhook or send outreach until approved.",
       "task": "Wait for Papu legal/email confirmations and collect Oscar pronunciation QA + Mazal prospect variants; do not deploy webhook or send outreach until approved.",
       "progress": 88,
       "blockers": "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "0m ago",
-      "beadCount": 78
+      "lastBead": "17m ago",
+      "beadCount": 77
     },
     {
       "id": "oscar",
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T15:00:01Z",
+      "lastHeartbeatAt": "2026-04-27T15:17:34Z",
       "lastSuccessAt": "2026-04-27T14:59:58Z",
       "lastSuccessfulAction": "Colomba 17:00 tick: waiting on Papu gates + Oscar/Mazal tasks",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "0m ago",
+      "lastBead": "17m ago",
       "beadCount": 29
     },
     {
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T15:00:01Z",
-      "lastSuccessAt": "2026-04-27T14:59:58Z",
-      "lastSuccessfulAction": "Colomba 17:00 tick: waiting on Papu gates + Oscar/Mazal tasks",
+      "lastHeartbeatAt": "2026-04-27T15:17:34Z",
+      "lastSuccessAt": "2026-04-27T15:03:11Z",
+      "lastSuccessfulAction": "mazal-first-pilot-prospect-variants-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "0m ago",
-      "beadCount": 42
+      "lastBead": "14m ago",
+      "beadCount": 43
     }
   ],
   "ship": {
@@ -114,6 +114,17 @@
   },
   "feed": [
     {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-first-pilot-prospect-variants-ready",
+      "id": "gascity-lab-aiv7",
+      "status": "open",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T15:03:11Z",
+      "age": "14m ago"
+    },
+    {
       "from": "hesoyam",
       "type": "task",
       "text": "Colomba 17:00 tick: waiting on Papu gates + Oscar/Mazal tasks",
@@ -122,7 +133,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T14:59:58Z",
-      "age": "0m ago"
+      "age": "17m ago"
     },
     {
       "from": "hesoyam",
@@ -133,7 +144,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T14:58:35Z",
-      "age": "1m ago"
+      "age": "18m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -144,7 +155,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T14:58:34Z",
-      "age": "1m ago"
+      "age": "19m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +166,7 @@
       "priority": 1,
       "assignee": "mazal",
       "updatedAt": "2026-04-27T14:36:09Z",
-      "age": "23m ago"
+      "age": "41m ago"
     },
     {
       "from": "hesoyam",
@@ -166,7 +177,7 @@
       "priority": 1,
       "assignee": "Oscar",
       "updatedAt": "2026-04-27T14:36:08Z",
-      "age": "23m ago"
+      "age": "41m ago"
     },
     {
       "from": "hesoyam",
@@ -177,18 +188,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T14:28:19Z",
-      "age": "31m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-onboarding-sector-packet-ready",
-      "id": "gascity-lab-ugg",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T14:28:18Z",
-      "age": "31m ago"
+      "age": "49m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -199,18 +199,18 @@
       "priority": 2,
       "assignee": "",
       "updatedAt": "2026-04-27T14:28:18Z",
-      "age": "31m ago"
+      "age": "49m ago"
     },
     {
       "from": "Mazal/WSL",
       "type": "task",
-      "text": "mazal-colomba-master-index-qa-ready",
-      "id": "gascity-lab-a4l",
+      "text": "mazal-onboarding-sector-packet-ready",
+      "id": "gascity-lab-ugg",
       "status": "closed",
       "priority": 1,
       "assignee": "",
-      "updatedAt": "2026-04-27T14:28:17Z",
-      "age": "31m ago"
+      "updatedAt": "2026-04-27T14:28:18Z",
+      "age": "49m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -221,7 +221,18 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T14:28:17Z",
-      "age": "31m ago"
+      "age": "49m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-colomba-master-index-qa-ready",
+      "id": "gascity-lab-a4l",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T14:28:17Z",
+      "age": "49m ago"
     },
     {
       "from": "hesoyam",
@@ -254,17 +265,6 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T13:28:20Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-landing-page-copy-assembly-ready",
-      "id": "gascity-lab-964g",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T13:28:19Z",
       "age": "1h ago"
     }
   ],
@@ -323,19 +323,19 @@
       "from": "Heso",
       "to": "Mazal/WSL",
       "text": "response to Mazal Lane C next-task query",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "query Heso Lane C priorities 2026-04-27T05:12",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar Worker",
       "to": "unknown",
       "text": "Coordination norm: query agents before human-action-needed",
-      "age": "11h ago"
+      "age": "12h ago"
     }
   ],
   "federation": {
