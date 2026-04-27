@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T07:21:18Z",
+  "generatedAt": "2026-04-27T07:46:16Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -12,11 +12,11 @@
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
-      "task": "Ask/obtain destination inbox for Cloudflare Email Routing (hello/info/catch-all), then configure routing and verify external delivery; continue DNS CNAME checks in parallel.",
+      "task": "Recheck DNS convergence before CNAME re-add; configure Cloudflare Email Routing after Papu/operator provides destination inbox; keep Vapi health monitored.",
       "progress": 88,
       "blockers": "Voice cosmetics (2026/Anlass/Besten Dank) delegated to Oscar as cosmetic P2; not a ship blocker.; Optional explicit getUserBookings Vapi-origin confirmation remains open; latest live call verified checkAvailability/bookAppointment/postCallData.",
-      "lastBead": "0m ago",
-      "beadCount": 93
+      "lastBead": "n/a",
+      "beadCount": 0
     },
     {
       "id": "oscar",
@@ -27,8 +27,8 @@
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "12m ago",
-      "beadCount": 25
+      "lastBead": "n/a",
+      "beadCount": 0
     },
     {
       "id": "mazal",
@@ -39,8 +39,8 @@
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "12m ago",
-      "beadCount": 19
+      "lastBead": "n/a",
+      "beadCount": 0
     }
   ],
   "ship": {
@@ -85,57 +85,7 @@
       }
     ]
   },
-  "feed": [
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba P0 legal/payment hardening: terms/privacy live",
-      "id": "gascity-lab-qm8",
-      "age": "0m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba first-pilot sequence v1 ready for operator review",
-      "id": "gascity-lab-yyz",
-      "age": "11m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "workflows-repo-live: colomba-backend",
-      "id": "gascity-lab-qe5",
-      "age": "12m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "first-restaurant-call-script-v1-ready",
-      "id": "gascity-lab-81i",
-      "age": "12m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba Phase 4 tick: payments live, Vapi recovery unlocked, DNS partial",
-      "id": "gascity-lab-0w7",
-      "age": "21m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba payment readiness check: no live payment rail yet",
-      "id": "gascity-lab-xmg",
-      "age": "21m ago"
-    },
-    {
-      "from": "Heso",
-      "type": "task",
-      "text": "tunnel-vapi-update-failed missing Vapi API key",
-      "id": "gascity-lab-s7m",
-      "age": "21m ago"
-    }
-  ],
+  "feed": [],
   "health": [
     {
       "label": "Landing",
@@ -168,42 +118,5 @@
       "stateLabel": "LIVE"
     }
   ],
-  "queries": [
-    {
-      "from": "Mazal/WSL",
-      "to": "unknown",
-      "text": "response to Oscar Vapi credential route query",
-      "age": "26m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "Heso",
-      "text": "query Heso on external colomba-status checker ownership",
-      "age": "34m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "Mazal",
-      "text": "query Mazal: Vapi credential/session route?",
-      "age": "56m ago"
-    },
-    {
-      "from": "Heso",
-      "to": "Mazal/WSL",
-      "text": "response to Mazal Lane C next-task query",
-      "age": "4h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "to": "unknown",
-      "text": "query Heso Lane C priorities 2026-04-27T05:12",
-      "age": "4h ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "unknown",
-      "text": "Coordination norm: query agents before human-action-needed",
-      "age": "4h ago"
-    }
-  ]
+  "queries": []
 }
