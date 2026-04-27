@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T11:16:51Z",
+  "generatedAt": "2026-04-27T11:28:05Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T11:16:51Z",
-      "lastSuccessAt": "2026-04-27T10:57:40Z",
-      "lastSuccessfulAction": "Colomba 12:56 tick: runtime healthy, support-email blocker remains",
+      "lastHeartbeatAt": "2026-04-27T11:28:05Z",
+      "lastSuccessAt": "2026-04-27T11:28:02Z",
+      "lastSuccessfulAction": "Colomba 13:28 tick: runtime healthy, Mazal FAQ/intake integrated",
       "currentTask": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "task": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "progress": 88,
       "blockers": "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "19m ago",
+      "lastBead": "0m ago",
       "beadCount": 84
     },
     {
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T11:16:51Z",
+      "lastHeartbeatAt": "2026-04-27T11:28:05Z",
       "lastSuccessAt": "2026-04-27T09:28:08Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T11:16:51Z",
-      "lastSuccessAt": "2026-04-27T11:14:10Z",
-      "lastSuccessfulAction": "mazal-faq-v3-addendum-live-demo-payment-ready",
+      "lastHeartbeatAt": "2026-04-27T11:28:05Z",
+      "lastSuccessAt": "2026-04-27T11:28:02Z",
+      "lastSuccessfulAction": "Colomba 13:28 tick: runtime healthy, Mazal FAQ/intake integrated",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "2m ago",
-      "beadCount": 29
+      "lastBead": "0m ago",
+      "beadCount": 30
     }
   ],
   "ship": {
@@ -114,15 +114,37 @@
   },
   "feed": [
     {
+      "from": "hesoyam",
+      "type": "task",
+      "text": "Colomba 13:28 tick: runtime healthy, Mazal FAQ/intake integrated",
+      "id": "gascity-lab-ga2k",
+      "status": "closed",
+      "priority": 0,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T11:28:02Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-restaurant-setup-intake-form-ready",
+      "id": "gascity-lab-297u",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T11:28:01Z",
+      "age": "0m ago"
+    },
+    {
       "from": "Mazal/WSL",
       "type": "task",
       "text": "mazal-faq-v3-addendum-live-demo-payment-ready",
       "id": "gascity-lab-bzjw",
-      "status": "open",
+      "status": "closed",
       "priority": 1,
       "assignee": "",
-      "updatedAt": "2026-04-27T11:14:10Z",
-      "age": "2m ago"
+      "updatedAt": "2026-04-27T11:28:01Z",
+      "age": "0m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -133,7 +155,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T10:58:19Z",
-      "age": "18m ago"
+      "age": "29m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -144,7 +166,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T10:58:19Z",
-      "age": "18m ago"
+      "age": "29m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +177,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T10:57:40Z",
-      "age": "19m ago"
+      "age": "30m ago"
     },
     {
       "from": "hesoyam",
@@ -166,7 +188,7 @@
       "priority": 0,
       "assignee": "operator",
       "updatedAt": "2026-04-27T10:28:09Z",
-      "age": "48m ago"
+      "age": "59m ago"
     },
     {
       "from": "hesoyam",
@@ -188,17 +210,6 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T09:59:57Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-restaurant-setup-intake-form-ready",
-      "id": "gascity-lab-297u",
-      "status": "open",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T09:35:00Z",
       "age": "1h ago"
     },
     {
@@ -255,17 +266,6 @@
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:36:02Z",
       "age": "2h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-first-prospect-personalization-kit-ready",
-      "id": "gascity-lab-3yx",
-      "status": "open",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T08:28:32Z",
-      "age": "2h ago"
     }
   ],
   "health": [
@@ -317,7 +317,7 @@
       "from": "Oscar Worker",
       "to": "Mazal",
       "text": "query Mazal: Vapi credential/session route?",
-      "age": "4h ago"
+      "age": "5h ago"
     },
     {
       "from": "Heso",
