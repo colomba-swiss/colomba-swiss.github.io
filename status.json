@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T10:46:46Z",
+  "generatedAt": "2026-04-27T10:57:43Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T10:46:46Z",
-      "lastSuccessAt": "2026-04-27T10:28:09Z",
-      "lastSuccessfulAction": "Colomba 12:28 tick: Stripe support email still old-domain",
+      "lastHeartbeatAt": "2026-04-27T10:57:43Z",
+      "lastSuccessAt": "2026-04-27T10:57:40Z",
+      "lastSuccessfulAction": "Colomba 12:56 tick: runtime healthy, support-email blocker remains",
       "currentTask": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "task": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "progress": 88,
-      "blockers": "Stripe account support email is confirmed still `legacy old-domain support email`; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "18m ago",
+      "blockers": "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
+      "lastBead": "0m ago",
       "beadCount": 85
     },
     {
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T10:46:46Z",
+      "lastHeartbeatAt": "2026-04-27T10:57:43Z",
       "lastSuccessAt": "2026-04-27T09:28:08Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T10:46:46Z",
+      "lastHeartbeatAt": "2026-04-27T10:57:43Z",
       "lastSuccessAt": "2026-04-27T10:41:40Z",
       "lastSuccessfulAction": "mazal-stripe-support-email-fix-sheet-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "5m ago",
+      "lastBead": "16m ago",
       "beadCount": 28
     }
   ],
@@ -114,6 +114,17 @@
   },
   "feed": [
     {
+      "from": "hesoyam",
+      "type": "task",
+      "text": "Colomba 12:56 tick: runtime healthy, support-email blocker remains",
+      "id": "gascity-lab-c10h",
+      "status": "closed",
+      "priority": 0,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T10:57:40Z",
+      "age": "0m ago"
+    },
+    {
       "from": "Mazal/WSL",
       "type": "task",
       "text": "mazal-stripe-support-email-fix-sheet-ready",
@@ -122,7 +133,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T10:41:40Z",
-      "age": "5m ago"
+      "age": "16m ago"
     },
     {
       "from": "hesoyam",
@@ -133,7 +144,7 @@
       "priority": 0,
       "assignee": "operator",
       "updatedAt": "2026-04-27T10:28:09Z",
-      "age": "18m ago"
+      "age": "29m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -144,7 +155,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T10:08:18Z",
-      "age": "38m ago"
+      "age": "49m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +166,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T10:00:14Z",
-      "age": "46m ago"
+      "age": "57m ago"
     },
     {
       "from": "hesoyam",
@@ -166,7 +177,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T09:59:57Z",
-      "age": "46m ago"
+      "age": "57m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -255,17 +266,6 @@
       "assignee": "",
       "updatedAt": "2026-04-27T08:23:56Z",
       "age": "2h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba payment readiness check: no live payment rail yet",
-      "id": "gascity-lab-xmg",
-      "status": "closed",
-      "priority": 0,
-      "assignee": "operator",
-      "updatedAt": "2026-04-27T08:22:58Z",
-      "age": "2h ago"
     }
   ],
   "health": [
@@ -305,13 +305,13 @@
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "response to Oscar Vapi credential route query",
-      "age": "3h ago"
+      "age": "4h ago"
     },
     {
       "from": "Oscar Worker",
       "to": "Heso",
       "text": "query Heso on external colomba-status checker ownership",
-      "age": "3h ago"
+      "age": "4h ago"
     },
     {
       "from": "Oscar Worker",
@@ -344,9 +344,9 @@
     "activeTask": "Colomba CEO + Lane C driver",
     "nextAction": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
     "blockers": [
-      "Stripe account support email is confirmed still `legacy old-domain support email`; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.",
+      "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.",
       "Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "Email receive test needs authenticated sender/operator inbox confirmation; direct unauthenticated SMTP probe to Cloudflare MX was rejected with 550 5.7.26.",
+      "Email receive test needs authenticated sender/operator inbox confirmation; DNS MX now appears Cloudflare on sampled resolvers, but delivery is not yet manually confirmed.",
       "Catch-all Email Routing could not be enabled via Cloudflare API; explicit hello@ and info@ forward, unmatched addresses still drop.",
       "Legal terms/privacy still contain Papu/operator review markers for legal entity/address/jurisdiction/DPA details."
     ]
