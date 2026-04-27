@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T10:00:00Z",
+  "generatedAt": "2026-04-27T10:00:16Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,9 +13,9 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T10:00:00Z",
-      "lastSuccessAt": "2026-04-27T09:59:57Z",
-      "lastSuccessfulAction": "Colomba domain connected to Cloudflare pending propagation",
+      "lastHeartbeatAt": "2026-04-27T10:00:16Z",
+      "lastSuccessAt": "2026-04-27T10:00:14Z",
+      "lastSuccessfulAction": "Colomba 12:02 tick: custom domain live and verified",
       "currentTask": "Continue push: authenticated/operator email receive confirmation for hello/info; Stripe support-email dashboard verification; legal review details; keep Beads/status current.",
       "task": "Continue push: authenticated/operator email receive confirmation for hello/info; Stripe support-email dashboard verification; legal review details; keep Beads/status current.",
       "progress": 88,
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T10:00:00Z",
+      "lastHeartbeatAt": "2026-04-27T10:00:16Z",
       "lastSuccessAt": "2026-04-27T09:28:08Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "31m ago",
+      "lastBead": "32m ago",
       "beadCount": 27
     },
     {
@@ -47,7 +47,7 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T10:00:00Z",
+      "lastHeartbeatAt": "2026-04-27T10:00:16Z",
       "lastSuccessAt": "2026-04-27T09:35:00Z",
       "lastSuccessfulAction": "mazal-restaurant-setup-intake-form-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
@@ -115,6 +115,17 @@
   "feed": [
     {
       "from": "hesoyam",
+      "type": "task",
+      "text": "Colomba 12:02 tick: custom domain live and verified",
+      "id": "gascity-lab-0dyn",
+      "status": "closed",
+      "priority": 0,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T10:00:14Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "hesoyam",
       "type": "decision",
       "text": "Colomba domain connected to Cloudflare pending propagation",
       "id": "gascity-lab-308",
@@ -144,7 +155,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-27T09:28:08Z",
-      "age": "31m ago"
+      "age": "32m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -155,7 +166,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T09:28:07Z",
-      "age": "31m ago"
+      "age": "32m ago"
     },
     {
       "from": "hesoyam",
@@ -255,17 +266,6 @@
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:08:46Z",
       "age": "1h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Oscar: status producer + CNAME flip + Heidi QA staging",
-      "id": "gascity-lab-fj1",
-      "status": "open",
-      "priority": 0,
-      "assignee": "oscar",
-      "updatedAt": "2026-04-27T07:55:43Z",
-      "age": "2h ago"
     }
   ],
   "health": [
