@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T13:28:22Z",
+  "generatedAt": "2026-04-27T13:47:16Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T13:28:22Z",
+      "lastHeartbeatAt": "2026-04-27T13:47:16Z",
       "lastSuccessAt": "2026-04-27T13:28:20Z",
       "lastSuccessfulAction": "Colomba 15:28 tick: runtime healthy, landing assembly integrated",
       "currentTask": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "task": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "progress": 88,
       "blockers": "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "0m ago",
+      "lastBead": "18m ago",
       "beadCount": 80
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T13:28:22Z",
+      "lastHeartbeatAt": "2026-04-27T13:47:16Z",
       "lastSuccessAt": "2026-04-27T13:24:32Z",
       "lastSuccessfulAction": "Oscar Vapi Heidi pronunciation cosmetics",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "3m ago",
+      "lastBead": "22m ago",
       "beadCount": 27
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T13:28:22Z",
+      "lastHeartbeatAt": "2026-04-27T13:47:16Z",
       "lastSuccessAt": "2026-04-27T13:28:19Z",
       "lastSuccessfulAction": "mazal-landing-page-copy-assembly-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "0m ago",
+      "lastBead": "18m ago",
       "beadCount": 37
     }
   ],
@@ -122,7 +122,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T13:28:20Z",
-      "age": "0m ago"
+      "age": "18m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -133,7 +133,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T13:28:19Z",
-      "age": "0m ago"
+      "age": "18m ago"
     },
     {
       "from": "Oscar Worker",
@@ -144,7 +144,7 @@
       "priority": 2,
       "assignee": "Oscar",
       "updatedAt": "2026-04-27T13:24:32Z",
-      "age": "3m ago"
+      "age": "22m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +155,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T12:57:55Z",
-      "age": "30m ago"
+      "age": "49m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -166,7 +166,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T12:57:54Z",
-      "age": "30m ago"
+      "age": "49m ago"
     },
     {
       "from": "Oscar Worker",
@@ -177,7 +177,7 @@
       "priority": 0,
       "assignee": "Oscar",
       "updatedAt": "2026-04-27T12:48:06Z",
-      "age": "40m ago"
+      "age": "59m ago"
     },
     {
       "from": "hesoyam",
@@ -311,7 +311,7 @@
       "from": "Oscar Worker",
       "to": "Heso",
       "text": "query Heso on external colomba-status checker ownership",
-      "age": "6h ago"
+      "age": "7h ago"
     },
     {
       "from": "Oscar Worker",
