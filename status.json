@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T08:58:19Z",
+  "generatedAt": "2026-04-27T09:16:27Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T08:58:19Z",
+      "lastHeartbeatAt": "2026-04-27T09:16:27Z",
       "lastSuccessAt": "2026-04-27T08:46:09Z",
       "lastSuccessfulAction": "Colomba 10:50 coordination tick: monitor scheduled; DNS/email triaged",
       "currentTask": "Continue push: use authenticated sender/operator inbox for hello/info delivery confirmation; keep DNS convergence checks; update Beads/status if public resolver state changes.",
       "task": "Continue push: use authenticated sender/operator inbox for hello/info delivery confirmation; keep DNS convergence checks; update Beads/status if public resolver state changes.",
       "progress": 88,
       "blockers": "Stripe account support email is operator-unverified after domain cleanup; verify Stripe Dashboard shows hello@colomba-swiss.ch before relying on Stripe footer/support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "12m ago",
-      "beadCount": 89
+      "lastBead": "30m ago",
+      "beadCount": 88
     },
     {
       "id": "oscar",
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T08:58:19Z",
+      "lastHeartbeatAt": "2026-04-27T09:16:27Z",
       "lastSuccessAt": "2026-04-27T08:13:56Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "44m ago",
+      "lastBead": "1h ago",
       "beadCount": 27
     },
     {
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T08:58:19Z",
-      "lastSuccessAt": "2026-04-27T08:36:03Z",
-      "lastSuccessfulAction": "Mazal: Colomba onboarding + sector delta packet",
+      "lastHeartbeatAt": "2026-04-27T09:16:27Z",
+      "lastSuccessAt": "2026-04-27T09:01:47Z",
+      "lastSuccessfulAction": "mazal-live-demo-operator-qa-kit-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "22m ago",
-      "beadCount": 24
+      "lastBead": "14m ago",
+      "beadCount": 25
     }
   ],
   "ship": {
@@ -114,6 +114,17 @@
   },
   "feed": [
     {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-live-demo-operator-qa-kit-ready",
+      "id": "gascity-lab-ca2l",
+      "status": "open",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T09:01:47Z",
+      "age": "14m ago"
+    },
+    {
       "from": "hesoyam",
       "type": "task",
       "text": "Colomba 10:50 coordination tick: monitor scheduled; DNS/email triaged",
@@ -122,7 +133,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:46:09Z",
-      "age": "12m ago"
+      "age": "30m ago"
     },
     {
       "from": "hesoyam",
@@ -133,7 +144,7 @@
       "priority": 0,
       "assignee": "mazal",
       "updatedAt": "2026-04-27T08:36:03Z",
-      "age": "22m ago"
+      "age": "40m ago"
     },
     {
       "from": "hesoyam",
@@ -144,7 +155,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:36:02Z",
-      "age": "22m ago"
+      "age": "40m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -155,7 +166,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T08:28:32Z",
-      "age": "29m ago"
+      "age": "47m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -166,7 +177,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T08:23:56Z",
-      "age": "34m ago"
+      "age": "52m ago"
     },
     {
       "from": "hesoyam",
@@ -177,7 +188,7 @@
       "priority": 0,
       "assignee": "operator",
       "updatedAt": "2026-04-27T08:22:58Z",
-      "age": "35m ago"
+      "age": "53m ago"
     },
     {
       "from": "hesoyam",
@@ -188,7 +199,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:22:57Z",
-      "age": "35m ago"
+      "age": "53m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -199,7 +210,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T08:14:40Z",
-      "age": "43m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar Worker",
@@ -210,7 +221,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-27T08:13:56Z",
-      "age": "44m ago"
+      "age": "1h ago"
     },
     {
       "from": "hesoyam",
@@ -221,7 +232,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:08:46Z",
-      "age": "49m ago"
+      "age": "1h ago"
     },
     {
       "from": "hesoyam",
@@ -254,17 +265,6 @@
       "priority": 2,
       "assignee": "",
       "updatedAt": "2026-04-27T07:40:39Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba Phase 4 tick: DNS still cached; email routing awaits inbox",
-      "id": "gascity-lab-23l",
-      "status": "open",
-      "priority": 1,
-      "assignee": "heso",
-      "updatedAt": "2026-04-27T07:28:09Z",
       "age": "1h ago"
     }
   ],
@@ -323,19 +323,19 @@
       "from": "Heso",
       "to": "Mazal/WSL",
       "text": "response to Mazal Lane C next-task query",
-      "age": "5h ago"
+      "age": "6h ago"
     },
     {
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "query Heso Lane C priorities 2026-04-27T05:12",
-      "age": "5h ago"
+      "age": "6h ago"
     },
     {
       "from": "Oscar Worker",
       "to": "unknown",
       "text": "Coordination norm: query agents before human-action-needed",
-      "age": "5h ago"
+      "age": "6h ago"
     }
   ],
   "federation": {
