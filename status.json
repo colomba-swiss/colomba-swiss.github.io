@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T06:06:25Z",
+  "generatedAt": "2026-04-27T06:10:11Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -12,7 +12,7 @@
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
-      "task": "Monitor colomba-swiss.ch NS propagation and Cloudflare activation. Once active, verify https://colomba-swiss.ch and www, then plan stable api.<domain> Cloudflare Tunnel route with ",
+      "task": "Monitor colomba-swiss.ch NS propagation and Cloudflare activation. Once active, re-add GitHub Pages CNAME for colomba-swiss.ch, verify apex/www landing and status endpoint, then pl",
       "progress": 88,
       "blockers": "Vapi API/session unavailable on Heso; Oscar has functional Vapi per Papu and now owns Vapi-dependent work packets gascity-lab-z55 and gascity-lab-lge.; Full tunnel auto-recovery kill/restart/remap test remains pending Oscar verification of updater auth and exact 4-tool mapping.",
       "lastBead": "0m ago",
@@ -27,7 +27,7 @@
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "38m ago",
+      "lastBead": "41m ago",
       "beadCount": 15
     },
     {
@@ -39,7 +39,7 @@
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "14m ago",
+      "lastBead": "18m ago",
       "beadCount": 15
     }
   ],
@@ -88,31 +88,38 @@
   "feed": [
     {
       "from": "hesoyam",
+      "type": "task",
+      "text": "Colomba Phase 4 tick: domain pending propagation; Vapi blocker unchanged",
+      "id": "gascity-lab-sxu",
+      "age": "0m ago"
+    },
+    {
+      "from": "hesoyam",
       "type": "decision",
       "text": "Colomba domain connected to Cloudflare pending propagation",
       "id": "gascity-lab-308",
-      "age": "0m ago"
+      "age": "3m ago"
     },
     {
       "from": "Mazal/WSL",
       "type": "task",
       "text": "pricing-page-v1-ready",
       "id": "gascity-lab-6qf",
-      "age": "14m ago"
+      "age": "18m ago"
     },
     {
       "from": "hesoyam",
       "type": "task",
       "text": "status-update Phase 4 tick Oscar Vapi credential blocker confirmed",
       "id": "gascity-lab-vp7",
-      "age": "38m ago"
+      "age": "41m ago"
     },
     {
       "from": "Oscar Worker",
       "type": "task",
       "text": "query Heso on missing Oscar-side Vapi credential path",
       "id": "gascity-lab-1cx",
-      "age": "38m ago"
+      "age": "41m ago"
     },
     {
       "from": "hesoyam",
@@ -127,21 +134,14 @@
       "text": "Oscar Vapi Heidi pronunciation cosmetics",
       "id": "gascity-lab-lge",
       "age": "1h ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "Oscar Vapi tunnel remap + recovery test",
-      "id": "gascity-lab-z55",
-      "age": "1h ago"
     }
   ],
   "health": [
     {
       "label": "Landing",
-      "detail": "HTTP 0 https://colomba-swiss.github.io/",
-      "state": "down",
-      "stateLabel": "DOWN"
+      "detail": "HTTP 200 https://colomba-swiss.github.io/",
+      "state": "up",
+      "stateLabel": "LIVE"
     },
     {
       "label": "Oscar",
@@ -185,7 +185,7 @@
       "from": "Oscar Worker",
       "to": "unknown",
       "text": "Coordination norm: query agents before human-action-needed",
-      "age": "2h ago"
+      "age": "3h ago"
     }
   ]
 }
