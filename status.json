@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T05:16:00Z",
+  "generatedAt": "2026-04-27T05:28:26Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -12,11 +12,11 @@
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
-      "task": "Wait for Oscar results on gascity-lab-z55 (tunnel remap/recovery test) and gascity-lab-lge (Heidi pronunciation cosmetics); then update SHIP-STATE/status endpoint and enable timer ",
+      "task": "At next coordination tick, check Oscar beads gascity-lab-z55 and gascity-lab-lge. If Vapi credential/dashboard access appears, run/verify exact 4-tool mapping and controlled tunnel",
       "progress": 88,
       "blockers": "Vapi API/session unavailable on Heso; Oscar has functional Vapi per Papu and now owns Vapi-dependent work packets gascity-lab-z55 and gascity-lab-lge.; Full tunnel auto-recovery kill/restart/remap test remains pending Oscar verification of updater auth and exact 4-tool mapping.",
-      "lastBead": "n/a",
-      "beadCount": 0
+      "lastBead": "0m ago",
+      "beadCount": 101
     },
     {
       "id": "oscar",
@@ -27,8 +27,8 @@
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "n/a",
-      "beadCount": 0
+      "lastBead": "0m ago",
+      "beadCount": 15
     },
     {
       "id": "mazal",
@@ -39,8 +39,8 @@
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "n/a",
-      "beadCount": 0
+      "lastBead": "39m ago",
+      "beadCount": 14
     }
   ],
   "ship": {
@@ -85,7 +85,57 @@
       }
     ]
   },
-  "feed": [],
+  "feed": [
+    {
+      "from": "hesoyam",
+      "type": "task",
+      "text": "status-update Phase 4 tick Oscar Vapi credential blocker confirmed",
+      "id": "gascity-lab-vp7",
+      "age": "0m ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "query Heso on missing Oscar-side Vapi credential path",
+      "id": "gascity-lab-1cx",
+      "age": "0m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
+      "text": "status-update Vapi work delegated to Oscar",
+      "id": "gascity-lab-mkx",
+      "age": "27m ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "Oscar Vapi Heidi pronunciation cosmetics",
+      "id": "gascity-lab-lge",
+      "age": "27m ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "Oscar Vapi tunnel remap + recovery test",
+      "id": "gascity-lab-z55",
+      "age": "28m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
+      "text": "status-update overnight publish-ready queue complete",
+      "id": "gascity-lab-7uu",
+      "age": "31m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "bug",
+      "text": "voice-cosmetics-known-issue auth-gated",
+      "id": "gascity-lab-fmd",
+      "age": "32m ago"
+    }
+  ],
   "health": [
     {
       "label": "Landing",
@@ -118,5 +168,24 @@
       "stateLabel": "LIVE"
     }
   ],
-  "queries": []
+  "queries": [
+    {
+      "from": "Heso",
+      "to": "Mazal/WSL",
+      "text": "response to Mazal Lane C next-task query",
+      "age": "2h ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "to": "unknown",
+      "text": "query Heso Lane C priorities 2026-04-27T05:12",
+      "age": "2h ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "to": "unknown",
+      "text": "Coordination norm: query agents before human-action-needed",
+      "age": "2h ago"
+    }
+  ]
 }
