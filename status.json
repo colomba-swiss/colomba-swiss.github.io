@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T18:18:04Z",
+  "generatedAt": "2026-04-27T18:23:16Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T18:18:04Z",
-      "lastSuccessAt": "2026-04-27T18:11:55Z",
-      "lastSuccessfulAction": "Colomba Stripe support email fixed: domain-clean verified",
-      "currentTask": "Continue waiting for Oscar acknowledgement/Ramon numbers; when two test numbers are live and recording verified, start test-pack-pre-pilot-v1.md. Also await authenticated email receive proof, legal values, and manual Str",
-      "task": "Continue waiting for Oscar acknowledgement/Ramon numbers; when two test numbers are live and recording verified, start test-pack-pre-pilot-v1.md. Also await authenticated email rec",
+      "lastHeartbeatAt": "2026-04-27T18:23:16Z",
+      "lastSuccessAt": "2026-04-27T18:22:59Z",
+      "lastSuccessfulAction": "Colomba info@ cleanup: public/customer copy updated and deployed",
+      "currentTask": "Next best Papu-owned gate is legal identity values; Heso will apply them to terms/privacy when provided. In parallel continue waiting for Ramon/Oscar test-number/pronunciation evidence and email receive proof.",
+      "task": "Next best Papu-owned gate is legal identity values; Heso will apply them to terms/privacy when provided. In parallel continue waiting for Ramon/Oscar test-number/pronunciation evid",
       "progress": 88,
       "blockers": "Pilot outreach and real customer Vapi number are blocked until pre-pilot test pack reaches >=18/20 PASS, any non-blocking FAIL is Papu-signed in DECISIONS.md, and 3 clean calls in a row pass.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "6m ago",
-      "beadCount": 76
+      "lastBead": "0m ago",
+      "beadCount": 77
     },
     {
       "id": "oscar",
@@ -30,15 +30,15 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T18:18:04Z",
+      "lastHeartbeatAt": "2026-04-27T18:23:16Z",
       "lastSuccessAt": "2026-04-27T17:59:28Z",
       "lastSuccessfulAction": "Colomba Phase 4 tick 19:59: awaiting Ramon/Oscar evidence",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "18m ago",
-      "beadCount": 31
+      "lastBead": "23m ago",
+      "beadCount": 30
     },
     {
       "id": "mazal",
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T18:18:04Z",
+      "lastHeartbeatAt": "2026-04-27T18:23:16Z",
       "lastSuccessAt": "2026-04-27T17:52:40Z",
       "lastSuccessfulAction": "Mazal: onboarding emails + telco one-pagers support",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "25m ago",
+      "lastBead": "30m ago",
       "beadCount": 51
     }
   ],
@@ -116,13 +116,24 @@
     {
       "from": "hesoyam",
       "type": "task",
+      "text": "Colomba info@ cleanup: public/customer copy updated and deployed",
+      "id": "gascity-lab-vnyr",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T18:22:59Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
       "text": "Colomba Stripe support email fixed: domain-clean verified",
       "id": "gascity-lab-kefy",
       "status": "closed",
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T18:11:55Z",
-      "age": "6m ago"
+      "age": "11m ago"
     },
     {
       "from": "hesoyam",
@@ -133,7 +144,7 @@
       "priority": 0,
       "assignee": "operator",
       "updatedAt": "2026-04-27T18:11:54Z",
-      "age": "6m ago"
+      "age": "11m ago"
     },
     {
       "from": "hesoyam",
@@ -144,7 +155,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T17:59:28Z",
-      "age": "18m ago"
+      "age": "23m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +166,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T17:52:41Z",
-      "age": "25m ago"
+      "age": "30m ago"
     },
     {
       "from": "hesoyam",
@@ -166,7 +177,7 @@
       "priority": 1,
       "assignee": "mazal",
       "updatedAt": "2026-04-27T17:52:40Z",
-      "age": "25m ago"
+      "age": "30m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -177,7 +188,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T17:52:40Z",
-      "age": "25m ago"
+      "age": "30m ago"
     },
     {
       "from": "hesoyam",
@@ -188,18 +199,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T17:29:57Z",
-      "age": "48m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-first-pilot-prospect-abc-gated-messages-ready",
-      "id": "gascity-lab-mpwe",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T17:29:56Z",
-      "age": "48m ago"
+      "age": "53m ago"
     },
     {
       "from": "hesoyam",
@@ -210,7 +210,18 @@
       "priority": 1,
       "assignee": "mazal",
       "updatedAt": "2026-04-27T17:29:56Z",
-      "age": "48m ago"
+      "age": "53m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-first-pilot-prospect-abc-gated-messages-ready",
+      "id": "gascity-lab-mpwe",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T17:29:56Z",
+      "age": "53m ago"
     },
     {
       "from": "hesoyam",
@@ -254,17 +265,6 @@
       "priority": 0,
       "assignee": "Oscar",
       "updatedAt": "2026-04-27T16:48:56Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba Phase 4 tick 18:29: pre-pilot gate active, awaiting test numbers",
-      "id": "gascity-lab-0tu4",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "heso",
-      "updatedAt": "2026-04-27T16:30:23Z",
       "age": "1h ago"
     }
   ],
@@ -330,19 +330,13 @@
       "to": "unknown",
       "text": "query Heso Lane C priorities 2026-04-27T05:12",
       "age": "15h ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "unknown",
-      "text": "Coordination norm: query agents before human-action-needed",
-      "age": "15h ago"
     }
   ],
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
     "activeTask": "Colomba CEO + Lane C driver",
-    "nextAction": "Continue waiting for Oscar acknowledgement/Ramon numbers; when two test numbers are live and recording verified, start test-pack-pre-pilot-v1.md. Also await authenticated email receive proof, legal values, and manual Stripe payment/refund test window.",
+    "nextAction": "Next best Papu-owned gate is legal identity values; Heso will apply them to terms/privacy when provided. In parallel continue waiting for Ramon/Oscar test-number/pronunciation evidence and email receive proof.",
     "blockers": [
       "Pilot outreach and real customer Vapi number are blocked until pre-pilot test pack reaches >=18/20 PASS, any non-blocking FAIL is Papu-signed in DECISIONS.md, and 3 clean calls in a row pass.",
       "Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
