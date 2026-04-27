@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T10:58:21Z",
+  "generatedAt": "2026-04-27T11:16:51Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T10:58:21Z",
+      "lastHeartbeatAt": "2026-04-27T11:16:51Z",
       "lastSuccessAt": "2026-04-27T10:57:40Z",
       "lastSuccessfulAction": "Colomba 12:56 tick: runtime healthy, support-email blocker remains",
       "currentTask": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "task": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "progress": 88,
       "blockers": "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "0m ago",
-      "beadCount": 85
+      "lastBead": "19m ago",
+      "beadCount": 84
     },
     {
       "id": "oscar",
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T10:58:21Z",
+      "lastHeartbeatAt": "2026-04-27T11:16:51Z",
       "lastSuccessAt": "2026-04-27T09:28:08Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T10:58:21Z",
-      "lastSuccessAt": "2026-04-27T10:58:19Z",
-      "lastSuccessfulAction": "mazal-first-pilot-go-live-readiness-checklist-ready",
+      "lastHeartbeatAt": "2026-04-27T11:16:51Z",
+      "lastSuccessAt": "2026-04-27T11:14:10Z",
+      "lastSuccessfulAction": "mazal-faq-v3-addendum-live-demo-payment-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "0m ago",
-      "beadCount": 28
+      "lastBead": "2m ago",
+      "beadCount": 29
     }
   ],
   "ship": {
@@ -116,13 +116,24 @@
     {
       "from": "Mazal/WSL",
       "type": "task",
+      "text": "mazal-faq-v3-addendum-live-demo-payment-ready",
+      "id": "gascity-lab-bzjw",
+      "status": "open",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T11:14:10Z",
+      "age": "2m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
       "text": "mazal-first-pilot-go-live-readiness-checklist-ready",
       "id": "gascity-lab-mc2i",
       "status": "closed",
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T10:58:19Z",
-      "age": "0m ago"
+      "age": "18m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -133,7 +144,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T10:58:19Z",
-      "age": "0m ago"
+      "age": "18m ago"
     },
     {
       "from": "hesoyam",
@@ -144,7 +155,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T10:57:40Z",
-      "age": "0m ago"
+      "age": "19m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +166,7 @@
       "priority": 0,
       "assignee": "operator",
       "updatedAt": "2026-04-27T10:28:09Z",
-      "age": "30m ago"
+      "age": "48m ago"
     },
     {
       "from": "hesoyam",
@@ -166,7 +177,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T10:00:14Z",
-      "age": "58m ago"
+      "age": "1h ago"
     },
     {
       "from": "hesoyam",
@@ -177,7 +188,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T09:59:57Z",
-      "age": "58m ago"
+      "age": "1h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -255,17 +266,6 @@
       "assignee": "",
       "updatedAt": "2026-04-27T08:28:32Z",
       "age": "2h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-colomba-master-index-qa-ready",
-      "id": "gascity-lab-a4l",
-      "status": "open",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T08:23:56Z",
-      "age": "2h ago"
     }
   ],
   "health": [
@@ -323,19 +323,19 @@
       "from": "Heso",
       "to": "Mazal/WSL",
       "text": "response to Mazal Lane C next-task query",
-      "age": "7h ago"
+      "age": "8h ago"
     },
     {
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "query Heso Lane C priorities 2026-04-27T05:12",
-      "age": "7h ago"
+      "age": "8h ago"
     },
     {
       "from": "Oscar Worker",
       "to": "unknown",
       "text": "Coordination norm: query agents before human-action-needed",
-      "age": "7h ago"
+      "age": "8h ago"
     }
   ],
   "federation": {
