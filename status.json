@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T10:57:43Z",
+  "generatedAt": "2026-04-27T10:58:21Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,7 +13,7 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T10:57:43Z",
+      "lastHeartbeatAt": "2026-04-27T10:58:21Z",
       "lastSuccessAt": "2026-04-27T10:57:40Z",
       "lastSuccessfulAction": "Colomba 12:56 tick: runtime healthy, support-email blocker remains",
       "currentTask": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T10:57:43Z",
+      "lastHeartbeatAt": "2026-04-27T10:58:21Z",
       "lastSuccessAt": "2026-04-27T09:28:08Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T10:57:43Z",
-      "lastSuccessAt": "2026-04-27T10:41:40Z",
-      "lastSuccessfulAction": "mazal-stripe-support-email-fix-sheet-ready",
+      "lastHeartbeatAt": "2026-04-27T10:58:21Z",
+      "lastSuccessAt": "2026-04-27T10:58:19Z",
+      "lastSuccessfulAction": "mazal-first-pilot-go-live-readiness-checklist-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "16m ago",
+      "lastBead": "0m ago",
       "beadCount": 28
     }
   ],
@@ -114,6 +114,28 @@
   },
   "feed": [
     {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-first-pilot-go-live-readiness-checklist-ready",
+      "id": "gascity-lab-mc2i",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T10:58:19Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-stripe-support-email-fix-sheet-ready",
+      "id": "gascity-lab-0v3l",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T10:58:19Z",
+      "age": "0m ago"
+    },
+    {
       "from": "hesoyam",
       "type": "task",
       "text": "Colomba 12:56 tick: runtime healthy, support-email blocker remains",
@@ -125,17 +147,6 @@
       "age": "0m ago"
     },
     {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-stripe-support-email-fix-sheet-ready",
-      "id": "gascity-lab-0v3l",
-      "status": "open",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T10:41:40Z",
-      "age": "16m ago"
-    },
-    {
       "from": "hesoyam",
       "type": "task",
       "text": "Colomba 12:28 tick: Stripe support email still old-domain",
@@ -144,18 +155,7 @@
       "priority": 0,
       "assignee": "operator",
       "updatedAt": "2026-04-27T10:28:09Z",
-      "age": "29m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-first-pilot-go-live-readiness-checklist-ready",
-      "id": "gascity-lab-mc2i",
-      "status": "open",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T10:08:18Z",
-      "age": "49m ago"
+      "age": "30m ago"
     },
     {
       "from": "hesoyam",
@@ -166,7 +166,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T10:00:14Z",
-      "age": "57m ago"
+      "age": "58m ago"
     },
     {
       "from": "hesoyam",
@@ -177,7 +177,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T09:59:57Z",
-      "age": "57m ago"
+      "age": "58m ago"
     },
     {
       "from": "Mazal/WSL",
