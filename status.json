@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T09:28:11Z",
+  "generatedAt": "2026-04-27T09:46:36Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T09:28:11Z",
+      "lastHeartbeatAt": "2026-04-27T09:46:36Z",
       "lastSuccessAt": "2026-04-27T09:28:08Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "Continue push: keep DNS A-record convergence checks; authenticated/operator email receive confirmation remains manual; update Beads/status if apex A converges enough for CNAME flip.",
       "task": "Continue push: keep DNS A-record convergence checks; authenticated/operator email receive confirmation remains manual; update Beads/status if apex A converges enough for CNAME flip",
       "progress": 88,
       "blockers": "Stripe account support email is operator-unverified after domain cleanup; verify Stripe Dashboard shows hello@colomba-swiss.ch before relying on Stripe footer/support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "0m ago",
-      "beadCount": 88
+      "lastBead": "18m ago",
+      "beadCount": 87
     },
     {
       "id": "oscar",
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T09:28:11Z",
+      "lastHeartbeatAt": "2026-04-27T09:46:36Z",
       "lastSuccessAt": "2026-04-27T09:28:08Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "0m ago",
+      "lastBead": "18m ago",
       "beadCount": 27
     },
     {
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T09:28:11Z",
-      "lastSuccessAt": "2026-04-27T09:28:07Z",
-      "lastSuccessfulAction": "mazal-live-demo-operator-qa-kit-ready",
+      "lastHeartbeatAt": "2026-04-27T09:46:36Z",
+      "lastSuccessAt": "2026-04-27T09:35:00Z",
+      "lastSuccessfulAction": "mazal-restaurant-setup-intake-form-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "0m ago",
-      "beadCount": 25
+      "lastBead": "11m ago",
+      "beadCount": 26
     }
   ],
   "ship": {
@@ -114,6 +114,17 @@
   },
   "feed": [
     {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-restaurant-setup-intake-form-ready",
+      "id": "gascity-lab-297u",
+      "status": "open",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T09:35:00Z",
+      "age": "11m ago"
+    },
+    {
       "from": "Oscar Worker",
       "type": "task",
       "text": "handoff to Heso: Vapi account/tool access",
@@ -122,7 +133,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-27T09:28:08Z",
-      "age": "0m ago"
+      "age": "18m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -133,7 +144,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T09:28:07Z",
-      "age": "0m ago"
+      "age": "18m ago"
     },
     {
       "from": "hesoyam",
@@ -144,7 +155,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:46:09Z",
-      "age": "42m ago"
+      "age": "1h ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +166,7 @@
       "priority": 0,
       "assignee": "mazal",
       "updatedAt": "2026-04-27T08:36:03Z",
-      "age": "52m ago"
+      "age": "1h ago"
     },
     {
       "from": "hesoyam",
@@ -166,7 +177,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:36:02Z",
-      "age": "52m ago"
+      "age": "1h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -177,7 +188,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T08:28:32Z",
-      "age": "59m ago"
+      "age": "1h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -254,17 +265,6 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T07:55:42Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "email-routing-inbox-request-template-v1-ready",
-      "id": "gascity-lab-8rx",
-      "status": "open",
-      "priority": 2,
-      "assignee": "",
-      "updatedAt": "2026-04-27T07:40:39Z",
       "age": "1h ago"
     }
   ],
