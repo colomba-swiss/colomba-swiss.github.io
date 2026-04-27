@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T13:47:16Z",
+  "generatedAt": "2026-04-27T13:58:14Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T13:47:16Z",
-      "lastSuccessAt": "2026-04-27T13:28:20Z",
-      "lastSuccessfulAction": "Colomba 15:28 tick: runtime healthy, landing assembly integrated",
+      "lastHeartbeatAt": "2026-04-27T13:58:14Z",
+      "lastSuccessAt": "2026-04-27T13:58:12Z",
+      "lastSuccessfulAction": "Colomba 15:58 tick: runtime healthy, master asset index v2 integrated",
       "currentTask": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "task": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "progress": 88,
       "blockers": "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "18m ago",
-      "beadCount": 80
+      "lastBead": "0m ago",
+      "beadCount": 79
     },
     {
       "id": "oscar",
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T13:47:16Z",
+      "lastHeartbeatAt": "2026-04-27T13:58:14Z",
       "lastSuccessAt": "2026-04-27T13:24:32Z",
       "lastSuccessfulAction": "Oscar Vapi Heidi pronunciation cosmetics",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "22m ago",
+      "lastBead": "33m ago",
       "beadCount": 27
     },
     {
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T13:47:16Z",
-      "lastSuccessAt": "2026-04-27T13:28:19Z",
-      "lastSuccessfulAction": "mazal-landing-page-copy-assembly-ready",
+      "lastHeartbeatAt": "2026-04-27T13:58:14Z",
+      "lastSuccessAt": "2026-04-27T13:58:11Z",
+      "lastSuccessfulAction": "mazal-master-asset-index-v2-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "18m ago",
-      "beadCount": 37
+      "lastBead": "0m ago",
+      "beadCount": 38
     }
   ],
   "ship": {
@@ -116,13 +116,35 @@
     {
       "from": "hesoyam",
       "type": "task",
+      "text": "Colomba 15:58 tick: runtime healthy, master asset index v2 integrated",
+      "id": "gascity-lab-nyoy",
+      "status": "closed",
+      "priority": 0,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T13:58:12Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-master-asset-index-v2-ready",
+      "id": "gascity-lab-39ya",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T13:58:11Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
       "text": "Colomba 15:28 tick: runtime healthy, landing assembly integrated",
       "id": "gascity-lab-z3lc",
       "status": "closed",
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T13:28:20Z",
-      "age": "18m ago"
+      "age": "29m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -133,7 +155,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T13:28:19Z",
-      "age": "18m ago"
+      "age": "29m ago"
     },
     {
       "from": "Oscar Worker",
@@ -144,7 +166,7 @@
       "priority": 2,
       "assignee": "Oscar",
       "updatedAt": "2026-04-27T13:24:32Z",
-      "age": "22m ago"
+      "age": "33m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +177,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T12:57:55Z",
-      "age": "49m ago"
+      "age": "1h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -166,7 +188,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T12:57:54Z",
-      "age": "49m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar Worker",
@@ -177,7 +199,7 @@
       "priority": 0,
       "assignee": "Oscar",
       "updatedAt": "2026-04-27T12:48:06Z",
-      "age": "59m ago"
+      "age": "1h ago"
     },
     {
       "from": "hesoyam",
@@ -210,7 +232,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T11:57:45Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -221,7 +243,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T11:57:44Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "hesoyam",
@@ -243,28 +265,6 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T11:28:01Z",
-      "age": "2h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-restaurant-setup-intake-form-ready",
-      "id": "gascity-lab-297u",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T11:28:01Z",
-      "age": "2h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-stripe-support-email-fix-sheet-ready",
-      "id": "gascity-lab-0v3l",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T10:58:19Z",
       "age": "2h ago"
     }
   ],
@@ -305,7 +305,7 @@
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "response to Oscar Vapi credential route query",
-      "age": "6h ago"
+      "age": "7h ago"
     },
     {
       "from": "Oscar Worker",
