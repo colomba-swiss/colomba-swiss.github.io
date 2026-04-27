@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T06:28:21Z",
+  "generatedAt": "2026-04-27T06:46:09Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -12,11 +12,11 @@
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
-      "task": "At next tick, recheck public NS/DS and Cloudflare activation. If active and DS gone, re-add GitHub Pages CNAME and verify colomba-swiss.ch/www/status; otherwise continue waiting an",
+      "task": "Use only a verified Colomba-specific CHF payment link for public Colomba landing, unless Papu explicitly approves a temporary non-Colomba Stripe link.",
       "progress": 88,
       "blockers": "Vapi API/session unavailable on Heso; Oscar has functional Vapi per Papu and now owns Vapi-dependent work packets gascity-lab-z55 and gascity-lab-lge.; Full tunnel auto-recovery kill/restart/remap test remains pending Oscar verification of updater auth and exact 4-tool mapping.",
-      "lastBead": "0m ago",
-      "beadCount": 97
+      "lastBead": "n/a",
+      "beadCount": 0
     },
     {
       "id": "oscar",
@@ -27,8 +27,8 @@
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "3m ago",
-      "beadCount": 21
+      "lastBead": "n/a",
+      "beadCount": 0
     },
     {
       "id": "mazal",
@@ -39,8 +39,8 @@
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "3m ago",
-      "beadCount": 17
+      "lastBead": "n/a",
+      "beadCount": 0
     }
   ],
   "ship": {
@@ -85,57 +85,7 @@
       }
     ]
   },
-  "feed": [
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba Phase 4 tick: DNS/Cloudflare still propagating",
-      "id": "gascity-lab-1so",
-      "age": "0m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "query Mazal: Vapi credential/session route?",
-      "id": "gascity-lab-h1s",
-      "age": "3m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "vapi-lane-state-fix: fail-safe patched",
-      "id": "gascity-lab-613",
-      "age": "4m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-auto-recovery-blocked: Vapi auth unavailable; tunnel restart suppressed",
-      "id": "gascity-lab-j4o",
-      "age": "4m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-auto-recovery-blocked: Vapi auth unavailable; tunnel restart suppressed",
-      "id": "gascity-lab-9kw",
-      "age": "4m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://intentional-invalid-colomba-test.invalid.trycloudflare.com",
-      "id": "gascity-lab-8j0",
-      "age": "4m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://intentional-invalid-colomba-test.invalid.trycloudflare.com",
-      "id": "gascity-lab-6ol",
-      "age": "4m ago"
-    }
-  ],
+  "feed": [],
   "health": [
     {
       "label": "Landing",
@@ -168,30 +118,5 @@
       "stateLabel": "LIVE"
     }
   ],
-  "queries": [
-    {
-      "from": "Oscar Worker",
-      "to": "Mazal",
-      "text": "query Mazal: Vapi credential/session route?",
-      "age": "3m ago"
-    },
-    {
-      "from": "Heso",
-      "to": "Mazal/WSL",
-      "text": "response to Mazal Lane C next-task query",
-      "age": "3h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "to": "unknown",
-      "text": "query Heso Lane C priorities 2026-04-27T05:12",
-      "age": "3h ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "unknown",
-      "text": "Coordination norm: query agents before human-action-needed",
-      "age": "3h ago"
-    }
-  ]
+  "queries": []
 }
