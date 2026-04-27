@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T09:46:36Z",
+  "generatedAt": "2026-04-27T10:00:00Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T09:46:36Z",
-      "lastSuccessAt": "2026-04-27T09:28:08Z",
-      "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
-      "currentTask": "Continue push: keep DNS A-record convergence checks; authenticated/operator email receive confirmation remains manual; update Beads/status if apex A converges enough for CNAME flip.",
-      "task": "Continue push: keep DNS A-record convergence checks; authenticated/operator email receive confirmation remains manual; update Beads/status if apex A converges enough for CNAME flip",
+      "lastHeartbeatAt": "2026-04-27T10:00:00Z",
+      "lastSuccessAt": "2026-04-27T09:59:57Z",
+      "lastSuccessfulAction": "Colomba domain connected to Cloudflare pending propagation",
+      "currentTask": "Continue push: authenticated/operator email receive confirmation for hello/info; Stripe support-email dashboard verification; legal review details; keep Beads/status current.",
+      "task": "Continue push: authenticated/operator email receive confirmation for hello/info; Stripe support-email dashboard verification; legal review details; keep Beads/status current.",
       "progress": 88,
       "blockers": "Stripe account support email is operator-unverified after domain cleanup; verify Stripe Dashboard shows hello@colomba-swiss.ch before relying on Stripe footer/support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "18m ago",
+      "lastBead": "0m ago",
       "beadCount": 87
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T09:46:36Z",
+      "lastHeartbeatAt": "2026-04-27T10:00:00Z",
       "lastSuccessAt": "2026-04-27T09:28:08Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "18m ago",
+      "lastBead": "31m ago",
       "beadCount": 27
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T09:46:36Z",
+      "lastHeartbeatAt": "2026-04-27T10:00:00Z",
       "lastSuccessAt": "2026-04-27T09:35:00Z",
       "lastSuccessfulAction": "mazal-restaurant-setup-intake-form-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "11m ago",
+      "lastBead": "25m ago",
       "beadCount": 26
     }
   ],
@@ -114,6 +114,17 @@
   },
   "feed": [
     {
+      "from": "hesoyam",
+      "type": "decision",
+      "text": "Colomba domain connected to Cloudflare pending propagation",
+      "id": "gascity-lab-308",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T09:59:57Z",
+      "age": "0m ago"
+    },
+    {
       "from": "Mazal/WSL",
       "type": "task",
       "text": "mazal-restaurant-setup-intake-form-ready",
@@ -122,7 +133,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T09:35:00Z",
-      "age": "11m ago"
+      "age": "25m ago"
     },
     {
       "from": "Oscar Worker",
@@ -133,7 +144,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-27T09:28:08Z",
-      "age": "18m ago"
+      "age": "31m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -144,7 +155,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T09:28:07Z",
-      "age": "18m ago"
+      "age": "31m ago"
     },
     {
       "from": "hesoyam",
@@ -254,18 +265,7 @@
       "priority": 0,
       "assignee": "oscar",
       "updatedAt": "2026-04-27T07:55:43Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "epic",
-      "text": "Papu escalation push: federation 5h premium-readiness sprint",
-      "id": "gascity-lab-bzl",
-      "status": "open",
-      "priority": 0,
-      "assignee": "heso",
-      "updatedAt": "2026-04-27T07:55:42Z",
-      "age": "1h ago"
+      "age": "2h ago"
     }
   ],
   "health": [
@@ -305,13 +305,13 @@
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "response to Oscar Vapi credential route query",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar Worker",
       "to": "Heso",
       "text": "query Heso on external colomba-status checker ownership",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar Worker",
@@ -342,12 +342,11 @@
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
     "activeTask": "Colomba CEO + Lane C driver",
-    "nextAction": "Continue push: keep DNS A-record convergence checks; authenticated/operator email receive confirmation remains manual; update Beads/status if apex A converges enough for CNAME flip.",
+    "nextAction": "Continue push: authenticated/operator email receive confirmation for hello/info; Stripe support-email dashboard verification; legal review details; keep Beads/status current.",
     "blockers": [
       "Stripe account support email is operator-unverified after domain cleanup; verify Stripe Dashboard shows hello@colomba-swiss.ch before relying on Stripe footer/support email.",
       "Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
       "Email receive test needs authenticated sender/operator inbox confirmation; direct unauthenticated SMTP probe to Cloudflare MX was rejected with 550 5.7.26.",
-      "GitHub Pages CNAME flip remains pending apex A-record convergence; sampled NS now Cloudflare, but 8.8.8.8/9.9.9.9 still cache old hosttech A.",
       "Catch-all Email Routing could not be enabled via Cloudflare API; explicit hello@ and info@ forward, unmatched addresses still drop.",
       "Legal terms/privacy still contain Papu/operator review markers for legal entity/address/jurisdiction/DPA details."
     ]
