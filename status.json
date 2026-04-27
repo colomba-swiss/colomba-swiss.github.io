@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T04:56:52Z",
+  "generatedAt": "2026-04-27T05:01:22Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -12,23 +12,23 @@
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
-      "task": "When Vapi API key is placed in /home/oscar/colomba/vapi.env, run tunnel kill/restart/remap test, verify all 4 Vapi tool URLs, enable colomba-tunnel-monitor.timer, then patch/test v",
+      "task": "Wait for Oscar results on gascity-lab-z55 (tunnel remap/recovery test) and gascity-lab-lge (Heidi pronunciation cosmetics); then update SHIP-STATE/status endpoint and enable timer ",
       "progress": 88,
-      "blockers": "Vapi API key missing on Heso/Oscar; required for automated Vapi tool URL remap after tunnel rotation and Vapi API web-call tests.; Full tunnel auto-recovery kill/restart/remap test intentionally not run until API key is available.",
+      "blockers": "Vapi API/session unavailable on Heso; Oscar has functional Vapi per Papu and now owns Vapi-dependent work packets gascity-lab-z55 and gascity-lab-lge.; Full tunnel auto-recovery kill/restart/remap test remains pending Oscar verification of updater auth and exact 4-tool mapping.",
       "lastBead": "0m ago",
-      "beadCount": 103
+      "beadCount": 101
     },
     {
       "id": "oscar",
       "name": "Oscar",
       "role": "Lane A/B backend + tunnel",
       "machine": "ROG Strix Linux",
-      "status": "blocked",
+      "status": "active",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
-      "blockers": "Vapi API key missing for auto-remap",
-      "lastBead": "8m ago",
-      "beadCount": 10
+      "blockers": null,
+      "lastBead": "0m ago",
+      "beadCount": 13
     },
     {
       "id": "mazal",
@@ -39,7 +39,7 @@
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "8m ago",
+      "lastBead": "12m ago",
       "beadCount": 14
     }
   ],
@@ -72,7 +72,7 @@
         "text": "Cloudflare tunnel auto-recovery staged; production enable waits on Vapi API key"
       },
       {
-        "state": "blocked",
+        "state": "open",
         "text": "Vapi API key needed for automatic tool URL remap"
       },
       {
@@ -89,51 +89,51 @@
     {
       "from": "hesoyam",
       "type": "task",
+      "text": "status-update Vapi work delegated to Oscar",
+      "id": "gascity-lab-mkx",
+      "age": "0m ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "Oscar Vapi Heidi pronunciation cosmetics",
+      "id": "gascity-lab-lge",
+      "age": "0m ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "Oscar Vapi tunnel remap + recovery test",
+      "id": "gascity-lab-z55",
+      "age": "1m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
       "text": "status-update overnight publish-ready queue complete",
       "id": "gascity-lab-7uu",
-      "age": "0m ago"
+      "age": "4m ago"
     },
     {
       "from": "hesoyam",
       "type": "bug",
       "text": "voice-cosmetics-known-issue auth-gated",
       "id": "gascity-lab-fmd",
-      "age": "0m ago"
+      "age": "5m ago"
     },
     {
       "from": "Oscar Worker",
       "type": "task",
       "text": "lunchgate-research-done",
       "id": "gascity-lab-aor",
-      "age": "8m ago"
+      "age": "12m ago"
     },
     {
       "from": "Mazal/WSL",
       "type": "task",
       "text": "pre-publish-content-checklist",
       "id": "gascity-lab-2t7",
-      "age": "8m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "sector-research-done",
-      "id": "gascity-lab-16y",
-      "age": "9m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "onboarding-emails-ready",
-      "id": "gascity-lab-d1j",
-      "age": "9m ago"
-    },
-    {
-      "from": "Heso",
-      "type": "task",
-      "text": "status-endpoint-live status.json GitHub Pages",
-      "id": "gascity-lab-64x",
-      "age": "10m ago"
+      "age": "12m ago"
     }
   ],
   "health": [
