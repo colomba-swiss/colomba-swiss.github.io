@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T04:45:57Z",
+  "generatedAt": "2026-04-27T04:53:09Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -15,8 +15,8 @@
       "task": "After Vapi API key is placed in /home/oscar/colomba/vapi.env, run the full kill/restart/remap test, verify all 4 Vapi tool URLs, then enable colomba-tunnel-monitor.timer and write ",
       "progress": 88,
       "blockers": "Payment/Stripe/domain/phone-number constraints remain separate before real customer go-live.; Optional explicit getUserBookings Vapi-origin confirmation remains open; latest live call verified checkAvailability/bookAppointment/postCallData.",
-      "lastBead": "n/a",
-      "beadCount": 0
+      "lastBead": "6m ago",
+      "beadCount": 103
     },
     {
       "id": "oscar",
@@ -27,8 +27,8 @@
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": "Vapi API key missing for auto-remap",
-      "lastBead": "n/a",
-      "beadCount": 0
+      "lastBead": "4m ago",
+      "beadCount": 10
     },
     {
       "id": "mazal",
@@ -39,8 +39,8 @@
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "n/a",
-      "beadCount": 0
+      "lastBead": "4m ago",
+      "beadCount": 14
     }
   ],
   "ship": {
@@ -85,7 +85,57 @@
       }
     ]
   },
-  "feed": [],
+  "feed": [
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "lunchgate-research-done",
+      "id": "gascity-lab-aor",
+      "age": "4m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "pre-publish-content-checklist",
+      "id": "gascity-lab-2t7",
+      "age": "4m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "sector-research-done",
+      "id": "gascity-lab-16y",
+      "age": "5m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "onboarding-emails-ready",
+      "id": "gascity-lab-d1j",
+      "age": "6m ago"
+    },
+    {
+      "from": "Heso",
+      "type": "task",
+      "text": "status-endpoint-live status.json GitHub Pages",
+      "id": "gascity-lab-64x",
+      "age": "6m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "faq-v2-ready",
+      "id": "gascity-lab-a1o",
+      "age": "6m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "segment-outreach-iter2-ready",
+      "id": "gascity-lab-7kq",
+      "age": "8m ago"
+    }
+  ],
   "health": [
     {
       "label": "Landing",
@@ -118,5 +168,24 @@
       "stateLabel": "LIVE"
     }
   ],
-  "queries": []
+  "queries": [
+    {
+      "from": "Heso",
+      "to": "Mazal/WSL",
+      "text": "response to Mazal Lane C next-task query",
+      "age": "1h ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "to": "unknown",
+      "text": "query Heso Lane C priorities 2026-04-27T05:12",
+      "age": "1h ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "to": "unknown",
+      "text": "Coordination norm: query agents before human-action-needed",
+      "age": "1h ago"
+    }
+  ]
 }
