@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T20:18:26Z",
+  "generatedAt": "2026-04-27T20:48:31Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T20:18:26Z",
-      "lastSuccessAt": "2026-04-27T20:00:06Z",
-      "lastSuccessfulAction": "Colomba Phase 4 tick 21:59: pricing v3 integrated; awaiting Ramon/Oscar/legal",
+      "lastHeartbeatAt": "2026-04-27T20:48:31Z",
+      "lastSuccessAt": "2026-04-27T20:29:48Z",
+      "lastSuccessfulAction": "Colomba Phase 4 tick 22:29: post-demo follow-up sequences integrated",
       "currentTask": "Apply Papu legal identity values to terms/privacy when provided. In parallel wait for Oscar acknowledgement/Ramon numbers; when two test numbers are live and recording verified, start test-pack-pre-pilot-v1.md. Keep no-o",
       "task": "Apply Papu legal identity values to terms/privacy when provided. In parallel wait for Oscar acknowledgement/Ramon numbers; when two test numbers are live and recording verified, st",
       "progress": 88,
       "blockers": "Pilot outreach and real customer Vapi number are blocked until pre-pilot test pack reaches >=18/20 PASS, any non-blocking FAIL is Papu-signed in DECISIONS.md, and 3 clean calls in a row pass.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
       "lastBead": "18m ago",
-      "beadCount": 75
+      "beadCount": 74
     },
     {
       "id": "oscar",
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T20:18:26Z",
+      "lastHeartbeatAt": "2026-04-27T20:48:31Z",
       "lastSuccessAt": "2026-04-27T20:00:06Z",
       "lastSuccessfulAction": "Colomba Phase 4 tick 21:59: pricing v3 integrated; awaiting Ramon/Oscar/legal",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "18m ago",
+      "lastBead": "48m ago",
       "beadCount": 32
     },
     {
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T20:18:26Z",
-      "lastSuccessAt": "2026-04-27T20:03:17Z",
-      "lastSuccessfulAction": "mazal-segment-post-demo-follow-up-sequences-ready",
+      "lastHeartbeatAt": "2026-04-27T20:48:31Z",
+      "lastSuccessAt": "2026-04-27T20:35:51Z",
+      "lastSuccessfulAction": "mazal-segment-subject-lines-personalization-bank-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "15m ago",
-      "beadCount": 52
+      "lastBead": "12m ago",
+      "beadCount": 53
     }
   ],
   "ship": {
@@ -116,13 +116,35 @@
     {
       "from": "Mazal/WSL",
       "type": "task",
-      "text": "mazal-segment-post-demo-follow-up-sequences-ready",
-      "id": "gascity-lab-xb4w",
+      "text": "mazal-segment-subject-lines-personalization-bank-ready",
+      "id": "gascity-lab-m0s1",
       "status": "open",
       "priority": 2,
       "assignee": "",
-      "updatedAt": "2026-04-27T20:03:17Z",
-      "age": "15m ago"
+      "updatedAt": "2026-04-27T20:35:51Z",
+      "age": "12m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
+      "text": "Colomba Phase 4 tick 22:29: post-demo follow-up sequences integrated",
+      "id": "gascity-lab-zuyf",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T20:29:48Z",
+      "age": "18m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-segment-post-demo-follow-up-sequences-ready",
+      "id": "gascity-lab-xb4w",
+      "status": "closed",
+      "priority": 2,
+      "assignee": "",
+      "updatedAt": "2026-04-27T20:29:47Z",
+      "age": "18m ago"
     },
     {
       "from": "hesoyam",
@@ -133,7 +155,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T20:00:06Z",
-      "age": "18m ago"
+      "age": "48m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -144,7 +166,7 @@
       "priority": 2,
       "assignee": "",
       "updatedAt": "2026-04-27T20:00:05Z",
-      "age": "18m ago"
+      "age": "48m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +177,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T19:29:29Z",
-      "age": "48m ago"
+      "age": "1h ago"
     },
     {
       "from": "hesoyam",
@@ -180,17 +202,6 @@
       "age": "1h ago"
     },
     {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-segment-objection-reply-bank-ready",
-      "id": "gascity-lab-anag",
-      "status": "closed",
-      "priority": 2,
-      "assignee": "",
-      "updatedAt": "2026-04-27T18:29:56Z",
-      "age": "1h ago"
-    },
-    {
       "from": "hesoyam",
       "type": "task",
       "text": "Colomba Phase 4 tick 20:29: segment objection bank integrated; awaiting Ramon/Oscar",
@@ -199,7 +210,18 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T18:29:56Z",
-      "age": "1h ago"
+      "age": "2h ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-segment-objection-reply-bank-ready",
+      "id": "gascity-lab-anag",
+      "status": "closed",
+      "priority": 2,
+      "assignee": "",
+      "updatedAt": "2026-04-27T18:29:56Z",
+      "age": "2h ago"
     },
     {
       "from": "hesoyam",
@@ -210,7 +232,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T18:22:59Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "hesoyam",
@@ -243,28 +265,6 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T17:59:28Z",
-      "age": "2h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba 19:52 Premium-Push status: docs integrated, awaiting test numbers",
-      "id": "gascity-lab-6pla",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "heso",
-      "updatedAt": "2026-04-27T17:52:41Z",
-      "age": "2h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-onboarding-telco-support-pack-ready",
-      "id": "gascity-lab-o7g0",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T17:52:40Z",
       "age": "2h ago"
     }
   ],
@@ -311,13 +311,13 @@
       "from": "Oscar Worker",
       "to": "Heso",
       "text": "query Heso on external colomba-status checker ownership",
-      "age": "13h ago"
+      "age": "14h ago"
     },
     {
       "from": "Oscar Worker",
       "to": "Mazal",
       "text": "query Mazal: Vapi credential/session route?",
-      "age": "13h ago"
+      "age": "14h ago"
     }
   ],
   "federation": {
