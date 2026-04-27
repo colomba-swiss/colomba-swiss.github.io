@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T08:36:28Z",
+  "generatedAt": "2026-04-27T08:39:54Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T08:36:28Z",
+      "lastHeartbeatAt": "2026-04-27T08:39:54Z",
       "lastSuccessAt": "2026-04-27T08:36:03Z",
       "lastSuccessfulAction": "Mazal: Colomba onboarding + sector delta packet",
-      "currentTask": "Continue push: implement/stage Stripe checkout post-payment notification; verify external email delivery; keep DNS/CNAME convergence checks; update Beads/SHIP-STATE after each material move.",
-      "task": "Continue push: implement/stage Stripe checkout post-payment notification; verify external email delivery; keep DNS/CNAME convergence checks; update Beads/SHIP-STATE after each mate",
+      "currentTask": "Continue push: decide/enable post-payment monitor scheduling or webhook notification path; verify external email delivery; keep DNS/CNAME convergence checks; update Beads/SHIP-STATE after each material move.",
+      "task": "Continue push: decide/enable post-payment monitor scheduling or webhook notification path; verify external email delivery; keep DNS/CNAME convergence checks; update Beads/SHIP-STAT",
       "progress": 88,
-      "blockers": "Stripe account support email is operator-unverified after domain cleanup; verify Stripe Dashboard shows hello@colomba-swiss.ch before relying on Stripe footer/support email.; Stripe webhook/post-payment notification implementation remains open; draft exists but endpoint/workflow is not deployed.",
-      "lastBead": "0m ago",
+      "blockers": "Stripe account support email is operator-unverified after domain cleanup; verify Stripe Dashboard shows hello@colomba-swiss.ch before relying on Stripe footer/support email.; Post-payment notification is partially staged via read-only Stripe monitor, but no scheduled monitor/webhook/outbound notification is enabled yet.",
+      "lastBead": "3m ago",
       "beadCount": 89
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T08:36:28Z",
+      "lastHeartbeatAt": "2026-04-27T08:39:54Z",
       "lastSuccessAt": "2026-04-27T08:13:56Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "22m ago",
+      "lastBead": "25m ago",
       "beadCount": 27
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T08:36:28Z",
+      "lastHeartbeatAt": "2026-04-27T08:39:54Z",
       "lastSuccessAt": "2026-04-27T08:36:03Z",
       "lastSuccessfulAction": "Mazal: Colomba onboarding + sector delta packet",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "0m ago",
+      "lastBead": "3m ago",
       "beadCount": 24
     }
   ],
@@ -122,7 +122,7 @@
       "priority": 0,
       "assignee": "mazal",
       "updatedAt": "2026-04-27T08:36:03Z",
-      "age": "0m ago"
+      "age": "3m ago"
     },
     {
       "from": "hesoyam",
@@ -133,7 +133,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:36:02Z",
-      "age": "0m ago"
+      "age": "3m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -144,7 +144,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T08:28:32Z",
-      "age": "7m ago"
+      "age": "11m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -155,7 +155,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T08:23:56Z",
-      "age": "12m ago"
+      "age": "15m ago"
     },
     {
       "from": "hesoyam",
@@ -166,7 +166,7 @@
       "priority": 0,
       "assignee": "operator",
       "updatedAt": "2026-04-27T08:22:58Z",
-      "age": "13m ago"
+      "age": "16m ago"
     },
     {
       "from": "hesoyam",
@@ -177,7 +177,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:22:57Z",
-      "age": "13m ago"
+      "age": "16m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -188,7 +188,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T08:14:40Z",
-      "age": "21m ago"
+      "age": "25m ago"
     },
     {
       "from": "Oscar Worker",
@@ -199,7 +199,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-27T08:13:56Z",
-      "age": "22m ago"
+      "age": "25m ago"
     },
     {
       "from": "hesoyam",
@@ -210,7 +210,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T08:08:46Z",
-      "age": "27m ago"
+      "age": "31m ago"
     },
     {
       "from": "hesoyam",
@@ -221,7 +221,7 @@
       "priority": 0,
       "assignee": "oscar",
       "updatedAt": "2026-04-27T07:55:43Z",
-      "age": "40m ago"
+      "age": "44m ago"
     },
     {
       "from": "hesoyam",
@@ -232,7 +232,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T07:55:42Z",
-      "age": "40m ago"
+      "age": "44m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -243,7 +243,7 @@
       "priority": 2,
       "assignee": "",
       "updatedAt": "2026-04-27T07:40:39Z",
-      "age": "55m ago"
+      "age": "59m ago"
     },
     {
       "from": "hesoyam",
@@ -342,10 +342,10 @@
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
     "activeTask": "Colomba CEO + Lane C driver",
-    "nextAction": "Continue push: implement/stage Stripe checkout post-payment notification; verify external email delivery; keep DNS/CNAME convergence checks; update Beads/SHIP-STATE after each material move.",
+    "nextAction": "Continue push: decide/enable post-payment monitor scheduling or webhook notification path; verify external email delivery; keep DNS/CNAME convergence checks; update Beads/SHIP-STATE after each material move.",
     "blockers": [
       "Stripe account support email is operator-unverified after domain cleanup; verify Stripe Dashboard shows hello@colomba-swiss.ch before relying on Stripe footer/support email.",
-      "Stripe webhook/post-payment notification implementation remains open; draft exists but endpoint/workflow is not deployed.",
+      "Post-payment notification is partially staged via read-only Stripe monitor, but no scheduled monitor/webhook/outbound notification is enabled yet.",
       "External email receive test for hello@colomba-swiss.ch/info@colomba-swiss.ch remains pending.",
       "Catch-all Email Routing could not be enabled via Cloudflare API; explicit hello@ and info@ forward, unmatched addresses still drop.",
       "GitHub Pages CNAME flip remains pending DNS resolver convergence; public resolvers still show hosttech NS.",
