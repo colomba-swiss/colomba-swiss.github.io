@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T06:55:47Z",
+  "generatedAt": "2026-04-27T07:00:11Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -12,11 +12,11 @@
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
-      "task": "Continue DNS/Cloudflare activation checks and Vapi tunnel auth work; domain/phone/MX remain separate go-live items.",
+      "task": "At next tick, recheck public NS convergence. Re-add GitHub Pages CNAME only after public NS consistently show kevin/meera; continue monitoring Vapi tunnel health and do not change ",
       "progress": 88,
-      "blockers": "Vapi API/session unavailable on Heso; Oscar has functional Vapi per Papu and now owns Vapi-dependent work packets gascity-lab-z55 and gascity-lab-lge.; Full tunnel auto-recovery kill/restart/remap test remains pending Oscar verification of updater auth and exact 4-tool mapping.",
+      "blockers": "Voice cosmetics (2026/Anlass/Besten Dank) delegated to Oscar as cosmetic P2; not a ship blocker.; Optional explicit getUserBookings Vapi-origin confirmation remains open; latest live call verified checkAvailability/bookAppointment/postCallData.",
       "lastBead": "0m ago",
-      "beadCount": 96
+      "beadCount": 95
     },
     {
       "id": "oscar",
@@ -28,7 +28,7 @@
       "progress": 82,
       "blockers": null,
       "lastBead": "0m ago",
-      "beadCount": 23
+      "beadCount": 24
     },
     {
       "id": "mazal",
@@ -39,7 +39,7 @@
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "0m ago",
+      "lastBead": "4m ago",
       "beadCount": 18
     }
   ],
@@ -68,12 +68,12 @@
         "text": "status.json endpoint generated and scheduled"
       },
       {
-        "state": "flight",
-        "text": "Cloudflare tunnel auto-recovery staged; production enable waits on Vapi API key"
+        "state": "done",
+        "text": "Vapi remap auth verified; tunnel monitor enabled and health checked"
       },
       {
-        "state": "open",
-        "text": "Vapi API key needed for automatic tool URL remap"
+        "state": "done",
+        "text": "Vapi exact tool URL remap verified"
       },
       {
         "state": "flight",
@@ -89,51 +89,51 @@
     {
       "from": "hesoyam",
       "type": "task",
-      "text": "Colomba Stripe pilot links live on landing",
-      "id": "gascity-lab-aed",
+      "text": "Colomba Phase 4 tick: payments live, Vapi recovery unlocked, DNS partial",
+      "id": "gascity-lab-0w7",
       "age": "0m ago"
     },
     {
-      "from": "Mazal/WSL",
+      "from": "Heso",
       "type": "task",
-      "text": "response to Oscar Vapi credential route query",
-      "id": "gascity-lab-pi7",
+      "text": "tunnel-vapi-update-failed missing Vapi API key",
+      "id": "gascity-lab-s7m",
       "age": "0m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "query Heso on external colomba-status checker ownership",
-      "id": "gascity-lab-2c9",
-      "age": "9m ago"
     },
     {
       "from": "hesoyam",
       "type": "task",
       "text": "Colomba payment readiness check: no live payment rail yet",
       "id": "gascity-lab-xmg",
-      "age": "16m ago"
+      "age": "0m ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "tunnel-auto-recovery-live",
+      "id": "gascity-lab-xvt",
+      "age": "0m ago"
     },
     {
       "from": "hesoyam",
       "type": "task",
-      "text": "Colomba Phase 4 tick: DNS/Cloudflare still propagating",
-      "id": "gascity-lab-1so",
-      "age": "27m ago"
+      "text": "Colomba Stripe pilot links live on landing",
+      "id": "gascity-lab-aed",
+      "age": "4m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "response to Oscar Vapi credential route query",
+      "id": "gascity-lab-pi7",
+      "age": "4m ago"
     },
     {
       "from": "Oscar Worker",
       "type": "task",
-      "text": "query Mazal: Vapi credential/session route?",
-      "id": "gascity-lab-h1s",
-      "age": "31m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "vapi-lane-state-fix: fail-safe patched",
-      "id": "gascity-lab-613",
-      "age": "31m ago"
+      "text": "query Heso on external colomba-status checker ownership",
+      "id": "gascity-lab-2c9",
+      "age": "13m ago"
     }
   ],
   "health": [
@@ -157,7 +157,7 @@
     },
     {
       "label": "Vapi tunnel",
-      "detail": "https://chess-sand-anthropology-increasingly.trycloudflare.com HTTP 200",
+      "detail": "https://surprising-phillips-automotive-cheque.trycloudflare.com HTTP 200",
       "state": "up",
       "stateLabel": "LIVE"
     },
@@ -173,19 +173,19 @@
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "response to Oscar Vapi credential route query",
-      "age": "0m ago"
+      "age": "4m ago"
     },
     {
       "from": "Oscar Worker",
       "to": "Heso",
       "text": "query Heso on external colomba-status checker ownership",
-      "age": "9m ago"
+      "age": "13m ago"
     },
     {
       "from": "Oscar Worker",
       "to": "Mazal",
       "text": "query Mazal: Vapi credential/session route?",
-      "age": "31m ago"
+      "age": "35m ago"
     },
     {
       "from": "Heso",
