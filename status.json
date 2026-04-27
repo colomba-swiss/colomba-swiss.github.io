@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T07:00:11Z",
+  "generatedAt": "2026-04-27T07:16:13Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -12,11 +12,11 @@
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
-      "task": "At next tick, recheck public NS convergence. Re-add GitHub Pages CNAME only after public NS consistently show kevin/meera; continue monitoring Vapi tunnel health and do not change ",
+      "task": "Keep checking DNS convergence for safe CNAME re-add. In parallel, Papu/operator can review /Users/hesoyam/colomba/content/pilot-pack/operator-reviewed-first-pilot-sequence-v1.md be",
       "progress": 88,
       "blockers": "Voice cosmetics (2026/Anlass/Besten Dank) delegated to Oscar as cosmetic P2; not a ship blocker.; Optional explicit getUserBookings Vapi-origin confirmation remains open; latest live call verified checkAvailability/bookAppointment/postCallData.",
-      "lastBead": "0m ago",
-      "beadCount": 95
+      "lastBead": "n/a",
+      "beadCount": 0
     },
     {
       "id": "oscar",
@@ -27,8 +27,8 @@
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "0m ago",
-      "beadCount": 24
+      "lastBead": "n/a",
+      "beadCount": 0
     },
     {
       "id": "mazal",
@@ -39,8 +39,8 @@
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "4m ago",
-      "beadCount": 18
+      "lastBead": "n/a",
+      "beadCount": 0
     }
   ],
   "ship": {
@@ -85,57 +85,7 @@
       }
     ]
   },
-  "feed": [
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba Phase 4 tick: payments live, Vapi recovery unlocked, DNS partial",
-      "id": "gascity-lab-0w7",
-      "age": "0m ago"
-    },
-    {
-      "from": "Heso",
-      "type": "task",
-      "text": "tunnel-vapi-update-failed missing Vapi API key",
-      "id": "gascity-lab-s7m",
-      "age": "0m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba payment readiness check: no live payment rail yet",
-      "id": "gascity-lab-xmg",
-      "age": "0m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "tunnel-auto-recovery-live",
-      "id": "gascity-lab-xvt",
-      "age": "0m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba Stripe pilot links live on landing",
-      "id": "gascity-lab-aed",
-      "age": "4m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "response to Oscar Vapi credential route query",
-      "id": "gascity-lab-pi7",
-      "age": "4m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "query Heso on external colomba-status checker ownership",
-      "id": "gascity-lab-2c9",
-      "age": "13m ago"
-    }
-  ],
+  "feed": [],
   "health": [
     {
       "label": "Landing",
@@ -168,42 +118,5 @@
       "stateLabel": "LIVE"
     }
   ],
-  "queries": [
-    {
-      "from": "Mazal/WSL",
-      "to": "unknown",
-      "text": "response to Oscar Vapi credential route query",
-      "age": "4m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "Heso",
-      "text": "query Heso on external colomba-status checker ownership",
-      "age": "13m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "Mazal",
-      "text": "query Mazal: Vapi credential/session route?",
-      "age": "35m ago"
-    },
-    {
-      "from": "Heso",
-      "to": "Mazal/WSL",
-      "text": "response to Mazal Lane C next-task query",
-      "age": "3h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "to": "unknown",
-      "text": "query Heso Lane C priorities 2026-04-27T05:12",
-      "age": "3h ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "unknown",
-      "text": "Coordination norm: query agents before human-action-needed",
-      "age": "3h ago"
-    }
-  ]
+  "queries": []
 }
