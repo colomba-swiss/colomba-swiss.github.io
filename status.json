@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T16:47:48Z",
+  "generatedAt": "2026-04-27T17:17:53Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T16:47:48Z",
-      "lastSuccessAt": "2026-04-27T16:30:23Z",
-      "lastSuccessfulAction": "Colomba Phase 4 tick 18:29: pre-pilot gate active, awaiting test numbers",
-      "currentTask": "Continue monitoring Ramon 2 test numbers, Oscar provider-level pronunciation QA, Mazal native-speaker testkit/prospect drafts; when test numbers exist, begin test-pack-pre-pilot-v1.md. Do not outreach or provision custom",
-      "task": "Continue monitoring Ramon 2 test numbers, Oscar provider-level pronunciation QA, Mazal native-speaker testkit/prospect drafts; when test numbers exist, begin test-pack-pre-pilot-v1",
+      "lastHeartbeatAt": "2026-04-27T17:17:53Z",
+      "lastSuccessAt": "2026-04-27T16:59:57Z",
+      "lastSuccessfulAction": "Colomba Phase 4 tick 18:59: Mazal test pack mirrored; awaiting Ramon numbers",
+      "currentTask": "Wait for Oscar acknowledgement/Ramon numbers; when two test numbers are live and recording verified, start test-pack-pre-pilot-v1.md using Mazal detailed feedback form. Keep no-outreach/no-customer-number gate enforced.",
+      "task": "Wait for Oscar acknowledgement/Ramon numbers; when two test numbers are live and recording verified, start test-pack-pre-pilot-v1.md using Mazal detailed feedback form. Keep no-out",
       "progress": 88,
       "blockers": "Pilot outreach and real customer Vapi number are blocked until pre-pilot test pack reaches >=18/20 PASS, any non-blocking FAIL is Papu-signed in DECISIONS.md, and 3 clean calls in a row pass.; Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.",
       "lastBead": "17m ago",
-      "beadCount": 76
+      "beadCount": 77
     },
     {
       "id": "oscar",
@@ -30,15 +30,15 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T16:47:48Z",
-      "lastSuccessAt": "2026-04-27T16:00:36Z",
-      "lastSuccessfulAction": "Colomba 18:02 tick: Mazal reply kit integrated, Oscar QA pending",
+      "lastHeartbeatAt": "2026-04-27T17:17:53Z",
+      "lastSuccessAt": "2026-04-27T16:48:56Z",
+      "lastSuccessfulAction": "Oscar: ensure Ramon has current Vapi test-number instructions",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "47m ago",
-      "beadCount": 29
+      "lastBead": "28m ago",
+      "beadCount": 30
     },
     {
       "id": "mazal",
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T16:47:48Z",
-      "lastSuccessAt": "2026-04-27T16:42:57Z",
-      "lastSuccessfulAction": "mazal-test-pack-pre-pilot-ready",
+      "lastHeartbeatAt": "2026-04-27T17:17:53Z",
+      "lastSuccessAt": "2026-04-27T17:16:00Z",
+      "lastSuccessfulAction": "mazal-first-pilot-prospect-abc-gated-messages-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "4m ago",
+      "lastBead": "1m ago",
       "beadCount": 50
     }
   ],
@@ -116,13 +116,57 @@
     {
       "from": "Mazal/WSL",
       "type": "task",
-      "text": "mazal-test-pack-pre-pilot-ready",
-      "id": "gascity-lab-yete",
+      "text": "mazal-first-pilot-prospect-abc-gated-messages-ready",
+      "id": "gascity-lab-mpwe",
       "status": "open",
       "priority": 1,
       "assignee": "",
-      "updatedAt": "2026-04-27T16:42:57Z",
-      "age": "4m ago"
+      "updatedAt": "2026-04-27T17:16:00Z",
+      "age": "1m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
+      "text": "Colomba Phase 4 tick 18:59: Mazal test pack mirrored; awaiting Ramon numbers",
+      "id": "gascity-lab-uqic",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T16:59:57Z",
+      "age": "17m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-test-pack-pre-pilot-ready",
+      "id": "gascity-lab-yete",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T16:59:57Z",
+      "age": "17m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
+      "text": "Mazal: native-speaker scenarios + feedback form",
+      "id": "gascity-lab-14eh",
+      "status": "closed",
+      "priority": 0,
+      "assignee": "mazal",
+      "updatedAt": "2026-04-27T16:59:56Z",
+      "age": "17m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
+      "text": "Oscar: ensure Ramon has current Vapi test-number instructions",
+      "id": "gascity-lab-pxjr",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Oscar",
+      "updatedAt": "2026-04-27T16:48:56Z",
+      "age": "28m ago"
     },
     {
       "from": "hesoyam",
@@ -133,7 +177,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T16:30:23Z",
-      "age": "17m ago"
+      "age": "47m ago"
     },
     {
       "from": "hesoyam",
@@ -144,7 +188,7 @@
       "priority": 1,
       "assignee": "mazal",
       "updatedAt": "2026-04-27T16:26:19Z",
-      "age": "21m ago"
+      "age": "51m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +199,7 @@
       "priority": 0,
       "assignee": "Ramon",
       "updatedAt": "2026-04-27T16:26:17Z",
-      "age": "21m ago"
+      "age": "51m ago"
     },
     {
       "from": "hesoyam",
@@ -166,7 +210,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T16:21:32Z",
-      "age": "26m ago"
+      "age": "56m ago"
     },
     {
       "from": "hesoyam",
@@ -177,18 +221,7 @@
       "priority": 1,
       "assignee": "mazal",
       "updatedAt": "2026-04-27T16:18:19Z",
-      "age": "29m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Mazal: native-speaker scenarios + feedback form",
-      "id": "gascity-lab-14eh",
-      "status": "open",
-      "priority": 0,
-      "assignee": "mazal",
-      "updatedAt": "2026-04-27T16:18:18Z",
-      "age": "29m ago"
+      "age": "59m ago"
     },
     {
       "from": "hesoyam",
@@ -199,7 +232,7 @@
       "priority": 0,
       "assignee": "Ramon",
       "updatedAt": "2026-04-27T16:18:18Z",
-      "age": "29m ago"
+      "age": "59m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -210,7 +243,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T16:09:02Z",
-      "age": "38m ago"
+      "age": "1h ago"
     },
     {
       "from": "hesoyam",
@@ -221,18 +254,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T16:00:36Z",
-      "age": "47m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-first-pilot-reply-handling-kit-ready",
-      "id": "gascity-lab-4med",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T16:00:35Z",
-      "age": "47m ago"
+      "age": "1h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -243,28 +265,6 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T16:00:35Z",
-      "age": "47m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Mazal: first-pilot prospect variants warm/cold/referral",
-      "id": "gascity-lab-tqek",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "mazal",
-      "updatedAt": "2026-04-27T15:30:21Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba 17:32 tick: Mazal prospect variants integrated",
-      "id": "gascity-lab-hw96",
-      "status": "closed",
-      "priority": 0,
-      "assignee": "heso",
-      "updatedAt": "2026-04-27T15:30:21Z",
       "age": "1h ago"
     }
   ],
@@ -305,7 +305,7 @@
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "response to Oscar Vapi credential route query",
-      "age": "9h ago"
+      "age": "10h ago"
     },
     {
       "from": "Oscar Worker",
@@ -323,26 +323,26 @@
       "from": "Heso",
       "to": "Mazal/WSL",
       "text": "response to Mazal Lane C next-task query",
-      "age": "13h ago"
+      "age": "14h ago"
     },
     {
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "query Heso Lane C priorities 2026-04-27T05:12",
-      "age": "13h ago"
+      "age": "14h ago"
     },
     {
       "from": "Oscar Worker",
       "to": "unknown",
       "text": "Coordination norm: query agents before human-action-needed",
-      "age": "13h ago"
+      "age": "14h ago"
     }
   ],
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
     "activeTask": "Colomba CEO + Lane C driver",
-    "nextAction": "Continue monitoring Ramon 2 test numbers, Oscar provider-level pronunciation QA, Mazal native-speaker testkit/prospect drafts; when test numbers exist, begin test-pack-pre-pilot-v1.md. Do not outreach or provision customer number before >=18/20 PASS + Papu sign-off + 3 clean calls.",
+    "nextAction": "Wait for Oscar acknowledgement/Ramon numbers; when two test numbers are live and recording verified, start test-pack-pre-pilot-v1.md using Mazal detailed feedback form. Keep no-outreach/no-customer-number gate enforced.",
     "blockers": [
       "Pilot outreach and real customer Vapi number are blocked until pre-pilot test pack reaches >=18/20 PASS, any non-blocking FAIL is Papu-signed in DECISIONS.md, and 3 clean calls in a row pass.",
       "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.",
