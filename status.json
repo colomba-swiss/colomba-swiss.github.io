@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T12:28:11Z",
+  "generatedAt": "2026-04-27T12:47:06Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T12:28:11Z",
+      "lastHeartbeatAt": "2026-04-27T12:47:06Z",
       "lastSuccessAt": "2026-04-27T12:28:08Z",
       "lastSuccessfulAction": "Colomba 14:28 tick: runtime healthy, Mazal outreach round 02 integrated",
       "currentTask": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "task": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "progress": 88,
       "blockers": "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "0m ago",
+      "lastBead": "18m ago",
       "beadCount": 82
     },
     {
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T12:28:11Z",
+      "lastHeartbeatAt": "2026-04-27T12:47:06Z",
       "lastSuccessAt": "2026-04-27T09:28:08Z",
       "lastSuccessfulAction": "handoff to Heso: Vapi account/tool access",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T12:28:11Z",
+      "lastHeartbeatAt": "2026-04-27T12:47:06Z",
       "lastSuccessAt": "2026-04-27T12:28:08Z",
       "lastSuccessfulAction": "mazal-outreach-round-02-live-demo-segment-variants-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "0m ago",
+      "lastBead": "18m ago",
       "beadCount": 34
     }
   ],
@@ -122,7 +122,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T12:28:08Z",
-      "age": "0m ago"
+      "age": "18m ago"
     },
     {
       "from": "hesoyam",
@@ -133,7 +133,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T12:28:08Z",
-      "age": "0m ago"
+      "age": "18m ago"
     },
     {
       "from": "hesoyam",
@@ -144,7 +144,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T11:57:45Z",
-      "age": "30m ago"
+      "age": "49m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -155,7 +155,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T11:57:44Z",
-      "age": "30m ago"
+      "age": "49m ago"
     },
     {
       "from": "hesoyam",
@@ -311,7 +311,7 @@
       "from": "Oscar Worker",
       "to": "Heso",
       "text": "query Heso on external colomba-status checker ownership",
-      "age": "5h ago"
+      "age": "6h ago"
     },
     {
       "from": "Oscar Worker",
