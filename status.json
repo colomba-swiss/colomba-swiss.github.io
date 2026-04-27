@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T13:17:11Z",
+  "generatedAt": "2026-04-27T13:28:22Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T13:17:11Z",
-      "lastSuccessAt": "2026-04-27T12:57:55Z",
-      "lastSuccessfulAction": "Colomba 14:58 tick: runtime healthy, Mazal landing demo pack integrated",
+      "lastHeartbeatAt": "2026-04-27T13:28:22Z",
+      "lastSuccessAt": "2026-04-27T13:28:20Z",
+      "lastSuccessfulAction": "Colomba 15:28 tick: runtime healthy, landing assembly integrated",
       "currentTask": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "task": "Operator action needed: update Stripe support email to hello@colomba-swiss.ch, then run authenticated hello/info receive test; continue keeping status/Beads current.",
       "progress": 88,
       "blockers": "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
-      "lastBead": "19m ago",
-      "beadCount": 81
+      "lastBead": "0m ago",
+      "beadCount": 80
     },
     {
       "id": "oscar",
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T13:17:11Z",
-      "lastSuccessAt": "2026-04-27T12:48:06Z",
-      "lastSuccessfulAction": "Oscar Vapi tunnel remap + recovery test",
+      "lastHeartbeatAt": "2026-04-27T13:28:22Z",
+      "lastSuccessAt": "2026-04-27T13:24:32Z",
+      "lastSuccessfulAction": "Oscar Vapi Heidi pronunciation cosmetics",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "29m ago",
+      "lastBead": "3m ago",
       "beadCount": 27
     },
     {
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T13:17:11Z",
-      "lastSuccessAt": "2026-04-27T12:57:55Z",
-      "lastSuccessfulAction": "Colomba 14:58 tick: runtime healthy, Mazal landing demo pack integrated",
+      "lastHeartbeatAt": "2026-04-27T13:28:22Z",
+      "lastSuccessAt": "2026-04-27T13:28:19Z",
+      "lastSuccessfulAction": "mazal-landing-page-copy-assembly-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "19m ago",
-      "beadCount": 36
+      "lastBead": "0m ago",
+      "beadCount": 37
     }
   ],
   "ship": {
@@ -116,13 +116,46 @@
     {
       "from": "hesoyam",
       "type": "task",
+      "text": "Colomba 15:28 tick: runtime healthy, landing assembly integrated",
+      "id": "gascity-lab-z3lc",
+      "status": "closed",
+      "priority": 0,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T13:28:20Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-landing-page-copy-assembly-ready",
+      "id": "gascity-lab-964g",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T13:28:19Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "Oscar Vapi Heidi pronunciation cosmetics",
+      "id": "gascity-lab-lge",
+      "status": "closed",
+      "priority": 2,
+      "assignee": "Oscar",
+      "updatedAt": "2026-04-27T13:24:32Z",
+      "age": "3m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
       "text": "Colomba 14:58 tick: runtime healthy, Mazal landing demo pack integrated",
       "id": "gascity-lab-tenc",
       "status": "closed",
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T12:57:55Z",
-      "age": "19m ago"
+      "age": "30m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -133,7 +166,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T12:57:54Z",
-      "age": "19m ago"
+      "age": "30m ago"
     },
     {
       "from": "Oscar Worker",
@@ -144,7 +177,7 @@
       "priority": 0,
       "assignee": "Oscar",
       "updatedAt": "2026-04-27T12:48:06Z",
-      "age": "29m ago"
+      "age": "40m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +188,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T12:28:08Z",
-      "age": "49m ago"
+      "age": "1h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -166,7 +199,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T12:28:08Z",
-      "age": "49m ago"
+      "age": "1h ago"
     },
     {
       "from": "hesoyam",
@@ -199,7 +232,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T11:28:02Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -210,7 +243,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T11:28:01Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -221,17 +254,6 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T11:28:01Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "mazal-first-pilot-go-live-readiness-checklist-ready",
-      "id": "gascity-lab-mc2i",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-27T10:58:19Z",
       "age": "2h ago"
     },
     {
@@ -243,28 +265,6 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T10:58:19Z",
-      "age": "2h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba 12:56 tick: runtime healthy, support-email blocker remains",
-      "id": "gascity-lab-c10h",
-      "status": "closed",
-      "priority": 0,
-      "assignee": "heso",
-      "updatedAt": "2026-04-27T10:57:40Z",
-      "age": "2h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba 12:28 tick: Stripe support email still old-domain",
-      "id": "gascity-lab-pbwu",
-      "status": "open",
-      "priority": 0,
-      "assignee": "operator",
-      "updatedAt": "2026-04-27T10:28:09Z",
       "age": "2h ago"
     }
   ],
@@ -317,7 +317,7 @@
       "from": "Oscar Worker",
       "to": "Mazal",
       "text": "query Mazal: Vapi credential/session route?",
-      "age": "6h ago"
+      "age": "7h ago"
     },
     {
       "from": "Heso",
