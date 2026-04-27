@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T14:58:38Z",
+  "generatedAt": "2026-04-27T15:00:01Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,11 +13,11 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-27T14:58:38Z",
-      "lastSuccessAt": "2026-04-27T14:58:35Z",
-      "lastSuccessfulAction": "Colomba 16:59 6h refresh: runtime healthy, SHIP-STATE refreshed",
-      "currentTask": "Wait for Papu legal/email confirmations; collect Oscar pronunciation QA and Mazal prospect variants; do not deploy webhook or send outreach until approved.",
-      "task": "Wait for Papu legal/email confirmations; collect Oscar pronunciation QA and Mazal prospect variants; do not deploy webhook or send outreach until approved.",
+      "lastHeartbeatAt": "2026-04-27T15:00:01Z",
+      "lastSuccessAt": "2026-04-27T14:59:58Z",
+      "lastSuccessfulAction": "Colomba 17:00 tick: waiting on Papu gates + Oscar/Mazal tasks",
+      "currentTask": "Wait for Papu legal/email confirmations and collect Oscar pronunciation QA + Mazal prospect variants; do not deploy webhook or send outreach until approved.",
+      "task": "Wait for Papu legal/email confirmations and collect Oscar pronunciation QA + Mazal prospect variants; do not deploy webhook or send outreach until approved.",
       "progress": 88,
       "blockers": "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
       "lastBead": "0m ago",
@@ -30,15 +30,15 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T14:58:38Z",
-      "lastSuccessAt": "2026-04-27T14:36:08Z",
-      "lastSuccessfulAction": "Oscar: one non-prompt ElevenLabs pronunciation QA attempt",
+      "lastHeartbeatAt": "2026-04-27T15:00:01Z",
+      "lastSuccessAt": "2026-04-27T14:59:58Z",
+      "lastSuccessfulAction": "Colomba 17:00 tick: waiting on Papu gates + Oscar/Mazal tasks",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "22m ago",
-      "beadCount": 28
+      "lastBead": "0m ago",
+      "beadCount": 29
     },
     {
       "id": "mazal",
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-27T14:58:38Z",
-      "lastSuccessAt": "2026-04-27T14:58:34Z",
-      "lastSuccessfulAction": "mazal-pre-publish-qa-pass-v2-ready",
+      "lastHeartbeatAt": "2026-04-27T15:00:01Z",
+      "lastSuccessAt": "2026-04-27T14:59:58Z",
+      "lastSuccessfulAction": "Colomba 17:00 tick: waiting on Papu gates + Oscar/Mazal tasks",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
       "lastBead": "0m ago",
-      "beadCount": 41
+      "beadCount": 42
     }
   ],
   "ship": {
@@ -116,13 +116,24 @@
     {
       "from": "hesoyam",
       "type": "task",
+      "text": "Colomba 17:00 tick: waiting on Papu gates + Oscar/Mazal tasks",
+      "id": "gascity-lab-14u6",
+      "status": "closed",
+      "priority": 0,
+      "assignee": "heso",
+      "updatedAt": "2026-04-27T14:59:58Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "hesoyam",
+      "type": "task",
       "text": "Colomba 16:59 6h refresh: runtime healthy, SHIP-STATE refreshed",
       "id": "gascity-lab-m208",
       "status": "closed",
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T14:58:35Z",
-      "age": "0m ago"
+      "age": "1m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -133,7 +144,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T14:58:34Z",
-      "age": "0m ago"
+      "age": "1m ago"
     },
     {
       "from": "hesoyam",
@@ -144,7 +155,7 @@
       "priority": 1,
       "assignee": "mazal",
       "updatedAt": "2026-04-27T14:36:09Z",
-      "age": "22m ago"
+      "age": "23m ago"
     },
     {
       "from": "hesoyam",
@@ -155,7 +166,7 @@
       "priority": 1,
       "assignee": "Oscar",
       "updatedAt": "2026-04-27T14:36:08Z",
-      "age": "22m ago"
+      "age": "23m ago"
     },
     {
       "from": "hesoyam",
@@ -166,18 +177,7 @@
       "priority": 0,
       "assignee": "heso",
       "updatedAt": "2026-04-27T14:28:19Z",
-      "age": "30m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "email-routing-inbox-request-template-v1-ready",
-      "id": "gascity-lab-8rx",
-      "status": "closed",
-      "priority": 2,
-      "assignee": "",
-      "updatedAt": "2026-04-27T14:28:18Z",
-      "age": "30m ago"
+      "age": "31m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -188,18 +188,18 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T14:28:18Z",
-      "age": "30m ago"
+      "age": "31m ago"
     },
     {
       "from": "Mazal/WSL",
       "type": "task",
-      "text": "mazal-first-prospect-personalization-kit-ready",
-      "id": "gascity-lab-3yx",
+      "text": "email-routing-inbox-request-template-v1-ready",
+      "id": "gascity-lab-8rx",
       "status": "closed",
-      "priority": 1,
+      "priority": 2,
       "assignee": "",
-      "updatedAt": "2026-04-27T14:28:17Z",
-      "age": "30m ago"
+      "updatedAt": "2026-04-27T14:28:18Z",
+      "age": "31m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -210,7 +210,18 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T14:28:17Z",
-      "age": "30m ago"
+      "age": "31m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "mazal-first-prospect-personalization-kit-ready",
+      "id": "gascity-lab-3yx",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-04-27T14:28:17Z",
+      "age": "31m ago"
     },
     {
       "from": "hesoyam",
@@ -254,17 +265,6 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-04-27T13:28:19Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "Oscar Vapi Heidi pronunciation cosmetics",
-      "id": "gascity-lab-lge",
-      "status": "closed",
-      "priority": 2,
-      "assignee": "Oscar",
-      "updatedAt": "2026-04-27T13:24:32Z",
       "age": "1h ago"
     }
   ],
@@ -342,7 +342,7 @@
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
     "activeTask": "Colomba CEO + Lane C driver",
-    "nextAction": "Wait for Papu legal/email confirmations; collect Oscar pronunciation QA and Mazal prospect variants; do not deploy webhook or send outreach until approved.",
+    "nextAction": "Wait for Papu legal/email confirmations and collect Oscar pronunciation QA + Mazal prospect variants; do not deploy webhook or send outreach until approved.",
     "blockers": [
       "Stripe account support email is confirmed still legacy old-domain support email; operator/dashboard must change it to `hello@colomba-swiss.ch` before relying on Stripe customer-facing support email.",
       "Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
