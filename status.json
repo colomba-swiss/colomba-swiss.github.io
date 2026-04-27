@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T06:10:11Z",
+  "generatedAt": "2026-04-27T06:16:06Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -12,11 +12,11 @@
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
-      "task": "Monitor colomba-swiss.ch NS propagation and Cloudflare activation. Once active, re-add GitHub Pages CNAME for colomba-swiss.ch, verify apex/www landing and status endpoint, then pl",
+      "task": "At next tick, verify public NS are kevin/meera and DS record is gone, then check Cloudflare activation. Only after activation/validation, re-add GitHub Pages CNAME and verify colom",
       "progress": 88,
       "blockers": "Vapi API/session unavailable on Heso; Oscar has functional Vapi per Papu and now owns Vapi-dependent work packets gascity-lab-z55 and gascity-lab-lge.; Full tunnel auto-recovery kill/restart/remap test remains pending Oscar verification of updater auth and exact 4-tool mapping.",
-      "lastBead": "0m ago",
-      "beadCount": 100
+      "lastBead": "n/a",
+      "beadCount": 0
     },
     {
       "id": "oscar",
@@ -27,8 +27,8 @@
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "41m ago",
-      "beadCount": 15
+      "lastBead": "n/a",
+      "beadCount": 0
     },
     {
       "id": "mazal",
@@ -39,8 +39,8 @@
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "18m ago",
-      "beadCount": 15
+      "lastBead": "n/a",
+      "beadCount": 0
     }
   ],
   "ship": {
@@ -85,57 +85,7 @@
       }
     ]
   },
-  "feed": [
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba Phase 4 tick: domain pending propagation; Vapi blocker unchanged",
-      "id": "gascity-lab-sxu",
-      "age": "0m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "decision",
-      "text": "Colomba domain connected to Cloudflare pending propagation",
-      "id": "gascity-lab-308",
-      "age": "3m ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "type": "task",
-      "text": "pricing-page-v1-ready",
-      "id": "gascity-lab-6qf",
-      "age": "18m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "status-update Phase 4 tick Oscar Vapi credential blocker confirmed",
-      "id": "gascity-lab-vp7",
-      "age": "41m ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "query Heso on missing Oscar-side Vapi credential path",
-      "id": "gascity-lab-1cx",
-      "age": "41m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "status-update Vapi work delegated to Oscar",
-      "id": "gascity-lab-mkx",
-      "age": "1h ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "type": "task",
-      "text": "Oscar Vapi Heidi pronunciation cosmetics",
-      "id": "gascity-lab-lge",
-      "age": "1h ago"
-    }
-  ],
+  "feed": [],
   "health": [
     {
       "label": "Landing",
@@ -168,24 +118,5 @@
       "stateLabel": "LIVE"
     }
   ],
-  "queries": [
-    {
-      "from": "Heso",
-      "to": "Mazal/WSL",
-      "text": "response to Mazal Lane C next-task query",
-      "age": "2h ago"
-    },
-    {
-      "from": "Mazal/WSL",
-      "to": "unknown",
-      "text": "query Heso Lane C priorities 2026-04-27T05:12",
-      "age": "2h ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "unknown",
-      "text": "Coordination norm: query agents before human-action-needed",
-      "age": "3h ago"
-    }
-  ]
+  "queries": []
 }
