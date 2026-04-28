@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T01:49:22Z",
+  "generatedAt": "2026-04-28T02:19:28Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,7 +13,7 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-28T01:49:22Z",
+      "lastHeartbeatAt": "2026-04-28T02:19:28Z",
       "lastSuccessAt": "2026-04-28T00:30:06Z",
       "lastSuccessfulAction": "Colomba Phase 4 tick 02:29: landing FAQ/pricing QA checklist integrated; P0 waits unchanged",
       "currentTask": "Apply Papu legal identity values to terms/privacy when provided. In parallel wait for Oscar acknowledgement/Ramon numbers; when two test numbers are live and recording verified, start test-pack-pre-pilot-v1.md. Keep no-o",
@@ -21,7 +21,7 @@
       "progress": 88,
       "blockers": "Pilot outreach and real customer Vapi number are blocked until pre-pilot test pack reaches >=18/20 PASS, any non-blocking FAIL is Papu-signed in DECISIONS.md, and 3 clean calls in a row pass.; Paid-session detection plus local operator notification/draft generation is scheduled, but real outbound customer email/message sending remains manual/gated.",
       "lastBead": "1h ago",
-      "beadCount": 74
+      "beadCount": 73
     },
     {
       "id": "oscar",
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-28T01:49:22Z",
+      "lastHeartbeatAt": "2026-04-28T02:19:28Z",
       "lastSuccessAt": "2026-04-27T21:00:05Z",
       "lastSuccessfulAction": "Colomba Phase 4 tick 22:59: no new Ramon/Oscar evidence; gates unchanged",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "4h ago",
+      "lastBead": "5h ago",
       "beadCount": 27
     },
     {
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-28T01:49:22Z",
-      "lastSuccessAt": "2026-04-28T01:41:04Z",
-      "lastSuccessfulAction": "mazal-first-pilot-outreach-send-approval-form-ready",
+      "lastHeartbeatAt": "2026-04-28T02:19:28Z",
+      "lastSuccessAt": "2026-04-28T02:14:50Z",
+      "lastSuccessfulAction": "mazal-first-pilot-reply-triage-log-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "8m ago",
-      "beadCount": 56
+      "lastBead": "4m ago",
+      "beadCount": 57
     }
   ],
   "ship": {
@@ -116,13 +116,24 @@
     {
       "from": "Mazal/WSL",
       "type": "task",
+      "text": "mazal-first-pilot-reply-triage-log-ready",
+      "id": "gascity-lab-qx00",
+      "status": "open",
+      "priority": 2,
+      "assignee": "",
+      "updatedAt": "2026-04-28T02:14:50Z",
+      "age": "4m ago"
+    },
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
       "text": "mazal-first-pilot-outreach-send-approval-form-ready",
       "id": "gascity-lab-vcgy",
       "status": "open",
       "priority": 2,
       "assignee": "",
       "updatedAt": "2026-04-28T01:41:04Z",
-      "age": "8m ago"
+      "age": "38m ago"
     },
     {
       "from": "Mazal/WSL",
@@ -133,7 +144,7 @@
       "priority": 2,
       "assignee": "",
       "updatedAt": "2026-04-28T01:08:57Z",
-      "age": "40m ago"
+      "age": "1h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -177,7 +188,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-28T00:00:07Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "hesoyam",
@@ -188,7 +199,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T23:52:45Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -199,7 +210,7 @@
       "priority": 2,
       "assignee": "",
       "updatedAt": "2026-04-27T23:52:44Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "hesoyam",
@@ -232,7 +243,7 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T23:00:00Z",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Mazal/WSL",
@@ -243,7 +254,7 @@
       "priority": 2,
       "assignee": "",
       "updatedAt": "2026-04-27T22:59:59Z",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "hesoyam",
@@ -254,17 +265,6 @@
       "priority": 1,
       "assignee": "heso",
       "updatedAt": "2026-04-27T22:29:53Z",
-      "age": "3h ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Colomba 00:22 Premium-Push status: FAQ/channel/send-plan integrated, awaiting numbers/legal",
-      "id": "gascity-lab-f3ld",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "heso",
-      "updatedAt": "2026-04-27T22:22:44Z",
       "age": "3h ago"
     }
   ],
@@ -305,7 +305,7 @@
       "from": "Mazal/WSL",
       "to": "unknown",
       "text": "response to Oscar Vapi credential route query",
-      "age": "18h ago"
+      "age": "19h ago"
     },
     {
       "from": "Oscar Worker",
