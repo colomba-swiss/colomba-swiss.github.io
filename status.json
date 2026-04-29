@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T01:12:50Z",
+  "generatedAt": "2026-04-29T01:43:09Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-29T01:12:50Z",
-      "lastSuccessAt": "2026-04-29T01:08:25Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://museum-diane-theory-amd.trycloudflare.com -> new https://admissions-alaska-emails-searching.trycloudflare.com",
-      "currentTask": "Wait for Papu/operator to create/share the Google Drive Colomba folder and complete Heso/Mazal Drive installs/sign-ins; then copy /Users/hesoyam/colomba/drive-staging/Colomba into Drive and verify sync on Oscar/Mazal wit",
-      "task": "Wait for Papu/operator to create/share the Google Drive Colomba folder and complete Heso/Mazal Drive installs/sign-ins; then copy /Users/hesoyam/colomba/drive-staging/Colomba into ",
+      "lastHeartbeatAt": "2026-04-29T01:43:09Z",
+      "lastSuccessAt": "2026-04-29T01:39:18Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://echo-pavilion-transparency-morrison.trycloudflare.com -> new https://turtle-spray-snap-dennis.trycloudflare.com",
+      "currentTask": "When Oscar/Mazal auth is available, mount Drive on those machines and verify Colomba/knowledge files plus sync-test propagation; otherwise continue Colomba Lane A/B/C gates.",
+      "task": "When Oscar/Mazal auth is available, mount Drive on those machines and verify Colomba/knowledge files plus sync-test propagation; otherwise continue Colomba Lane A/B/C gates.",
       "progress": 88,
-      "blockers": "Google Drive knowledge sync rollout is auth/admin gated: Papu must create/share Drive folder Colomba; Heso Google Drive Desktop pkg needs macOS admin/UI; Oscar rclone needs Google OAuth; Mazal Windows Drive Desktop needs install/sign-in.; Until Drive sync is verified on all machines, manual knowledge sync remains the fallback; current updated knowledge files were manually resynced to Oscar and Mazal with matching hashes.",
-      "lastBead": "4m ago",
-      "beadCount": 102
+      "blockers": "Google Drive knowledge sync rollout: Heso install/sign-in and Drive upload are complete; remaining gates are Oscar rclone OAuth/mount verification and Mazal Windows Drive Desktop install/sign-in, then all-three-machine sync test.; Until Drive sync is verified on all machines, manual knowledge sync remains the fallback; current updated knowledge files were manually resynced to Oscar and Mazal with matching hashes.",
+      "lastBead": "3m ago",
+      "beadCount": 107
     },
     {
       "id": "oscar",
@@ -30,15 +30,15 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T01:12:50Z",
-      "lastSuccessAt": "2026-04-29T01:08:25Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://museum-diane-theory-amd.trycloudflare.com -> new https://admissions-alaska-emails-searching.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T01:43:09Z",
+      "lastSuccessAt": "2026-04-29T01:39:18Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://echo-pavilion-transparency-morrison.trycloudflare.com -> new https://turtle-spray-snap-dennis.trycloudflare.com",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "4m ago",
-      "beadCount": 84
+      "lastBead": "3m ago",
+      "beadCount": 92
     },
     {
       "id": "mazal",
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T01:12:50Z",
+      "lastHeartbeatAt": "2026-04-29T01:43:09Z",
       "lastSuccessAt": "2026-04-28T03:20:03Z",
       "lastSuccessfulAction": "mazal-landing-faq-v5-segment-specific-answers-ready",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "21h ago",
-      "beadCount": 18
+      "lastBead": "22h ago",
+      "beadCount": 13
     }
   ],
   "ship": {
@@ -116,13 +116,145 @@
     {
       "from": "Oscar",
       "type": "task",
+      "text": "tunnel-restored: old https://echo-pavilion-transparency-morrison.trycloudflare.com -> new https://turtle-spray-snap-dennis.trycloudflare.com",
+      "id": "gascity-lab-va00",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:39:18Z",
+      "age": "3m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://echo-pavilion-transparency-morrison.trycloudflare.com",
+      "id": "gascity-lab-ij67",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:38:31Z",
+      "age": "4m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://diamonds-img-carl-plains.trycloudflare.com -> new https://echo-pavilion-transparency-morrison.trycloudflare.com",
+      "id": "gascity-lab-r7uw",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:34:12Z",
+      "age": "8m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://diamonds-img-carl-plains.trycloudflare.com",
+      "id": "gascity-lab-ts6m",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:33:24Z",
+      "age": "9m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://critical-practitioners-testimony-linda.trycloudflare.com -> new https://diamonds-img-carl-plains.trycloudflare.com",
+      "id": "gascity-lab-p4nn",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:28:56Z",
+      "age": "14m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://critical-practitioners-testimony-linda.trycloudflare.com",
+      "id": "gascity-lab-4n4j",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:28:09Z",
+      "age": "15m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://vacations-whose-estimate-restore.trycloudflare.com -> new https://critical-practitioners-testimony-linda.trycloudflare.com",
+      "id": "gascity-lab-a6io",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:23:42Z",
+      "age": "19m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://vacations-whose-estimate-restore.trycloudflare.com",
+      "id": "gascity-lab-d048",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:22:56Z",
+      "age": "20m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://outer-fog-flooring-rings.trycloudflare.com -> new https://vacations-whose-estimate-restore.trycloudflare.com",
+      "id": "gascity-lab-f70l",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:18:43Z",
+      "age": "24m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://outer-fog-flooring-rings.trycloudflare.com",
+      "id": "gascity-lab-r0kr",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:17:54Z",
+      "age": "25m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://admissions-alaska-emails-searching.trycloudflare.com -> new https://outer-fog-flooring-rings.trycloudflare.com",
+      "id": "gascity-lab-sd1o",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:13:32Z",
+      "age": "29m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://admissions-alaska-emails-searching.trycloudflare.com",
+      "id": "gascity-lab-nf0g",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T01:12:47Z",
+      "age": "30m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
       "text": "tunnel-restored: old https://museum-diane-theory-amd.trycloudflare.com -> new https://admissions-alaska-emails-searching.trycloudflare.com",
       "id": "gascity-lab-cggk",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T01:08:25Z",
-      "age": "4m ago"
+      "age": "34m ago"
     },
     {
       "from": "Oscar",
@@ -133,139 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T01:07:40Z",
-      "age": "5m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Google Drive shared Colomba knowledge sync setup",
-      "id": "gascity-lab-as91",
-      "status": "blocked",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-29T01:06:25Z",
-      "age": "6m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://listen-gasoline-providing-unsubscribe.trycloudflare.com -> new https://museum-diane-theory-amd.trycloudflare.com",
-      "id": "gascity-lab-jzc8",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:03:17Z",
-      "age": "9m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://listen-gasoline-providing-unsubscribe.trycloudflare.com",
-      "id": "gascity-lab-j5tu",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:02:33Z",
-      "age": "10m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Lane C overnight assets ready/gated 2026-04-29",
-      "id": "gascity-lab-le10",
-      "status": "closed",
-      "priority": 1,
-      "assignee": "",
-      "updatedAt": "2026-04-29T01:01:55Z",
-      "age": "10m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Oscar/Ramon Vapi telephony handoff parked by web-call plan",
-      "id": "gascity-lab-pxjr",
-      "status": "deferred",
-      "priority": 3,
-      "assignee": "Oscar",
-      "updatedAt": "2026-04-29T00:59:40Z",
-      "age": "13m ago"
-    },
-    {
-      "from": "hesoyam",
-      "type": "task",
-      "text": "Ramon: Vapi web-call readiness; telephony provisioning parked",
-      "id": "gascity-lab-1ftb",
-      "status": "deferred",
-      "priority": 3,
-      "assignee": "Ramon",
-      "updatedAt": "2026-04-29T00:59:39Z",
-      "age": "13m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://ahead-doors-appreciation-airports.trycloudflare.com -> new https://listen-gasoline-providing-unsubscribe.trycloudflare.com",
-      "id": "gascity-lab-0co1",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T00:58:08Z",
-      "age": "14m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://ahead-doors-appreciation-airports.trycloudflare.com",
-      "id": "gascity-lab-k3v3",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T00:57:24Z",
-      "age": "15m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://copyrights-nil-her-code.trycloudflare.com -> new https://ahead-doors-appreciation-airports.trycloudflare.com",
-      "id": "gascity-lab-ujkm",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T00:53:00Z",
-      "age": "19m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://copyrights-nil-her-code.trycloudflare.com",
-      "id": "gascity-lab-31fi",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T00:52:16Z",
-      "age": "20m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://scored-polyester-wooden-foster.trycloudflare.com -> new https://copyrights-nil-her-code.trycloudflare.com",
-      "id": "gascity-lab-3pg7",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T00:47:53Z",
-      "age": "24m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://scored-polyester-wooden-foster.trycloudflare.com",
-      "id": "gascity-lab-od5g",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T00:47:09Z",
-      "age": "25m ago"
+      "age": "35m ago"
     }
   ],
   "health": [
@@ -305,9 +305,9 @@
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
     "activeTask": "Colomba overnight federation push — 2026-04-29",
-    "nextAction": "Wait for Papu/operator to create/share the Google Drive Colomba folder and complete Heso/Mazal Drive installs/sign-ins; then copy /Users/hesoyam/colomba/drive-staging/Colomba into Drive and verify sync on Oscar/Mazal within 5 minutes.",
+    "nextAction": "When Oscar/Mazal auth is available, mount Drive on those machines and verify Colomba/knowledge files plus sync-test propagation; otherwise continue Colomba Lane A/B/C gates.",
     "blockers": [
-      "Google Drive knowledge sync rollout is auth/admin gated: Papu must create/share Drive folder Colomba; Heso Google Drive Desktop pkg needs macOS admin/UI; Oscar rclone needs Google OAuth; Mazal Windows Drive Desktop needs install/sign-in.",
+      "Google Drive knowledge sync rollout: Heso install/sign-in and Drive upload are complete; remaining gates are Oscar rclone OAuth/mount verification and Mazal Windows Drive Desktop install/sign-in, then all-three-machine sync test.",
       "Until Drive sync is verified on all machines, manual knowledge sync remains the fallback; current updated knowledge files were manually resynced to Oscar and Mazal with matching hashes.",
       "Lane A voice cosmetics are Ramon-led via ElevenLabs Pronunciation Dictionary/provider controls; Heso only logs/verifies via Vapi web-call mode if evidence or a request arrives.",
       "Lane B Mazal/Nord/admin recovery is Ramon/operator physical/admin lane; Heso already synced knowledge through restored Windows SSH + WSL path.",
