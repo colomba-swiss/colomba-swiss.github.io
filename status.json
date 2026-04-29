@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T18:04:12Z",
+  "generatedAt": "2026-04-29T18:35:43Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-29T18:04:12Z",
+      "lastHeartbeatAt": "2026-04-29T18:35:43Z",
       "lastSuccessAt": "2026-04-29T17:49:16Z",
       "lastSuccessfulAction": "tunnel-down: health failed for https://switching-magnetic-enclosure-invest.trycloudflare.com",
       "currentTask": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
       "task": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
       "progress": 88,
       "blockers": "Item C: 6 webhook fixtures pass offline, but live auto-send was not deployed because Oscar n8n lacks outbound email credential, Stripe webhook signing-secret env, and production workflow implementation.; Legal pages with placeholder values are staged but still require Papu/operator review before production push.",
-      "lastBead": "14m ago",
+      "lastBead": "46m ago",
       "beadCount": 120
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T18:04:12Z",
+      "lastHeartbeatAt": "2026-04-29T18:35:43Z",
       "lastSuccessAt": "2026-04-29T17:49:16Z",
       "lastSuccessfulAction": "tunnel-down: health failed for https://switching-magnetic-enclosure-invest.trycloudflare.com",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "14m ago",
+      "lastBead": "46m ago",
       "beadCount": 120
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T18:04:12Z",
+      "lastHeartbeatAt": "2026-04-29T18:35:43Z",
       "lastSuccessAt": "2026-04-29T17:49:16Z",
       "lastSuccessfulAction": "tunnel-down: health failed for https://switching-magnetic-enclosure-invest.trycloudflare.com",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "14m ago",
+      "lastBead": "46m ago",
       "beadCount": 0
     }
   ],
@@ -122,7 +122,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:49:16Z",
-      "age": "14m ago"
+      "age": "46m ago"
     },
     {
       "from": "Oscar",
@@ -133,7 +133,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:45:50Z",
-      "age": "18m ago"
+      "age": "49m ago"
     },
     {
       "from": "Oscar",
@@ -144,7 +144,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:44:11Z",
-      "age": "20m ago"
+      "age": "51m ago"
     },
     {
       "from": "Oscar",
@@ -155,7 +155,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:40:46Z",
-      "age": "23m ago"
+      "age": "54m ago"
     },
     {
       "from": "Oscar",
@@ -166,7 +166,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:39:05Z",
-      "age": "25m ago"
+      "age": "56m ago"
     },
     {
       "from": "Oscar",
@@ -177,7 +177,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:35:38Z",
-      "age": "28m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -188,7 +188,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:34:02Z",
-      "age": "30m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -199,7 +199,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:30:37Z",
-      "age": "33m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -210,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:28:59Z",
-      "age": "35m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -221,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:25:34Z",
-      "age": "38m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -232,7 +232,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:23:57Z",
-      "age": "40m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -243,7 +243,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:20:32Z",
-      "age": "43m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -254,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:18:50Z",
-      "age": "45m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -265,7 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:15:23Z",
-      "age": "48m ago"
+      "age": "1h ago"
     }
   ],
   "health": [
@@ -305,7 +305,7 @@
       "from": "Oscar",
       "to": "Heso",
       "text": "tunnel-restored: old https://necessarily-asked-destinations-questionnaire.trycloudflare.com -> new https://configured-proposals-hopes-volume.trycloudflare.com",
-      "age": "3h ago"
+      "age": "4h ago"
     },
     {
       "from": "Oscar",
