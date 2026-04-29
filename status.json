@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T15:31:45Z",
+  "generatedAt": "2026-04-29T16:02:06Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-29T15:31:45Z",
-      "lastSuccessAt": "2026-04-29T15:02:10Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://screens-friendship-starts-fruit.trycloudflare.com -> new https://significant-rest-burst-crossword.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T16:02:06Z",
+      "lastSuccessAt": "2026-04-29T15:37:25Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://significant-rest-burst-crossword.trycloudflare.com -> new https://recipients-appliance-timeline-ext.trycloudflare.com",
       "currentTask": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
       "task": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
       "progress": 88,
       "blockers": "Item C: 6 webhook fixtures pass offline, but live auto-send was not deployed because Oscar n8n lacks outbound email credential, Stripe webhook signing-secret env, and production workflow implementation.; Legal pages with placeholder values are staged but still require Papu/operator review before production push.",
-      "lastBead": "29m ago",
+      "lastBead": "24m ago",
       "beadCount": 120
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T15:31:45Z",
-      "lastSuccessAt": "2026-04-29T15:02:10Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://screens-friendship-starts-fruit.trycloudflare.com -> new https://significant-rest-burst-crossword.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T16:02:06Z",
+      "lastSuccessAt": "2026-04-29T15:37:25Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://significant-rest-burst-crossword.trycloudflare.com -> new https://recipients-appliance-timeline-ext.trycloudflare.com",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "29m ago",
+      "lastBead": "24m ago",
       "beadCount": 120
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T15:31:45Z",
-      "lastSuccessAt": "2026-04-29T15:02:10Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://screens-friendship-starts-fruit.trycloudflare.com -> new https://significant-rest-burst-crossword.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T16:02:06Z",
+      "lastSuccessAt": "2026-04-29T15:37:25Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://significant-rest-burst-crossword.trycloudflare.com -> new https://recipients-appliance-timeline-ext.trycloudflare.com",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "29m ago",
+      "lastBead": "24m ago",
       "beadCount": 0
     }
   ],
@@ -116,13 +116,35 @@
     {
       "from": "Oscar",
       "type": "task",
+      "text": "tunnel-restored: old https://significant-rest-burst-crossword.trycloudflare.com -> new https://recipients-appliance-timeline-ext.trycloudflare.com",
+      "id": "gascity-lab-qw0p",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T15:37:25Z",
+      "age": "24m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://significant-rest-burst-crossword.trycloudflare.com",
+      "id": "gascity-lab-0oy6",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T15:36:11Z",
+      "age": "25m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
       "text": "tunnel-restored: old https://screens-friendship-starts-fruit.trycloudflare.com -> new https://significant-rest-burst-crossword.trycloudflare.com",
       "id": "gascity-lab-lay7",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T15:02:10Z",
-      "age": "29m ago"
+      "age": "59m ago"
     },
     {
       "from": "Oscar",
@@ -133,7 +155,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T15:00:56Z",
-      "age": "30m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -144,7 +166,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:57:09Z",
-      "age": "34m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -155,7 +177,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:55:56Z",
-      "age": "35m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -166,7 +188,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:52:47Z",
-      "age": "38m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -177,7 +199,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:50:46Z",
-      "age": "40m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -188,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:46:45Z",
-      "age": "45m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -199,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:45:31Z",
-      "age": "46m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -210,7 +232,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:42:25Z",
-      "age": "49m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -221,7 +243,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:40:19Z",
-      "age": "51m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -232,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:36:49Z",
-      "age": "54m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -243,28 +265,6 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:35:02Z",
-      "age": "56m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://exotic-stream-attach-geographic.trycloudflare.com -> new https://pichunter-thirty-remains-surprise.trycloudflare.com",
-      "id": "gascity-lab-1mgi",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T14:31:08Z",
-      "age": "1h ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://exotic-stream-attach-geographic.trycloudflare.com",
-      "id": "gascity-lab-syts",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T14:29:56Z",
       "age": "1h ago"
     }
   ],
@@ -317,7 +317,7 @@
       "from": "Oscar",
       "to": "Heso",
       "text": "tunnel-restored: old https://milton-rear-smell-facility.trycloudflare.com -> new https://necessarily-asked-destinations-questionnaire.trycloudflare.com",
-      "age": "1h ago"
+      "age": "2h ago"
     }
   ],
   "federation": {
