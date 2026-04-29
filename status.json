@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T14:21:15Z",
+  "generatedAt": "2026-04-29T14:51:36Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,9 +13,9 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-29T14:21:15Z",
-      "lastSuccessAt": "2026-04-29T14:20:51Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://lucas-testimonials-prime-italia.trycloudflare.com -> new https://warranties-course-ago-mixture.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T14:51:36Z",
+      "lastSuccessAt": "2026-04-29T14:50:46Z",
+      "lastSuccessfulAction": "tunnel-down: health failed for https://speaker-msie-union-cgi.trycloudflare.com",
       "currentTask": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
       "task": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
       "progress": 88,
@@ -30,9 +30,9 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T14:21:15Z",
-      "lastSuccessAt": "2026-04-29T14:20:51Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://lucas-testimonials-prime-italia.trycloudflare.com -> new https://warranties-course-ago-mixture.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T14:51:36Z",
+      "lastSuccessAt": "2026-04-29T14:50:46Z",
+      "lastSuccessfulAction": "tunnel-down: health failed for https://speaker-msie-union-cgi.trycloudflare.com",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
@@ -47,9 +47,9 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T14:21:15Z",
-      "lastSuccessAt": "2026-04-29T14:20:51Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://lucas-testimonials-prime-italia.trycloudflare.com -> new https://warranties-course-ago-mixture.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T14:51:36Z",
+      "lastSuccessAt": "2026-04-29T14:50:46Z",
+      "lastSuccessfulAction": "tunnel-down: health failed for https://speaker-msie-union-cgi.trycloudflare.com",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
@@ -116,13 +116,134 @@
     {
       "from": "Oscar",
       "type": "task",
+      "text": "tunnel-down: health failed for https://speaker-msie-union-cgi.trycloudflare.com",
+      "id": "gascity-lab-8lki",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:50:46Z",
+      "age": "0m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://airport-based-couples-mainly.trycloudflare.com -> new https://speaker-msie-union-cgi.trycloudflare.com",
+      "id": "gascity-lab-7zzr",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:46:45Z",
+      "age": "4m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://airport-based-couples-mainly.trycloudflare.com",
+      "id": "gascity-lab-qrpf",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:45:31Z",
+      "age": "6m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://postcard-periodically-clark-cancelled.trycloudflare.com -> new https://airport-based-couples-mainly.trycloudflare.com",
+      "id": "gascity-lab-ctwv",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:42:25Z",
+      "age": "9m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://postcard-periodically-clark-cancelled.trycloudflare.com",
+      "id": "gascity-lab-mkqy",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:40:19Z",
+      "age": "11m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://pichunter-thirty-remains-surprise.trycloudflare.com -> new https://postcard-periodically-clark-cancelled.trycloudflare.com",
+      "id": "gascity-lab-uth0",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:36:49Z",
+      "age": "14m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://pichunter-thirty-remains-surprise.trycloudflare.com",
+      "id": "gascity-lab-7uip",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:35:02Z",
+      "age": "16m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://exotic-stream-attach-geographic.trycloudflare.com -> new https://pichunter-thirty-remains-surprise.trycloudflare.com",
+      "id": "gascity-lab-1mgi",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:31:08Z",
+      "age": "20m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://exotic-stream-attach-geographic.trycloudflare.com",
+      "id": "gascity-lab-syts",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:29:56Z",
+      "age": "21m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://warranties-course-ago-mixture.trycloudflare.com -> new https://exotic-stream-attach-geographic.trycloudflare.com",
+      "id": "gascity-lab-m1gj",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:26:05Z",
+      "age": "25m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://warranties-course-ago-mixture.trycloudflare.com",
+      "id": "gascity-lab-gaxq",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T14:24:53Z",
+      "age": "26m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
       "text": "tunnel-restored: old https://lucas-testimonials-prime-italia.trycloudflare.com -> new https://warranties-course-ago-mixture.trycloudflare.com",
       "id": "gascity-lab-zw75",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:20:51Z",
-      "age": "0m ago"
+      "age": "30m ago"
     },
     {
       "from": "Oscar",
@@ -133,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:19:39Z",
-      "age": "1m ago"
+      "age": "31m ago"
     },
     {
       "from": "Oscar",
@@ -144,128 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T14:15:36Z",
-      "age": "5m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://chevy-balance-collaboration-window.trycloudflare.com",
-      "id": "gascity-lab-1k63",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T14:14:25Z",
-      "age": "6m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://configured-proposals-hopes-volume.trycloudflare.com -> new https://chevy-balance-collaboration-window.trycloudflare.com",
-      "id": "gascity-lab-uzlg",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T14:10:21Z",
-      "age": "10m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://configured-proposals-hopes-volume.trycloudflare.com",
-      "id": "gascity-lab-d0bs",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T14:09:10Z",
-      "age": "12m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://necessarily-asked-destinations-questionnaire.trycloudflare.com -> new https://configured-proposals-hopes-volume.trycloudflare.com",
-      "id": "gascity-lab-jzag",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T14:05:06Z",
-      "age": "16m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://necessarily-asked-destinations-questionnaire.trycloudflare.com",
-      "id": "gascity-lab-ac7l",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T14:03:56Z",
-      "age": "17m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://milton-rear-smell-facility.trycloudflare.com -> new https://necessarily-asked-destinations-questionnaire.trycloudflare.com",
-      "id": "gascity-lab-7t8p",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T14:00:06Z",
-      "age": "21m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://milton-rear-smell-facility.trycloudflare.com",
-      "id": "gascity-lab-ywqd",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T13:58:53Z",
-      "age": "22m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://switches-column-administrative-blowing.trycloudflare.com -> new https://milton-rear-smell-facility.trycloudflare.com",
-      "id": "gascity-lab-aq8g",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T13:55:03Z",
-      "age": "26m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://switches-column-administrative-blowing.trycloudflare.com",
-      "id": "gascity-lab-juj6",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T13:53:53Z",
-      "age": "27m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://letter-fur-scenarios-kitty.trycloudflare.com -> new https://switches-column-administrative-blowing.trycloudflare.com",
-      "id": "gascity-lab-qp5f",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T13:49:48Z",
-      "age": "31m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://letter-fur-scenarios-kitty.trycloudflare.com",
-      "id": "gascity-lab-nl9b",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T13:48:38Z",
-      "age": "32m ago"
+      "age": "36m ago"
     }
   ],
   "health": [
@@ -305,19 +305,19 @@
       "from": "Oscar",
       "to": "Heso",
       "text": "tunnel-restored: old https://necessarily-asked-destinations-questionnaire.trycloudflare.com -> new https://configured-proposals-hopes-volume.trycloudflare.com",
-      "age": "16m ago"
+      "age": "46m ago"
     },
     {
       "from": "Oscar",
       "to": "Heso",
       "text": "tunnel-down: health failed for https://necessarily-asked-destinations-questionnaire.trycloudflare.com",
-      "age": "17m ago"
+      "age": "47m ago"
     },
     {
       "from": "Oscar",
       "to": "Heso",
       "text": "tunnel-restored: old https://milton-rear-smell-facility.trycloudflare.com -> new https://necessarily-asked-destinations-questionnaire.trycloudflare.com",
-      "age": "21m ago"
+      "age": "51m ago"
     }
   ],
   "federation": {
