@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T08:17:20Z",
+  "generatedAt": "2026-04-29T08:47:40Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,9 +13,9 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-29T08:17:20Z",
-      "lastSuccessAt": "2026-04-29T08:13:41Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://solve-flight-contributors-passage.trycloudflare.com -> new https://playback-queries-hundreds-variable.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T08:47:40Z",
+      "lastSuccessAt": "2026-04-29T08:44:32Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://wonder-recreation-nurse-calvin.trycloudflare.com -> new https://warren-dentists-alexandria-kit.trycloudflare.com",
       "currentTask": "At/after 14:00 CEST, surface the handoff summary to Papu; do not start new Colomba work before Papu review.",
       "task": "At/after 14:00 CEST, surface the handoff summary to Papu; do not start new Colomba work before Papu review.",
       "progress": 88,
@@ -30,9 +30,9 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T08:17:20Z",
-      "lastSuccessAt": "2026-04-29T08:13:41Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://solve-flight-contributors-passage.trycloudflare.com -> new https://playback-queries-hundreds-variable.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T08:47:40Z",
+      "lastSuccessAt": "2026-04-29T08:44:32Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://wonder-recreation-nurse-calvin.trycloudflare.com -> new https://warren-dentists-alexandria-kit.trycloudflare.com",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
@@ -47,9 +47,9 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T08:17:20Z",
-      "lastSuccessAt": "2026-04-29T08:13:41Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://solve-flight-contributors-passage.trycloudflare.com -> new https://playback-queries-hundreds-variable.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T08:47:40Z",
+      "lastSuccessAt": "2026-04-29T08:44:32Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://wonder-recreation-nurse-calvin.trycloudflare.com -> new https://warren-dentists-alexandria-kit.trycloudflare.com",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
@@ -116,13 +116,145 @@
     {
       "from": "Oscar",
       "type": "task",
+      "text": "tunnel-restored: old https://wonder-recreation-nurse-calvin.trycloudflare.com -> new https://warren-dentists-alexandria-kit.trycloudflare.com",
+      "id": "gascity-lab-y7iv",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:44:32Z",
+      "age": "3m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://wonder-recreation-nurse-calvin.trycloudflare.com",
+      "id": "gascity-lab-zt4e",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:43:31Z",
+      "age": "4m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://handmade-chen-submitted-odds.trycloudflare.com -> new https://wonder-recreation-nurse-calvin.trycloudflare.com",
+      "id": "gascity-lab-v5oc",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:39:17Z",
+      "age": "8m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://handmade-chen-submitted-odds.trycloudflare.com",
+      "id": "gascity-lab-5ds4",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:38:17Z",
+      "age": "9m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://lows-porter-midi-schedule.trycloudflare.com -> new https://handmade-chen-submitted-odds.trycloudflare.com",
+      "id": "gascity-lab-pptm",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:34:16Z",
+      "age": "13m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://lows-porter-midi-schedule.trycloudflare.com",
+      "id": "gascity-lab-3b1g",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:33:16Z",
+      "age": "14m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://cache-ban-addressing-moon.trycloudflare.com -> new https://lows-porter-midi-schedule.trycloudflare.com",
+      "id": "gascity-lab-pb6f",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:29:11Z",
+      "age": "18m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://cache-ban-addressing-moon.trycloudflare.com",
+      "id": "gascity-lab-oyo8",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:28:11Z",
+      "age": "19m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://myth-casino-bryan-tips.trycloudflare.com -> new https://cache-ban-addressing-moon.trycloudflare.com",
+      "id": "gascity-lab-dl1f",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:23:57Z",
+      "age": "23m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://myth-casino-bryan-tips.trycloudflare.com",
+      "id": "gascity-lab-adlh",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:22:57Z",
+      "age": "24m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://playback-queries-hundreds-variable.trycloudflare.com -> new https://myth-casino-bryan-tips.trycloudflare.com",
+      "id": "gascity-lab-6lag",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:18:55Z",
+      "age": "28m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://playback-queries-hundreds-variable.trycloudflare.com",
+      "id": "gascity-lab-5oe4",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T08:17:56Z",
+      "age": "29m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
       "text": "tunnel-restored: old https://solve-flight-contributors-passage.trycloudflare.com -> new https://playback-queries-hundreds-variable.trycloudflare.com",
       "id": "gascity-lab-n1wd",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T08:13:41Z",
-      "age": "3m ago"
+      "age": "33m ago"
     },
     {
       "from": "Oscar",
@@ -133,139 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T08:12:43Z",
-      "age": "4m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://diane-float-big-profiles.trycloudflare.com -> new https://solve-flight-contributors-passage.trycloudflare.com",
-      "id": "gascity-lab-7mur",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T08:08:26Z",
-      "age": "8m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://diane-float-big-profiles.trycloudflare.com",
-      "id": "gascity-lab-2udu",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T08:07:28Z",
-      "age": "9m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://generator-pdas-premium-thu.trycloudflare.com -> new https://diane-float-big-profiles.trycloudflare.com",
-      "id": "gascity-lab-10v6",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T08:03:22Z",
-      "age": "13m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://generator-pdas-premium-thu.trycloudflare.com",
-      "id": "gascity-lab-h4an",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T08:02:24Z",
-      "age": "14m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://diamond-coating-promise-except.trycloudflare.com -> new https://generator-pdas-premium-thu.trycloudflare.com",
-      "id": "gascity-lab-wehm",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T07:58:21Z",
-      "age": "18m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://diamond-coating-promise-except.trycloudflare.com",
-      "id": "gascity-lab-8f2n",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T07:57:22Z",
-      "age": "19m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://chef-courses-alberta-semiconductor.trycloudflare.com -> new https://diamond-coating-promise-except.trycloudflare.com",
-      "id": "gascity-lab-50e8",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T07:53:07Z",
-      "age": "24m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://chef-courses-alberta-semiconductor.trycloudflare.com",
-      "id": "gascity-lab-pv3g",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T07:52:08Z",
-      "age": "25m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://adapter-wires-tion-kenneth.trycloudflare.com -> new https://chef-courses-alberta-semiconductor.trycloudflare.com",
-      "id": "gascity-lab-y9wh",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T07:47:53Z",
-      "age": "29m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://adapter-wires-tion-kenneth.trycloudflare.com",
-      "id": "gascity-lab-68bo",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T07:46:55Z",
-      "age": "30m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://latitude-families-randy-com.trycloudflare.com -> new https://adapter-wires-tion-kenneth.trycloudflare.com",
-      "id": "gascity-lab-qp2w",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T07:42:52Z",
       "age": "34m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://latitude-families-randy-com.trycloudflare.com",
-      "id": "gascity-lab-4hbr",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T07:41:55Z",
-      "age": "35m ago"
     }
   ],
   "health": [
@@ -300,20 +300,7 @@
       "stateLabel": "LIVE"
     }
   ],
-  "queries": [
-    {
-      "from": "Oscar Worker",
-      "to": "Heso",
-      "text": "query Heso on Google Calendar OAuth invalid grant",
-      "age": "4h ago"
-    },
-    {
-      "from": "Oscar Worker",
-      "to": "Heso",
-      "text": "query Heso on Colomba Google Calendar OAuth invalid_grant",
-      "age": "4h ago"
-    }
-  ],
+  "queries": [],
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
