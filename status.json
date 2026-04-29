@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T02:13:28Z",
+  "generatedAt": "2026-04-29T02:43:47Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,15 +13,15 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-29T02:13:28Z",
-      "lastSuccessAt": "2026-04-29T02:09:50Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://challenged-licensing-latino-empire.trycloudflare.com -> new https://reservation-athletic-marked-senior.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T02:43:47Z",
+      "lastSuccessAt": "2026-04-29T02:40:44Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://tokyo-discover-survey-were.trycloudflare.com -> new https://final-prices-leg-interactive.trycloudflare.com",
       "currentTask": "When Oscar/Mazal auth is available, mount Drive on those machines and verify Colomba/knowledge files plus sync-test propagation; otherwise continue Colomba Lane A/B/C gates.",
       "task": "When Oscar/Mazal auth is available, mount Drive on those machines and verify Colomba/knowledge files plus sync-test propagation; otherwise continue Colomba Lane A/B/C gates.",
       "progress": 88,
       "blockers": "Google Drive knowledge sync rollout: Heso install/sign-in and Drive upload are complete; remaining gates are Oscar rclone OAuth/mount verification and Mazal Windows Drive Desktop install/sign-in, then all-three-machine sync test.; Until Drive sync is verified on all machines, manual knowledge sync remains the fallback; current updated knowledge files were manually resynced to Oscar and Mazal with matching hashes.",
       "lastBead": "3m ago",
-      "beadCount": 111
+      "beadCount": 119
     },
     {
       "id": "oscar",
@@ -30,15 +30,15 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T02:13:28Z",
-      "lastSuccessAt": "2026-04-29T02:09:50Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://challenged-licensing-latino-empire.trycloudflare.com -> new https://reservation-athletic-marked-senior.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T02:43:47Z",
+      "lastSuccessAt": "2026-04-29T02:40:44Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://tokyo-discover-survey-were.trycloudflare.com -> new https://final-prices-leg-interactive.trycloudflare.com",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
       "lastBead": "3m ago",
-      "beadCount": 103
+      "beadCount": 115
     },
     {
       "id": "mazal",
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T02:13:28Z",
-      "lastSuccessAt": "2026-04-28T03:20:03Z",
-      "lastSuccessfulAction": "mazal-landing-faq-v5-segment-specific-answers-ready",
+      "lastHeartbeatAt": "2026-04-29T02:43:47Z",
+      "lastSuccessAt": "2026-04-29T02:33:11Z",
+      "lastSuccessfulAction": "query Mazal: Vapi credential/session route?",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "22h ago",
-      "beadCount": 9
+      "lastBead": "10m ago",
+      "beadCount": 1
     }
   ],
   "ship": {
@@ -116,156 +116,156 @@
     {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-restored: old https://challenged-licensing-latino-empire.trycloudflare.com -> new https://reservation-athletic-marked-senior.trycloudflare.com",
-      "id": "gascity-lab-g967",
+      "text": "tunnel-restored: old https://tokyo-discover-survey-were.trycloudflare.com -> new https://final-prices-leg-interactive.trycloudflare.com",
+      "id": "gascity-lab-grdh",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T02:09:50Z",
+      "updatedAt": "2026-04-29T02:40:44Z",
       "age": "3m ago"
     },
     {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-down: health failed for https://challenged-licensing-latino-empire.trycloudflare.com",
-      "id": "gascity-lab-b90b",
+      "text": "tunnel-down: health failed for https://tokyo-discover-survey-were.trycloudflare.com",
+      "id": "gascity-lab-mffg",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T02:09:03Z",
-      "age": "4m ago"
+      "updatedAt": "2026-04-29T02:39:53Z",
+      "age": "3m ago"
     },
     {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-restored: old https://agricultural-cancel-browsers-amongst.trycloudflare.com -> new https://challenged-licensing-latino-empire.trycloudflare.com",
-      "id": "gascity-lab-uvz8",
+      "text": "tunnel-restored: old https://modular-particularly-canal-tent.trycloudflare.com -> new https://tokyo-discover-survey-were.trycloudflare.com",
+      "id": "gascity-lab-sugx",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T02:04:43Z",
+      "updatedAt": "2026-04-29T02:35:43Z",
       "age": "8m ago"
     },
     {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-down: health failed for https://agricultural-cancel-browsers-amongst.trycloudflare.com",
-      "id": "gascity-lab-o3j0",
+      "text": "tunnel-down: health failed for https://modular-particularly-canal-tent.trycloudflare.com",
+      "id": "gascity-lab-w6gl",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T02:03:56Z",
+      "updatedAt": "2026-04-29T02:34:45Z",
       "age": "9m ago"
     },
     {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "query Heso on Colomba empty-body 200 responses",
+      "id": "gascity-lab-8kh6",
+      "status": "open",
+      "priority": 1,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T02:34:34Z",
+      "age": "9m ago"
+    },
+    {
+      "from": "Heso",
+      "type": "task",
+      "text": "status-update tunnel auto-recovery staged awaiting Vapi API key",
+      "id": "gascity-lab-5ih",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T02:33:13Z",
+      "age": "10m ago"
+    },
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "query Mazal: Vapi credential/session route?",
+      "id": "gascity-lab-h1s",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "Mazal",
+      "updatedAt": "2026-04-29T02:33:11Z",
+      "age": "10m ago"
+    },
+    {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-restored: old https://reflected-mapping-various-perl.trycloudflare.com -> new https://agricultural-cancel-browsers-amongst.trycloudflare.com",
-      "id": "gascity-lab-11lu",
+      "text": "tunnel-restored: old https://mix-sent-floppy-katrina.trycloudflare.com -> new https://modular-particularly-canal-tent.trycloudflare.com",
+      "id": "gascity-lab-lzqp",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:59:11Z",
+      "updatedAt": "2026-04-29T02:30:31Z",
+      "age": "13m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://mix-sent-floppy-katrina.trycloudflare.com",
+      "id": "gascity-lab-vc8q",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T02:29:38Z",
       "age": "14m ago"
     },
     {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-down: health failed for https://reflected-mapping-various-perl.trycloudflare.com",
-      "id": "gascity-lab-j5ix",
+      "text": "tunnel-restored: old https://ends-vault-institution-creations.trycloudflare.com -> new https://mix-sent-floppy-katrina.trycloudflare.com",
+      "id": "gascity-lab-m844",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:58:55Z",
-      "age": "14m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://gras-seats-tea-replaced.trycloudflare.com -> new https://reflected-mapping-various-perl.trycloudflare.com",
-      "id": "gascity-lab-x97m",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:54:38Z",
+      "updatedAt": "2026-04-29T02:25:15Z",
       "age": "18m ago"
     },
     {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-down: health failed for https://gras-seats-tea-replaced.trycloudflare.com",
-      "id": "gascity-lab-b982",
+      "text": "tunnel-down: health failed for https://ends-vault-institution-creations.trycloudflare.com",
+      "id": "gascity-lab-fk4f",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:53:52Z",
+      "updatedAt": "2026-04-29T02:24:23Z",
       "age": "19m ago"
     },
     {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-restored: old https://matthew-developing-paso-developed.trycloudflare.com -> new https://gras-seats-tea-replaced.trycloudflare.com",
-      "id": "gascity-lab-a4o4",
+      "text": "tunnel-restored: old https://cited-advisors-slides-hammer.trycloudflare.com -> new https://ends-vault-institution-creations.trycloudflare.com",
+      "id": "gascity-lab-sz6n",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:49:31Z",
+      "updatedAt": "2026-04-29T02:20:10Z",
       "age": "23m ago"
     },
     {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-down: health failed for https://matthew-developing-paso-developed.trycloudflare.com",
-      "id": "gascity-lab-jfn1",
+      "text": "tunnel-down: health failed for https://cited-advisors-slides-hammer.trycloudflare.com",
+      "id": "gascity-lab-04u3",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:48:45Z",
+      "updatedAt": "2026-04-29T02:19:17Z",
       "age": "24m ago"
     },
     {
       "from": "Oscar",
       "type": "task",
-      "text": "tunnel-restored: old https://turtle-spray-snap-dennis.trycloudflare.com -> new https://matthew-developing-paso-developed.trycloudflare.com",
-      "id": "gascity-lab-qx5n",
+      "text": "tunnel-restored: old https://reservation-athletic-marked-senior.trycloudflare.com -> new https://cited-advisors-slides-hammer.trycloudflare.com",
+      "id": "gascity-lab-zbnh",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:44:29Z",
+      "updatedAt": "2026-04-29T02:14:58Z",
       "age": "28m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://turtle-spray-snap-dennis.trycloudflare.com",
-      "id": "gascity-lab-k06i",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:43:38Z",
-      "age": "29m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://echo-pavilion-transparency-morrison.trycloudflare.com -> new https://turtle-spray-snap-dennis.trycloudflare.com",
-      "id": "gascity-lab-va00",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:39:18Z",
-      "age": "34m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://echo-pavilion-transparency-morrison.trycloudflare.com",
-      "id": "gascity-lab-ij67",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T01:38:31Z",
-      "age": "34m ago"
     }
   ],
   "health": [
@@ -300,7 +300,14 @@
       "stateLabel": "LIVE"
     }
   ],
-  "queries": [],
+  "queries": [
+    {
+      "from": "Oscar Worker",
+      "to": "Heso",
+      "text": "query Heso on Colomba empty-body 200 responses",
+      "age": "9m ago"
+    }
+  ],
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
