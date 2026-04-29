@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T17:02:47Z",
+  "generatedAt": "2026-04-29T17:33:07Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,9 +13,9 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-29T17:02:47Z",
-      "lastSuccessAt": "2026-04-29T17:00:02Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://republicans-buddy-attorney-dispatched.trycloudflare.com -> new https://wallpapers-coast-rest-offshore.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T17:33:07Z",
+      "lastSuccessAt": "2026-04-29T17:30:37Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://obituaries-wet-fitted-attend.trycloudflare.com -> new https://tobago-province-sequence-tops.trycloudflare.com",
       "currentTask": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
       "task": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
       "progress": 88,
@@ -30,9 +30,9 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T17:02:47Z",
-      "lastSuccessAt": "2026-04-29T17:00:02Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://republicans-buddy-attorney-dispatched.trycloudflare.com -> new https://wallpapers-coast-rest-offshore.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T17:33:07Z",
+      "lastSuccessAt": "2026-04-29T17:30:37Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://obituaries-wet-fitted-attend.trycloudflare.com -> new https://tobago-province-sequence-tops.trycloudflare.com",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
@@ -47,9 +47,9 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-29T17:02:47Z",
-      "lastSuccessAt": "2026-04-29T17:00:02Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://republicans-buddy-attorney-dispatched.trycloudflare.com -> new https://wallpapers-coast-rest-offshore.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-29T17:33:07Z",
+      "lastSuccessAt": "2026-04-29T17:30:37Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://obituaries-wet-fitted-attend.trycloudflare.com -> new https://tobago-province-sequence-tops.trycloudflare.com",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
@@ -116,13 +116,145 @@
     {
       "from": "Oscar",
       "type": "task",
+      "text": "tunnel-restored: old https://obituaries-wet-fitted-attend.trycloudflare.com -> new https://tobago-province-sequence-tops.trycloudflare.com",
+      "id": "gascity-lab-bdgm",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:30:37Z",
+      "age": "2m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://obituaries-wet-fitted-attend.trycloudflare.com",
+      "id": "gascity-lab-h08x",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:28:59Z",
+      "age": "4m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://submitted-possible-derek-knowledge.trycloudflare.com -> new https://obituaries-wet-fitted-attend.trycloudflare.com",
+      "id": "gascity-lab-0kqn",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:25:34Z",
+      "age": "7m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://submitted-possible-derek-knowledge.trycloudflare.com",
+      "id": "gascity-lab-juu3",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:23:57Z",
+      "age": "9m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://nancy-direction-hunter-efforts.trycloudflare.com -> new https://submitted-possible-derek-knowledge.trycloudflare.com",
+      "id": "gascity-lab-u92s",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:20:32Z",
+      "age": "12m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://nancy-direction-hunter-efforts.trycloudflare.com",
+      "id": "gascity-lab-jm6u",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:18:50Z",
+      "age": "14m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://perspective-hottest-surgeon-pupils.trycloudflare.com -> new https://nancy-direction-hunter-efforts.trycloudflare.com",
+      "id": "gascity-lab-j3hj",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:15:23Z",
+      "age": "17m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://perspective-hottest-surgeon-pupils.trycloudflare.com",
+      "id": "gascity-lab-906m",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:13:47Z",
+      "age": "19m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://cars-absent-dude-ipod.trycloudflare.com -> new https://perspective-hottest-surgeon-pupils.trycloudflare.com",
+      "id": "gascity-lab-btlm",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:10:18Z",
+      "age": "22m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://cars-absent-dude-ipod.trycloudflare.com",
+      "id": "gascity-lab-4rs4",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:08:44Z",
+      "age": "24m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://wallpapers-coast-rest-offshore.trycloudflare.com -> new https://cars-absent-dude-ipod.trycloudflare.com",
+      "id": "gascity-lab-xpv6",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:05:03Z",
+      "age": "28m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://wallpapers-coast-rest-offshore.trycloudflare.com",
+      "id": "gascity-lab-xkvl",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-29T17:03:25Z",
+      "age": "29m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
       "text": "tunnel-restored: old https://republicans-buddy-attorney-dispatched.trycloudflare.com -> new https://wallpapers-coast-rest-offshore.trycloudflare.com",
       "id": "gascity-lab-vs3y",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T17:00:02Z",
-      "age": "2m ago"
+      "age": "33m ago"
     },
     {
       "from": "Oscar",
@@ -133,138 +265,6 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-29T16:58:25Z",
-      "age": "4m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://apartment-epa-might-weekly.trycloudflare.com -> new https://republicans-buddy-attorney-dispatched.trycloudflare.com",
-      "id": "gascity-lab-j0ww",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:54:59Z",
-      "age": "7m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://apartment-epa-might-weekly.trycloudflare.com",
-      "id": "gascity-lab-5xmc",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:53:19Z",
-      "age": "9m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://stats-mounted-hist-basically.trycloudflare.com -> new https://apartment-epa-might-weekly.trycloudflare.com",
-      "id": "gascity-lab-6c7f",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:49:53Z",
-      "age": "12m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://stats-mounted-hist-basically.trycloudflare.com",
-      "id": "gascity-lab-m5fz",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:48:15Z",
-      "age": "14m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://pierce-pork-silicon-imagine.trycloudflare.com -> new https://stats-mounted-hist-basically.trycloudflare.com",
-      "id": "gascity-lab-fvhu",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:44:47Z",
-      "age": "18m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://pierce-pork-silicon-imagine.trycloudflare.com",
-      "id": "gascity-lab-ev8s",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:43:13Z",
-      "age": "19m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://hose-spencer-traditions-nylon.trycloudflare.com -> new https://pierce-pork-silicon-imagine.trycloudflare.com",
-      "id": "gascity-lab-mpbl",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:39:48Z",
-      "age": "22m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://hose-spencer-traditions-nylon.trycloudflare.com",
-      "id": "gascity-lab-gqsx",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:38:10Z",
-      "age": "24m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://break-bloomberg-rarely-whole.trycloudflare.com -> new https://hose-spencer-traditions-nylon.trycloudflare.com",
-      "id": "gascity-lab-52an",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:34:43Z",
-      "age": "28m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://break-bloomberg-rarely-whole.trycloudflare.com",
-      "id": "gascity-lab-m1by",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:33:04Z",
-      "age": "29m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://momentum-legitimate-search-under.trycloudflare.com -> new https://break-bloomberg-rarely-whole.trycloudflare.com",
-      "id": "gascity-lab-1uo9",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:29:33Z",
-      "age": "33m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://momentum-legitimate-search-under.trycloudflare.com",
-      "id": "gascity-lab-fbw7",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-29T16:28:01Z",
       "age": "34m ago"
     }
   ],
@@ -305,13 +305,13 @@
       "from": "Oscar",
       "to": "Heso",
       "text": "tunnel-restored: old https://necessarily-asked-destinations-questionnaire.trycloudflare.com -> new https://configured-proposals-hopes-volume.trycloudflare.com",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar",
       "to": "Heso",
       "text": "tunnel-down: health failed for https://necessarily-asked-destinations-questionnaire.trycloudflare.com",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar",
