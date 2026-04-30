@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T14:38:35Z",
+  "generatedAt": "2026-04-30T15:10:07Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-30T14:38:35Z",
+      "lastHeartbeatAt": "2026-04-30T15:10:07Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "Run Mazal monitoring pre-pass, then resume Phase 2 reconciliation: cold-start gate/profile-evidence blocker remains; inspect newly done bead-028 a11y audit plus bead-005/bead-006/bead-010-v2 review artifacts before any D",
       "task": "Run Mazal monitoring pre-pass, then resume Phase 2 reconciliation: cold-start gate/profile-evidence blocker remains; inspect newly done bead-028 a11y audit plus bead-005/bead-006/b",
       "progress": 88,
       "blockers": "cold_start_gate_failed_after_3_attempts; per_stage_decomposition_unavailable_xctrace_export_invalid",
-      "lastBead": "11h ago",
+      "lastBead": "12h ago",
       "beadCount": 120
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T14:38:35Z",
+      "lastHeartbeatAt": "2026-04-30T15:10:07Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "11h ago",
+      "lastBead": "12h ago",
       "beadCount": 120
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T14:38:35Z",
+      "lastHeartbeatAt": "2026-04-30T15:10:07Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "11h ago",
+      "lastBead": "12h ago",
       "beadCount": 0
     }
   ],
@@ -122,7 +122,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T03:00:00Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
@@ -133,7 +133,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:59:16Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
@@ -144,7 +144,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:57:44Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
@@ -155,7 +155,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:54:07Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
@@ -166,7 +166,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:52:40Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
@@ -177,7 +177,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:49:14Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
@@ -188,7 +188,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:47:36Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
@@ -199,7 +199,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:44:02Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
@@ -210,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:42:33Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
@@ -221,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:38:51Z",
-      "age": "11h ago"
+      "age": "12h ago"
     },
     {
       "from": "Oscar",
