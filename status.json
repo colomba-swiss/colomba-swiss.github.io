@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T17:11:56Z",
+  "generatedAt": "2026-04-30T17:42:16Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,7 +13,7 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-30T17:11:56Z",
+      "lastHeartbeatAt": "2026-04-30T17:42:16Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "Run Mazal monitoring pre-pass, then resume Phase 2 reconciliation: cold-start gate/profile-evidence blocker remains; inspect newly done bead-028 a11y audit plus bead-005/bead-006/bead-010-v2 review artifacts before any D",
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T17:11:56Z",
+      "lastHeartbeatAt": "2026-04-30T17:42:16Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,7 +47,7 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T17:11:56Z",
+      "lastHeartbeatAt": "2026-04-30T17:42:16Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
@@ -221,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:38:51Z",
-      "age": "14h ago"
+      "age": "15h ago"
     },
     {
       "from": "Oscar",
@@ -232,7 +232,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:37:23Z",
-      "age": "14h ago"
+      "age": "15h ago"
     },
     {
       "from": "Oscar",
@@ -243,7 +243,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:34:08Z",
-      "age": "14h ago"
+      "age": "15h ago"
     },
     {
       "from": "Oscar",
@@ -254,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:32:22Z",
-      "age": "14h ago"
+      "age": "15h ago"
     },
     {
       "from": "Oscar",
@@ -265,7 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:28:47Z",
-      "age": "14h ago"
+      "age": "15h ago"
     }
   ],
   "health": [
