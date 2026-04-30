@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T05:14:22Z",
+  "generatedAt": "2026-04-30T05:44:42Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,11 +13,11 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-30T05:14:22Z",
+      "lastHeartbeatAt": "2026-04-30T05:44:42Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
-      "currentTask": "On next turn: run Mazal monitoring pre-pass, regenerate DASHBOARD.md, then either activate heso-cc bottleneck bridge for unblocked compile_required=false beads or fix profiling instrumentation before any cold-start patch",
-      "task": "On next turn: run Mazal monitoring pre-pass, regenerate DASHBOARD.md, then either activate heso-cc bottleneck bridge for unblocked compile_required=false beads or fix profiling ins",
+      "currentTask": "Run Mazal monitoring pre-pass and dashboard regen. Phase 2 now has bead-005 done per claims and new bead-028 a11y audit critical for DONE_PHASE2; cold-start still requires profile-first/Papu decision. Do not mark DONE_PH",
+      "task": "Run Mazal monitoring pre-pass and dashboard regen. Phase 2 now has bead-005 done per claims and new bead-028 a11y audit critical for DONE_PHASE2; cold-start still requires profile-",
       "progress": 88,
       "blockers": "cold_start_gate_failed_after_3_attempts; per_stage_decomposition_unavailable_xctrace_export_invalid",
       "lastBead": "2h ago",
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T05:14:22Z",
+      "lastHeartbeatAt": "2026-04-30T05:44:42Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,7 +47,7 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T05:14:22Z",
+      "lastHeartbeatAt": "2026-04-30T05:44:42Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
@@ -199,7 +199,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:44:02Z",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar",
@@ -210,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:42:33Z",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar",
@@ -221,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:38:51Z",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar",
@@ -232,7 +232,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:37:23Z",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar",
@@ -243,7 +243,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:34:08Z",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar",
@@ -254,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:32:22Z",
-      "age": "2h ago"
+      "age": "3h ago"
     },
     {
       "from": "Oscar",
@@ -265,7 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:28:47Z",
-      "age": "2h ago"
+      "age": "3h ago"
     }
   ],
   "health": [
@@ -304,13 +304,12 @@
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
-    "activeTask": "Customer iOS App Phase 2 — Swiss-watch workflow active; cold-start blocked pending profileable stage evidence/Papu decision",
-    "nextAction": "On next turn: run Mazal monitoring pre-pass, regenerate DASHBOARD.md, then either activate heso-cc bottleneck bridge for unblocked compile_required=false beads or fix profiling instrumentation before any cold-start patch. Do not mark DONE_PHASE2.",
+    "activeTask": "Customer iOS App Phase 2 — dashboard-first workflow; Papu-Claude batch intake active",
+    "nextAction": "Run Mazal monitoring pre-pass and dashboard regen. Phase 2 now has bead-005 done per claims and new bead-028 a11y audit critical for DONE_PHASE2; cold-start still requires profile-first/Papu decision. Do not mark DONE_PHASE2 until all dashboard gates reconcile.",
     "blockers": [
       "cold_start_gate_failed_after_3_attempts",
       "per_stage_decomposition_unavailable_xctrace_export_invalid",
-      "bead-mazal-005_review_pending",
-      "mazal_lanes_stale_or_dead"
+      "bead-mazal-028_a11y_audit_pending"
     ]
   }
 }
