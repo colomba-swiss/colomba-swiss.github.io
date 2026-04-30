@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T04:13:41Z",
+  "generatedAt": "2026-04-30T04:43:59Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,11 +13,11 @@
       "machine": "Adrian’s Mac mini",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-30T04:13:41Z",
+      "lastHeartbeatAt": "2026-04-30T04:43:59Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
-      "currentTask": "Run next honest fix: either revert/replace harmful RootView attempt or add reliable signpost/xctrace stage timing, then isolate auth UI/type loading from first-frame path if confirmed. Do not mark DONE_PHASE2 until cold-",
-      "task": "Run next honest fix: either revert/replace harmful RootView attempt or add reliable signpost/xctrace stage timing, then isolate auth UI/type loading from first-frame path if confir",
+      "currentTask": "Attempt 3: isolate P2 auth UI/type loading from the first-frame graph, deferring AuthRootHost/ColombaAuth materialization behind a post-first-frame factory while preserving async keychain/session restore; then N=30 measu",
+      "task": "Attempt 3: isolate P2 auth UI/type loading from the first-frame graph, deferring AuthRootHost/ColombaAuth materialization behind a post-first-frame factory while preserving async k",
       "progress": 88,
       "blockers": null,
       "lastBead": "1h ago",
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T04:13:41Z",
+      "lastHeartbeatAt": "2026-04-30T04:43:59Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,7 +47,7 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T04:13:41Z",
+      "lastHeartbeatAt": "2026-04-30T04:43:59Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
@@ -210,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:42:33Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "Oscar",
@@ -221,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:38:51Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "Oscar",
@@ -232,7 +232,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:37:23Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "Oscar",
@@ -243,7 +243,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:34:08Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "Oscar",
@@ -254,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:32:22Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "Oscar",
@@ -265,7 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:28:47Z",
-      "age": "1h ago"
+      "age": "2h ago"
     }
   ],
   "health": [
@@ -304,8 +304,8 @@
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
-    "activeTask": "Customer iOS App Phase 2 — cold-start round 2 + Mazal review prep",
-    "nextAction": "Run next honest fix: either revert/replace harmful RootView attempt or add reliable signpost/xctrace stage timing, then isolate auth UI/type loading from first-frame path if confirmed. Do not mark DONE_PHASE2 until cold-start gate and Mazal review pass.",
+    "activeTask": "Customer iOS App Phase 2 — cold-start attempt 3 pending + Mazal review wait",
+    "nextAction": "Attempt 3: isolate P2 auth UI/type loading from the first-frame graph, deferring AuthRootHost/ColombaAuth materialization behind a post-first-frame factory while preserving async keychain/session restore; then N=30 measure and update packet. Do not mark DONE_PHASE2 until cold-start gate and Mazal bead-005 review pass.",
     "blockers": []
   }
 }
