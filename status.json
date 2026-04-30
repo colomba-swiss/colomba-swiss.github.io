@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T03:43:19Z",
+  "generatedAt": "2026-04-30T04:13:41Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-30T03:43:19Z",
+      "lastHeartbeatAt": "2026-04-30T04:13:41Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
-      "currentTask": "Wait for Papu to steer Phase 3 or create a new active task; use /Users/hesoyam/colomba-drive/customer-app/handoffs/phase02-to-phase03.md as the input.",
-      "task": "Wait for Papu to steer Phase 3 or create a new active task; use /Users/hesoyam/colomba-drive/customer-app/handoffs/phase02-to-phase03.md as the input.",
+      "currentTask": "Run next honest fix: either revert/replace harmful RootView attempt or add reliable signpost/xctrace stage timing, then isolate auth UI/type loading from first-frame path if confirmed. Do not mark DONE_PHASE2 until cold-",
+      "task": "Run next honest fix: either revert/replace harmful RootView attempt or add reliable signpost/xctrace stage timing, then isolate auth UI/type loading from first-frame path if confir",
       "progress": 88,
       "blockers": null,
-      "lastBead": "43m ago",
+      "lastBead": "1h ago",
       "beadCount": 120
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T03:43:19Z",
+      "lastHeartbeatAt": "2026-04-30T04:13:41Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "43m ago",
+      "lastBead": "1h ago",
       "beadCount": 120
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T03:43:19Z",
+      "lastHeartbeatAt": "2026-04-30T04:13:41Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "43m ago",
+      "lastBead": "1h ago",
       "beadCount": 0
     }
   ],
@@ -122,7 +122,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T03:00:00Z",
-      "age": "43m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -133,7 +133,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:59:16Z",
-      "age": "44m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -144,7 +144,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:57:44Z",
-      "age": "45m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -155,7 +155,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:54:07Z",
-      "age": "49m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -166,7 +166,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:52:40Z",
-      "age": "50m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -177,7 +177,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:49:14Z",
-      "age": "54m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -188,7 +188,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:47:36Z",
-      "age": "55m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -199,7 +199,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:44:02Z",
-      "age": "59m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -304,8 +304,8 @@
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
-    "activeTask": "Customer iOS App Phase 2 — auth-only implementation",
-    "nextAction": "Wait for Papu to steer Phase 3 or create a new active task; use /Users/hesoyam/colomba-drive/customer-app/handoffs/phase02-to-phase03.md as the input.",
+    "activeTask": "Customer iOS App Phase 2 — cold-start round 2 + Mazal review prep",
+    "nextAction": "Run next honest fix: either revert/replace harmful RootView attempt or add reliable signpost/xctrace stage timing, then isolate auth UI/type loading from first-frame path if confirmed. Do not mark DONE_PHASE2 until cold-start gate and Mazal review pass.",
     "blockers": []
   }
 }
