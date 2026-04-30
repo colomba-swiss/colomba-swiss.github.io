@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T02:11:51Z",
+  "generatedAt": "2026-04-30T02:42:38Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -11,15 +11,15 @@
       "name": "Heso",
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
-      "status": "blocked",
-      "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-04-30T02:11:51Z",
-      "lastSuccessAt": "2026-04-30T02:08:30Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://vcr-dvd-labour-develop.trycloudflare.com -> new https://imported-volume-frequently-market.trycloudflare.com",
-      "currentTask": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
-      "task": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
+      "status": "active",
+      "heartbeat": "green",
+      "lastHeartbeatAt": "2026-04-30T02:42:38Z",
+      "lastSuccessAt": "2026-04-30T02:38:51Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://complicated-therapeutic-gordon-creation.trycloudflare.com -> new https://census-weather-brandon-blues.trycloudflare.com",
+      "currentTask": "Continue cold-start profile/fix to resolve >5% regression from 154ms, then rerun full gates and update Phase 2 ledger/handoff; do not mark DONE_PHASE2 until cold-start and Mazal/degraded-lane review gate are satisfied.",
+      "task": "Continue cold-start profile/fix to resolve >5% regression from 154ms, then rerun full gates and update Phase 2 ledger/handoff; do not mark DONE_PHASE2 until cold-start and Mazal/de",
       "progress": 88,
-      "blockers": "Item C: 6 webhook fixtures pass offline, but live auto-send was not deployed because Oscar n8n lacks outbound email credential, Stripe webhook signing-secret env, and production workflow implementation.; Legal pages with placeholder values are staged but still require Papu/operator review before production push.",
+      "blockers": null,
       "lastBead": "3m ago",
       "beadCount": 120
     },
@@ -30,9 +30,9 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T02:11:51Z",
-      "lastSuccessAt": "2026-04-30T02:08:30Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://vcr-dvd-labour-develop.trycloudflare.com -> new https://imported-volume-frequently-market.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-30T02:42:38Z",
+      "lastSuccessAt": "2026-04-30T02:38:51Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://complicated-therapeutic-gordon-creation.trycloudflare.com -> new https://census-weather-brandon-blues.trycloudflare.com",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
@@ -47,9 +47,9 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T02:11:51Z",
-      "lastSuccessAt": "2026-04-30T02:08:30Z",
-      "lastSuccessfulAction": "tunnel-restored: old https://vcr-dvd-labour-develop.trycloudflare.com -> new https://imported-volume-frequently-market.trycloudflare.com",
+      "lastHeartbeatAt": "2026-04-30T02:42:38Z",
+      "lastSuccessAt": "2026-04-30T02:38:51Z",
+      "lastSuccessfulAction": "tunnel-restored: old https://complicated-therapeutic-gordon-creation.trycloudflare.com -> new https://census-weather-brandon-blues.trycloudflare.com",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
@@ -116,13 +116,145 @@
     {
       "from": "Oscar",
       "type": "task",
+      "text": "tunnel-restored: old https://complicated-therapeutic-gordon-creation.trycloudflare.com -> new https://census-weather-brandon-blues.trycloudflare.com",
+      "id": "gascity-lab-xahh",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:38:51Z",
+      "age": "3m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://complicated-therapeutic-gordon-creation.trycloudflare.com",
+      "id": "gascity-lab-wf8i",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:37:23Z",
+      "age": "5m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://corporate-simulation-municipality-limitation.trycloudflare.com -> new https://complicated-therapeutic-gordon-creation.trycloudflare.com",
+      "id": "gascity-lab-z6rp",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:34:08Z",
+      "age": "8m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://corporate-simulation-municipality-limitation.trycloudflare.com",
+      "id": "gascity-lab-c5g7",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:32:22Z",
+      "age": "10m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://ambien-momentum-texas-hardware.trycloudflare.com -> new https://corporate-simulation-municipality-limitation.trycloudflare.com",
+      "id": "gascity-lab-b7ct",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:28:47Z",
+      "age": "13m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://ambien-momentum-texas-hardware.trycloudflare.com",
+      "id": "gascity-lab-i5uy",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:27:14Z",
+      "age": "15m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://reprints-upon-advocate-rows.trycloudflare.com -> new https://ambien-momentum-texas-hardware.trycloudflare.com",
+      "id": "gascity-lab-nmnr",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:23:44Z",
+      "age": "18m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://reprints-upon-advocate-rows.trycloudflare.com",
+      "id": "gascity-lab-b2wh",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:22:10Z",
+      "age": "20m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://gap-emacs-jump-celebs.trycloudflare.com -> new https://reprints-upon-advocate-rows.trycloudflare.com",
+      "id": "gascity-lab-vm0r",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:18:41Z",
+      "age": "23m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://gap-emacs-jump-celebs.trycloudflare.com",
+      "id": "gascity-lab-vpxt",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:17:06Z",
+      "age": "25m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-restored: old https://imported-volume-frequently-market.trycloudflare.com -> new https://gap-emacs-jump-celebs.trycloudflare.com",
+      "id": "gascity-lab-bk6m",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:13:35Z",
+      "age": "29m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
+      "text": "tunnel-down: health failed for https://imported-volume-frequently-market.trycloudflare.com",
+      "id": "gascity-lab-vqpf",
+      "status": "open",
+      "priority": 0,
+      "assignee": "Heso",
+      "updatedAt": "2026-04-30T02:12:02Z",
+      "age": "30m ago"
+    },
+    {
+      "from": "Oscar",
+      "type": "task",
       "text": "tunnel-restored: old https://vcr-dvd-labour-develop.trycloudflare.com -> new https://imported-volume-frequently-market.trycloudflare.com",
       "id": "gascity-lab-chkr",
       "status": "open",
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:08:30Z",
-      "age": "3m ago"
+      "age": "34m ago"
     },
     {
       "from": "Oscar",
@@ -133,138 +265,6 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:06:57Z",
-      "age": "4m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://promo-die-houston-mtv.trycloudflare.com -> new https://vcr-dvd-labour-develop.trycloudflare.com",
-      "id": "gascity-lab-d2ks",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T02:03:27Z",
-      "age": "8m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://promo-die-houston-mtv.trycloudflare.com",
-      "id": "gascity-lab-uwzi",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T02:01:53Z",
-      "age": "9m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://sit-magnitude-voters-sol.trycloudflare.com -> new https://promo-die-houston-mtv.trycloudflare.com",
-      "id": "gascity-lab-euxj",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:58:20Z",
-      "age": "13m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://sit-magnitude-voters-sol.trycloudflare.com",
-      "id": "gascity-lab-vyew",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:56:48Z",
-      "age": "15m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://hanging-author-effects-classics.trycloudflare.com -> new https://sit-magnitude-voters-sol.trycloudflare.com",
-      "id": "gascity-lab-6nbk",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:53:21Z",
-      "age": "18m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://hanging-author-effects-classics.trycloudflare.com",
-      "id": "gascity-lab-7oax",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:51:44Z",
-      "age": "20m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://criterion-beliefs-producers-cas.trycloudflare.com -> new https://hanging-author-effects-classics.trycloudflare.com",
-      "id": "gascity-lab-toc1",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:47:14Z",
-      "age": "24m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://criterion-beliefs-producers-cas.trycloudflare.com",
-      "id": "gascity-lab-2w6t",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:46:42Z",
-      "age": "25m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://clicking-showing-racks-prime.trycloudflare.com -> new https://criterion-beliefs-producers-cas.trycloudflare.com",
-      "id": "gascity-lab-h2c3",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:46:13Z",
-      "age": "25m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://clicking-showing-racks-prime.trycloudflare.com",
-      "id": "gascity-lab-2mxk",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:41:35Z",
-      "age": "30m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://reserve-pictures-excel-font.trycloudflare.com -> new https://clicking-showing-racks-prime.trycloudflare.com",
-      "id": "gascity-lab-ogoj",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:40:46Z",
-      "age": "31m ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://reserve-pictures-excel-font.trycloudflare.com",
-      "id": "gascity-lab-h0z5",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T01:36:24Z",
       "age": "35m ago"
     }
   ],
@@ -304,11 +304,8 @@
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
-    "activeTask": "Colomba overnight federation push — 2026-04-29",
-    "nextAction": "If continuing before a new Papu decision, stay on Heso-side docs/QA/review packets only; do not send outreach, push production, or deploy webhook/Vapi changes.",
-    "blockers": [
-      "Item C: 6 webhook fixtures pass offline, but live auto-send was not deployed because Oscar n8n lacks outbound email credential, Stripe webhook signing-secret env, and production workflow implementation.",
-      "Legal pages with placeholder values are staged but still require Papu/operator review before production push."
-    ]
+    "activeTask": "Customer iOS App Phase 2 — auth-only implementation",
+    "nextAction": "Continue cold-start profile/fix to resolve >5% regression from 154ms, then rerun full gates and update Phase 2 ledger/handoff; do not mark DONE_PHASE2 until cold-start and Mazal/degraded-lane review gate are satisfied.",
+    "blockers": []
   }
 }
