@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T03:12:59Z",
+  "generatedAt": "2026-04-30T03:43:19Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-04-30T03:12:59Z",
+      "lastHeartbeatAt": "2026-04-30T03:43:19Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "Wait for Papu to steer Phase 3 or create a new active task; use /Users/hesoyam/colomba-drive/customer-app/handoffs/phase02-to-phase03.md as the input.",
       "task": "Wait for Papu to steer Phase 3 or create a new active task; use /Users/hesoyam/colomba-drive/customer-app/handoffs/phase02-to-phase03.md as the input.",
       "progress": 88,
       "blockers": null,
-      "lastBead": "12m ago",
+      "lastBead": "43m ago",
       "beadCount": 120
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T03:12:59Z",
+      "lastHeartbeatAt": "2026-04-30T03:43:19Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "12m ago",
+      "lastBead": "43m ago",
       "beadCount": 120
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-04-30T03:12:59Z",
+      "lastHeartbeatAt": "2026-04-30T03:43:19Z",
       "lastSuccessAt": "2026-04-30T03:00:00Z",
       "lastSuccessfulAction": "quick-tunnel-followup: decide retire vs isolated config after named-tunnel hotfix",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "12m ago",
+      "lastBead": "43m ago",
       "beadCount": 0
     }
   ],
@@ -122,7 +122,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T03:00:00Z",
-      "age": "12m ago"
+      "age": "43m ago"
     },
     {
       "from": "Oscar",
@@ -133,7 +133,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:59:16Z",
-      "age": "13m ago"
+      "age": "44m ago"
     },
     {
       "from": "Oscar",
@@ -144,7 +144,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:57:44Z",
-      "age": "15m ago"
+      "age": "45m ago"
     },
     {
       "from": "Oscar",
@@ -155,7 +155,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:54:07Z",
-      "age": "18m ago"
+      "age": "49m ago"
     },
     {
       "from": "Oscar",
@@ -166,7 +166,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:52:40Z",
-      "age": "20m ago"
+      "age": "50m ago"
     },
     {
       "from": "Oscar",
@@ -177,7 +177,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:49:14Z",
-      "age": "23m ago"
+      "age": "54m ago"
     },
     {
       "from": "Oscar",
@@ -188,7 +188,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:47:36Z",
-      "age": "25m ago"
+      "age": "55m ago"
     },
     {
       "from": "Oscar",
@@ -199,7 +199,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:44:02Z",
-      "age": "28m ago"
+      "age": "59m ago"
     },
     {
       "from": "Oscar",
@@ -210,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:42:33Z",
-      "age": "30m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -221,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:38:51Z",
-      "age": "34m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -232,7 +232,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:37:23Z",
-      "age": "35m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -243,7 +243,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:34:08Z",
-      "age": "38m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -254,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:32:22Z",
-      "age": "40m ago"
+      "age": "1h ago"
     },
     {
       "from": "Oscar",
@@ -265,7 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:28:47Z",
-      "age": "44m ago"
+      "age": "1h ago"
     }
   ],
   "health": [
