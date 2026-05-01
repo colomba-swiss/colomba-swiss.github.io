@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T04:19:12Z",
+  "generatedAt": "2026-05-01T04:49:30Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -11,16 +11,16 @@
       "name": "Heso",
       "role": "CEO / Lane C driver",
       "machine": "Adrian’s Mac mini",
-      "status": "blocked",
-      "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-05-01T04:19:12Z",
+      "status": "active",
+      "heartbeat": "green",
+      "lastHeartbeatAt": "2026-05-01T04:49:30Z",
       "lastSuccessAt": "2026-05-01T02:43:02Z",
       "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
-      "currentTask": "Run Mazal monitoring pre-pass, then resume Phase 2 reconciliation: cold-start gate/profile-evidence blocker remains; inspect newly done bead-028 a11y audit plus bead-005/bead-006/bead-010-v2 review artifacts before any D",
-      "task": "Run Mazal monitoring pre-pass, then resume Phase 2 reconciliation: cold-start gate/profile-evidence blocker remains; inspect newly done bead-028 a11y audit plus bead-005/bead-006/b",
+      "currentTask": "Coordinate ship loop",
+      "task": "Coordinate ship loop",
       "progress": 88,
-      "blockers": "cold_start_gate_failed_after_3_attempts; per_stage_decomposition_unavailable_xctrace_export_invalid",
-      "lastBead": "1h ago",
+      "blockers": null,
+      "lastBead": "2h ago",
       "beadCount": 120
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-01T04:19:12Z",
+      "lastHeartbeatAt": "2026-05-01T04:49:30Z",
       "lastSuccessAt": "2026-05-01T02:43:02Z",
       "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "1h ago",
+      "lastBead": "2h ago",
       "beadCount": 120
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-01T04:19:12Z",
+      "lastHeartbeatAt": "2026-05-01T04:49:30Z",
       "lastSuccessAt": "2026-05-01T02:43:02Z",
       "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "1h ago",
+      "lastBead": "2h ago",
       "beadCount": 0
     }
   ],
@@ -122,7 +122,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-05-01T02:43:02Z",
-      "age": "1h ago"
+      "age": "2h ago"
     },
     {
       "from": "hesoyam",
@@ -199,7 +199,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:49:14Z",
-      "age": "25h ago"
+      "age": "26h ago"
     },
     {
       "from": "Oscar",
@@ -210,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:47:36Z",
-      "age": "25h ago"
+      "age": "26h ago"
     },
     {
       "from": "Oscar",
@@ -221,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:44:02Z",
-      "age": "25h ago"
+      "age": "26h ago"
     },
     {
       "from": "Oscar",
@@ -232,7 +232,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:42:33Z",
-      "age": "25h ago"
+      "age": "26h ago"
     },
     {
       "from": "Oscar",
@@ -243,7 +243,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:38:51Z",
-      "age": "25h ago"
+      "age": "26h ago"
     },
     {
       "from": "Oscar",
@@ -254,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:37:23Z",
-      "age": "25h ago"
+      "age": "26h ago"
     },
     {
       "from": "Oscar",
@@ -265,7 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:34:08Z",
-      "age": "25h ago"
+      "age": "26h ago"
     }
   ],
   "health": [
@@ -305,20 +305,14 @@
       "from": "Oscar Worker",
       "to": "Heso",
       "text": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
-      "age": "1h ago"
+      "age": "2h ago"
     }
   ],
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
-    "activeTask": "Customer iOS App Phase 2 — dashboard-first workflow; Papu-Claude batch 6 complete",
-    "nextAction": "Run Mazal monitoring pre-pass, then resume Phase 2 reconciliation: cold-start gate/profile-evidence blocker remains; inspect newly done bead-028 a11y audit plus bead-005/bead-006/bead-010-v2 review artifacts before any DONE_PHASE2 decision. Queue Batch 7 if/when Papu-Claude produces beads 018+019.",
-    "blockers": [
-      "cold_start_gate_failed_after_3_attempts",
-      "per_stage_decomposition_unavailable_xctrace_export_invalid",
-      "bead-mazal-041_error_catalog_wiring_pending",
-      "bead-mazal-042_error_i18n_pending",
-      "feature_flags_and_logging_downstream_045_048_pending"
-    ]
+    "activeTask": null,
+    "nextAction": null,
+    "blockers": []
   }
 }
