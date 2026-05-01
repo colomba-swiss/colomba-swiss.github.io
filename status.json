@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T02:17:47Z",
+  "generatedAt": "2026-05-01T02:48:10Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "blocked",
       "heartbeat": "amber",
-      "lastHeartbeatAt": "2026-05-01T02:17:47Z",
-      "lastSuccessAt": "2026-04-30T20:12:22Z",
-      "lastSuccessfulAction": "Oscar: one non-prompt ElevenLabs pronunciation QA attempt",
+      "lastHeartbeatAt": "2026-05-01T02:48:10Z",
+      "lastSuccessAt": "2026-05-01T02:43:02Z",
+      "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "Run Mazal monitoring pre-pass, then resume Phase 2 reconciliation: cold-start gate/profile-evidence blocker remains; inspect newly done bead-028 a11y audit plus bead-005/bead-006/bead-010-v2 review artifacts before any D",
       "task": "Run Mazal monitoring pre-pass, then resume Phase 2 reconciliation: cold-start gate/profile-evidence blocker remains; inspect newly done bead-028 a11y audit plus bead-005/bead-006/b",
       "progress": 88,
       "blockers": "cold_start_gate_failed_after_3_attempts; per_stage_decomposition_unavailable_xctrace_export_invalid",
-      "lastBead": "6h ago",
+      "lastBead": "5m ago",
       "beadCount": 120
     },
     {
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-01T02:17:47Z",
-      "lastSuccessAt": "2026-04-30T20:12:22Z",
-      "lastSuccessfulAction": "Oscar: one non-prompt ElevenLabs pronunciation QA attempt",
+      "lastHeartbeatAt": "2026-05-01T02:48:10Z",
+      "lastSuccessAt": "2026-05-01T02:43:02Z",
+      "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "6h ago",
+      "lastBead": "5m ago",
       "beadCount": 120
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-01T02:17:47Z",
-      "lastSuccessAt": "2026-04-30T20:12:22Z",
-      "lastSuccessfulAction": "Oscar: one non-prompt ElevenLabs pronunciation QA attempt",
+      "lastHeartbeatAt": "2026-05-01T02:48:10Z",
+      "lastSuccessAt": "2026-05-01T02:43:02Z",
+      "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "6h ago",
+      "lastBead": "5m ago",
       "beadCount": 0
     }
   ],
@@ -113,6 +113,17 @@
     ]
   },
   "feed": [
+    {
+      "from": "Oscar Worker",
+      "type": "task",
+      "text": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
+      "id": "gascity-lab-pt59",
+      "status": "open",
+      "priority": 1,
+      "assignee": "Heso",
+      "updatedAt": "2026-05-01T02:43:02Z",
+      "age": "5m ago"
+    },
     {
       "from": "hesoyam",
       "type": "task",
@@ -199,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:47:36Z",
-      "age": "23h ago"
+      "age": "24h ago"
     },
     {
       "from": "Oscar",
@@ -210,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:44:02Z",
-      "age": "23h ago"
+      "age": "24h ago"
     },
     {
       "from": "Oscar",
@@ -221,7 +232,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:42:33Z",
-      "age": "23h ago"
+      "age": "24h ago"
     },
     {
       "from": "Oscar",
@@ -232,7 +243,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:38:51Z",
-      "age": "23h ago"
+      "age": "24h ago"
     },
     {
       "from": "Oscar",
@@ -243,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:37:23Z",
-      "age": "23h ago"
+      "age": "24h ago"
     },
     {
       "from": "Oscar",
@@ -254,18 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:34:08Z",
-      "age": "23h ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-down: health failed for https://corporate-simulation-municipality-limitation.trycloudflare.com",
-      "id": "gascity-lab-c5g7",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T02:32:22Z",
-      "age": "23h ago"
+      "age": "24h ago"
     }
   ],
   "health": [
@@ -300,7 +300,14 @@
       "stateLabel": "LIVE"
     }
   ],
-  "queries": [],
+  "queries": [
+    {
+      "from": "Oscar Worker",
+      "to": "Heso",
+      "text": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
+      "age": "5m ago"
+    }
+  ],
   "federation": {
     "mode": "solo-shift push",
     "lastOperatorDirective": "Papu 2026-04-27 09:53 CEST: ship visible output every 30-60 min",
