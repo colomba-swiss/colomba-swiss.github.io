@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T02:47:01Z",
+  "generatedAt": "2026-05-03T03:17:20Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,7 +13,7 @@
       "machine": "Adrian’s Mac mini",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-05-03T02:47:01Z",
+      "lastHeartbeatAt": "2026-05-03T03:17:20Z",
       "lastSuccessAt": "2026-05-01T02:43:02Z",
       "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "Coordinate ship loop",
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-03T02:47:01Z",
+      "lastHeartbeatAt": "2026-05-03T03:17:20Z",
       "lastSuccessAt": "2026-05-01T02:43:02Z",
       "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,7 +47,7 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-03T02:47:01Z",
+      "lastHeartbeatAt": "2026-05-03T03:17:20Z",
       "lastSuccessAt": "2026-05-01T02:43:02Z",
       "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
@@ -144,7 +144,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T03:00:00Z",
-      "age": "2d ago"
+      "age": "3d ago"
     },
     {
       "from": "Oscar",
@@ -155,7 +155,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:59:16Z",
-      "age": "2d ago"
+      "age": "3d ago"
     },
     {
       "from": "Oscar",
@@ -166,7 +166,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:57:44Z",
-      "age": "2d ago"
+      "age": "3d ago"
     },
     {
       "from": "Oscar",
@@ -177,7 +177,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:54:07Z",
-      "age": "2d ago"
+      "age": "3d ago"
     },
     {
       "from": "Oscar",
@@ -188,7 +188,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:52:40Z",
-      "age": "2d ago"
+      "age": "3d ago"
     },
     {
       "from": "Oscar",
@@ -199,7 +199,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:49:14Z",
-      "age": "2d ago"
+      "age": "3d ago"
     },
     {
       "from": "Oscar",
@@ -210,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:47:36Z",
-      "age": "2d ago"
+      "age": "3d ago"
     },
     {
       "from": "Oscar",
