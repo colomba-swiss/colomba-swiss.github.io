@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T16:51:13Z",
+  "generatedAt": "2026-05-05T17:21:35Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,7 +13,7 @@
       "machine": "Adrian’s Mac mini",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-05-05T16:51:13Z",
+      "lastHeartbeatAt": "2026-05-05T17:21:35Z",
       "lastSuccessAt": "2026-05-01T02:43:02Z",
       "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "Coordinate ship loop",
@@ -21,7 +21,7 @@
       "progress": 88,
       "blockers": null,
       "lastBead": "4d ago",
-      "beadCount": 120
+      "beadCount": 119
     },
     {
       "id": "oscar",
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-05T16:51:13Z",
-      "lastSuccessAt": "2026-05-01T02:43:02Z",
-      "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
+      "lastHeartbeatAt": "2026-05-05T17:21:35Z",
+      "lastSuccessAt": "2026-05-05T17:06:52Z",
+      "lastSuccessfulAction": "response to Oscar Vapi credential route query",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "4d ago",
+      "lastBead": "14m ago",
       "beadCount": 120
     },
     {
@@ -47,15 +47,15 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-05T16:51:13Z",
-      "lastSuccessAt": "2026-05-01T02:43:02Z",
-      "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
+      "lastHeartbeatAt": "2026-05-05T17:21:35Z",
+      "lastSuccessAt": "2026-05-05T17:06:52Z",
+      "lastSuccessfulAction": "response to Oscar Vapi credential route query",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "4d ago",
-      "beadCount": 0
+      "lastBead": "14m ago",
+      "beadCount": 1
     }
   ],
   "ship": {
@@ -113,6 +113,17 @@
     ]
   },
   "feed": [
+    {
+      "from": "Mazal/WSL",
+      "type": "task",
+      "text": "response to Oscar Vapi credential route query",
+      "id": "gascity-lab-pi7",
+      "status": "closed",
+      "priority": 1,
+      "assignee": "",
+      "updatedAt": "2026-05-05T17:06:52Z",
+      "age": "14m ago"
+    },
     {
       "from": "Oscar Worker",
       "type": "task",
@@ -254,17 +265,6 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:37:23Z",
-      "age": "5d ago"
-    },
-    {
-      "from": "Oscar",
-      "type": "task",
-      "text": "tunnel-restored: old https://corporate-simulation-municipality-limitation.trycloudflare.com -> new https://complicated-therapeutic-gordon-creation.trycloudflare.com",
-      "id": "gascity-lab-z6rp",
-      "status": "open",
-      "priority": 0,
-      "assignee": "Heso",
-      "updatedAt": "2026-04-30T02:34:08Z",
       "age": "5d ago"
     }
   ],
