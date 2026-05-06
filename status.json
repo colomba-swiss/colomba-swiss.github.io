@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T02:27:15Z",
+  "generatedAt": "2026-05-06T02:57:36Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,14 +13,14 @@
       "machine": "Adrian’s Mac mini",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-05-06T02:27:15Z",
+      "lastHeartbeatAt": "2026-05-06T02:57:36Z",
       "lastSuccessAt": "2026-05-01T02:43:02Z",
       "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "Coordinate ship loop",
       "task": "Coordinate ship loop",
       "progress": 88,
       "blockers": null,
-      "lastBead": "4d ago",
+      "lastBead": "5d ago",
       "beadCount": 119
     },
     {
@@ -30,7 +30,7 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-06T02:27:15Z",
+      "lastHeartbeatAt": "2026-05-06T02:57:36Z",
       "lastSuccessAt": "2026-05-05T17:06:52Z",
       "lastSuccessfulAction": "response to Oscar Vapi credential route query",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
@@ -47,7 +47,7 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-06T02:27:15Z",
+      "lastHeartbeatAt": "2026-05-06T02:57:36Z",
       "lastSuccessAt": "2026-05-05T17:06:52Z",
       "lastSuccessfulAction": "response to Oscar Vapi credential route query",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
@@ -133,7 +133,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-05-01T02:43:02Z",
-      "age": "4d ago"
+      "age": "5d ago"
     },
     {
       "from": "hesoyam",
@@ -188,7 +188,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:54:07Z",
-      "age": "5d ago"
+      "age": "6d ago"
     },
     {
       "from": "Oscar",
@@ -199,7 +199,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:52:40Z",
-      "age": "5d ago"
+      "age": "6d ago"
     },
     {
       "from": "Oscar",
@@ -210,7 +210,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:49:14Z",
-      "age": "5d ago"
+      "age": "6d ago"
     },
     {
       "from": "Oscar",
@@ -221,7 +221,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:47:36Z",
-      "age": "5d ago"
+      "age": "6d ago"
     },
     {
       "from": "Oscar",
@@ -232,7 +232,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:44:02Z",
-      "age": "5d ago"
+      "age": "6d ago"
     },
     {
       "from": "Oscar",
@@ -243,7 +243,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:42:33Z",
-      "age": "5d ago"
+      "age": "6d ago"
     },
     {
       "from": "Oscar",
@@ -254,7 +254,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:38:51Z",
-      "age": "5d ago"
+      "age": "6d ago"
     },
     {
       "from": "Oscar",
@@ -265,7 +265,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:37:23Z",
-      "age": "5d ago"
+      "age": "6d ago"
     }
   ],
   "health": [
@@ -305,7 +305,7 @@
       "from": "Oscar Worker",
       "to": "Heso",
       "text": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
-      "age": "4d ago"
+      "age": "5d ago"
     }
   ],
   "federation": {
