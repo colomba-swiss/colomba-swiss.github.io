@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T02:57:05Z",
+  "generatedAt": "2026-05-07T03:27:24Z",
   "sprint": {
     "day": 1,
     "total": 4,
@@ -13,7 +13,7 @@
       "machine": "Adrian’s Mac mini",
       "status": "active",
       "heartbeat": "green",
-      "lastHeartbeatAt": "2026-05-07T02:57:05Z",
+      "lastHeartbeatAt": "2026-05-07T03:27:24Z",
       "lastSuccessAt": "2026-05-01T02:43:02Z",
       "lastSuccessfulAction": "query Heso: named-domain public 403/1010 while local n8n stays healthy",
       "currentTask": "Coordinate ship loop",
@@ -30,14 +30,14 @@
       "machine": "ROG Strix Linux",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-07T02:57:05Z",
+      "lastHeartbeatAt": "2026-05-07T03:27:24Z",
       "lastSuccessAt": "2026-05-05T17:06:52Z",
       "lastSuccessfulAction": "response to Oscar Vapi credential route query",
       "currentTask": "n8n/tunnel health + auto-recovery staging",
       "task": "n8n/tunnel health + auto-recovery staging",
       "progress": 82,
       "blockers": null,
-      "lastBead": "33h ago",
+      "lastBead": "34h ago",
       "beadCount": 120
     },
     {
@@ -47,14 +47,14 @@
       "machine": "Windows WSL",
       "status": "offline",
       "heartbeat": "red",
-      "lastHeartbeatAt": "2026-05-07T02:57:05Z",
+      "lastHeartbeatAt": "2026-05-07T03:27:24Z",
       "lastSuccessAt": "2026-05-05T17:06:52Z",
       "lastSuccessfulAction": "response to Oscar Vapi credential route query",
       "currentTask": "Outreach/FAQ/onboarding copy iterations",
       "task": "Outreach/FAQ/onboarding copy iterations",
       "progress": 76,
       "blockers": null,
-      "lastBead": "33h ago",
+      "lastBead": "34h ago",
       "beadCount": 1
     }
   ],
@@ -122,7 +122,7 @@
       "priority": 1,
       "assignee": "",
       "updatedAt": "2026-05-05T17:06:52Z",
-      "age": "33h ago"
+      "age": "34h ago"
     },
     {
       "from": "Oscar Worker",
@@ -155,7 +155,7 @@
       "priority": 1,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T03:00:00Z",
-      "age": "6d ago"
+      "age": "7d ago"
     },
     {
       "from": "Oscar",
@@ -166,7 +166,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:59:16Z",
-      "age": "6d ago"
+      "age": "7d ago"
     },
     {
       "from": "Oscar",
@@ -177,7 +177,7 @@
       "priority": 0,
       "assignee": "Heso",
       "updatedAt": "2026-04-30T02:57:44Z",
-      "age": "6d ago"
+      "age": "7d ago"
     },
     {
       "from": "Oscar",
