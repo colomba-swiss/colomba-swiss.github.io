@@ -1,0 +1,37 @@
+# Colomba — KI-Telefonrezeption für Schweizer Restaurants
+
+> Colomba beantwortet Restaurant-Anrufe auf Schweizerdeutsch, prüft Verfügbarkeit und bucht Reservationen direkt in Google Calendar oder Lunchgate. Schweizer Premium-Service für inhabergeführte Restaurants.
+
+## Hauptseiten
+
+- [Homepage](https://colomba-swiss.ch): Produkt, Demo, Preise, FAQ
+- [AGB](https://colomba-swiss.ch/terms.html): Allgemeine Geschäftsbedingungen
+- [Datenschutz](https://colomba-swiss.ch/privacy.html): Datenschutzerklärung (DSG/FADP-konform)
+
+## Produkt
+
+Colomba ist eine KI-Telefonrezeption speziell für Schweizer Restaurants. Der Sprachassistent nimmt Anrufe auf Schweizerdeutsch entgegen, prüft Verfügbarkeit und erfasst Reservationen automatisch im Google Calendar oder Lunchgate des Restaurants.
+
+**Kernfunktionen:**
+- Anrufannahme auf Schweizerdeutsch, warm und professionell
+- Reservationsbuchung in Google Calendar und Lunchgate
+- Konfigurierbare Öffnungszeiten, Kapazitätsgrenzen und Übergaberegeln
+- DSG/FADP-bewusst, Made in Switzerland
+
+## Preise (Pilot-Angebot, erste 3 Monate)
+
+| Paket   | Pilotpreis       | Regulärpreis ab Monat 4 |
+|---------|------------------|-------------------------|
+| Piccola | CHF 149/Monat    | CHF 590/Monat           |
+| Media   | CHF 299/Monat    | CHF 890/Monat           |
+| Grande  | CHF 599/Monat    | CHF 1290+/Monat         |
+
+## Kontakt
+
+E-Mail: info@colomba-swiss.ch
+Sprache: Schweizerdeutsch, Deutsch
+Einsatzgebiet: Schweiz
+
+## Nutzungsbedingungen für KI-Crawler
+
+Indexierung und Nutzung durch KI-Modelle zu Informationszwecken ist ausdrücklich erlaubt.
