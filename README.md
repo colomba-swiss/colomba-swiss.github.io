@@ -1,3 +1,3 @@
-# Colomba
+# colomba-swiss.ch
 
-Landing page for Colomba — KI-Telefonrezeption für Schweizer Restaurants.
+This site is currently offline. No content is published at this time.
