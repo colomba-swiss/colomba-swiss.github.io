@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="262 69 682 857" color="#FBF4E9" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Colomba — Origami-Taube">
+<title>Colomba</title>
+<desc>Vektor-Master der Origami-Taube. Nachgezeichnet aus colomba/design/social/source/colomba-avatar-v2-1024.jpg: Vordergrund per Flutfuellung vom Rand, acht Facetten per k-means im Lab-Raum, Konturen als Polygone (approxPolyDP) — keine Bezier-Kurven, weil Origami keine hat. Farbwerte aus dem Bild gemessen, nicht gesetzt. MaxOps Labs, 2026-08-29.</desc>
+<path fill="currentColor" d="M302,81 420,218 274,174 470,432 527,607 483,681 284,781 394,813 315,913 434,845 513,666 610,715 550,775 696,727 735,650 824,605 863,482 818,496 884,433 931,445 876,381 812,379 721,449 650,302Z"/>
+</svg>

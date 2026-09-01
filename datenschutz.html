@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz — Colomba</title>
+<meta name="description" content="Datenschutzerklärung der Website colomba-swiss.ch.">
+<link rel="canonical" href="https://colomba-swiss.ch/datenschutz.html">
+<meta name="theme-color" content="#1C2B26">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="preload" href="assets/fonts/fraunces-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* ==========================================================================
+   colomba-swiss.ch — Elite rebuild (WEBSITE-ELITE-1)
+   Brand lineage: brand-kit / live-page / colomba-website.dc.html
+   Ground forest #1C2B26 · cream #FBF4E9 · sage #A6B39C · olive #9DBE86
+   terracotta #C89B7B (warm accent — speaking / hover only, never state-idle)
+   Type: Fraunces (display, variable) · Inter (UI, variable) — self-hosted.
+   Signature geometry: cut corners (clip-path notches), from the founder canvas.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("assets/fonts/fraunces-var.woff2") format("woff2");
+  font-weight: 100 900;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/inter-var.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --forest: #1C2B26;
+  --forest-2: #233530;
+  --forest-deep: #16211D;
+  --hairline: #33403A;
+  --cream: #FBF4E9;
+  --sage: #A6B39C;
+  --olive: #9DBE86;
+  --terra: #C89B7B;
+  --terra-deep: #B47D5D;
+
+  --serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+  --wrap: 1160px;
+  --pad-x: clamp(20px, 5vw, 56px);
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 78% 12%, rgba(157, 190, 134, .08), transparent 42%),
+    radial-gradient(circle at 6% 4%, rgba(200, 155, 123, .09), transparent 30%),
+    var(--forest);
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 16.5px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: rgba(200, 155, 123, .32); color: var(--cream); }
+
+.wrap { max-width: var(--wrap); margin: 0 auto; padding-left: var(--pad-x); padding-right: var(--pad-x); }
+
+a { color: var(--olive); text-decoration: none; }
+a:hover { color: var(--terra); }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--olive);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.skip {
+  position: absolute; left: -999px; top: 8px;
+  background: var(--forest-2); color: var(--cream);
+  padding: 10px 16px; z-index: 20; border: 1px solid var(--hairline);
+}
+.skip:focus { left: 8px; }
+
+/* Cut-corner motif — the founder canvas' notch geometry */
+.cut {
+  --cut: 12px;
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut));
+}
+
+.eyebrow {
+  font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--sage); margin: 0 0 14px;
+}
+
+/* ---------------------------------------------------------------- header */
+header.site {
+  padding: 22px 0;
+}
+.site-inner {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.mark { display: flex; align-items: center; gap: 11px; color: var(--cream); }
+.mark img { display: block; width: 34px; height: 34px; }
+.mark b {
+  font-family: var(--serif);
+  font-variation-settings: "wght" 560, "opsz" 105;
+  font-size: 19px; letter-spacing: -.03em; font-weight: normal;
+}
+.pilot-chip {
+  --cut: 9px;
+  display: inline-flex; align-items: center; gap: 9px; padding: 8px 14px;
+  border: 1px solid var(--hairline); color: var(--sage);
+  font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase;
+  white-space: nowrap;
+}
+.pilot-chip:hover { color: var(--cream); border-color: var(--sage); }
+.dot { width: 7px; height: 7px; border-radius: 999px; background: var(--olive); flex: none; }
+@keyframes pulse { 0%, 100% { transform: scale(.9); opacity: .7 } 50% { transform: scale(1.15); opacity: 1 } }
+.dot.live { animation: pulse 1.6s infinite; }
+
+/* ------------------------------------------------------------------ hero */
+.hero { padding: clamp(24px, 6vh, 72px) 0 clamp(40px, 8vh, 96px); }
+.hero-grid {
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: clamp(28px, 5vw, 64px);
+}
+.hero-copy { flex: 1 1 400px; min-width: 280px; }
+h1 {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(3.4rem, 9vw, 5.6rem); line-height: 1.0; letter-spacing: -.02em;
+  margin: 0; color: var(--cream);
+}
+.claim {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(1.25rem, 2.4vw, 1.65rem); line-height: 1.3; letter-spacing: -.02em;
+  max-width: 24ch; margin: 18px 0 0; color: var(--cream);
+}
+.lead {
+  font-size: 16.5px; line-height: 1.62; max-width: 46ch;
+  margin: 22px 0 0; color: var(--sage); text-wrap: pretty;
+}
+.hero-rule { width: 100%; max-width: 460px; height: 1px; background: var(--hairline); border: 0; margin: 34px 0 0; }
+
+/* CTA slot — fallback active; the call variant flips on when the line is live */
+.cta { margin: 30px 0 0; max-width: 460px; }
+.cta-call {
+  --cut: 14px;
+  display: block; padding: 20px 22px; background: var(--forest-2);
+  border: 1px solid var(--hairline); color: var(--cream);
+}
+.cta-call .big {
+  font-family: var(--serif); font-weight: 600; font-size: 21px; letter-spacing: -.01em;
+  display: block; color: var(--cream);
+}
+.cta-call .tel { display: block; margin-top: 6px; color: var(--olive); font-size: 17px; font-variant-numeric: tabular-nums; }
+.cta-call:hover { border-color: var(--olive); }
+.pilot-card {
+  --cut: 16px;
+  position: relative; padding: 20px 22px 20px 25px; background: var(--forest-2);
+  border: 1px solid var(--hairline);
+}
+.pilot-card::before {
+  content: ""; position: absolute; left: 0; top: 16px; bottom: 0; width: 3px; background: var(--olive);
+}
+.pilot-card p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--cream); text-wrap: pretty; }
+.contact-line { margin: 22px 0 0; font-size: 15px; color: var(--sage); }
+.contact-line a { border-bottom: 1px solid rgba(157, 190, 134, .4); padding-bottom: 1px; }
+
+/* orb stage */
+.hero-stage { flex: 1 1 340px; min-width: 260px; display: flex; flex-direction: column; align-items: center; gap: 18px; }
+.stage-box { position: relative; width: 100%; max-width: 420px; aspect-ratio: 1; }
+.ring { position: absolute; inset: 0; pointer-events: none; --r: calc(50% - 26px); }
+.ring .node {
+  position: absolute; transform: translate(-50%, -50%);
+  width: 34px; height: 34px; display: grid; place-items: center;
+  border: 1px solid rgba(157, 190, 134, .38);
+  background: rgba(35, 53, 48, .55);
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.ring svg { display: block; }
+.orb-mount { position: absolute; left: 50%; top: 50%; width: 62%; height: 62%; transform: translate(-50%, -50%); }
+/* Static ember: the resting light before (or instead of) WebGL — a bright,
+   saturated centre falling off fast, per the design-bar »light, not fog« rule. */
+.ember {
+  position: absolute; inset: 0; border-radius: 999px;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(251, 244, 233, .85) 0%, rgba(168, 205, 150, .55) 7%, rgba(110, 138, 118, .28) 22%, rgba(62, 90, 76, .12) 40%, transparent 62%);
+  transition: opacity 1.2s ease;
+}
+.ember.faded { opacity: 0; }
+.orb-mount heidi-orb { position: absolute; inset: 0; }
+.status-chip {
+  --cut: 10px;
+  display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px;
+  border: 1px solid var(--hairline);
+  font-size: 12.5px; font-weight: 700; color: var(--cream);
+}
+
+/* -------------------------------------------------------------- sections */
+section.band { padding: clamp(48px, 9vh, 104px) 0; border-top: 1px solid var(--hairline); }
+h2 {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(1.7rem, 4vw, 2.5rem); line-height: 1.12; letter-spacing: -.02em;
+  margin: 0; color: var(--cream); max-width: 22ch;
+}
+.band-lead { margin: 16px 0 0; max-width: 56ch; color: var(--sage); text-wrap: pretty; }
+
+/* reveal — armed only when JS is live (html.js), so no-JS renders everything */
+.js .rv { opacity: 0; transform: translateY(14px); transition: opacity .7s ease, transform .7s ease; }
+.js .rv.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .js .rv { opacity: 1; transform: none; transition: none; }
+}
+
+/* --------------------------------------------------- call scene (Anruf) */
+.scene { max-width: 640px; margin: 36px 0 0; }
+.scene-tag {
+  display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--olive); border: 1px solid rgba(157, 190, 134, .35);
+  padding: 5px 10px; --cut: 7px;
+}
+.bubbles { list-style: none; margin: 22px 0 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.bubble { max-width: 85%; }
+.bubble .who {
+  display: block; font-size: 11px; font-weight: 800; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--sage); margin: 0 0 5px;
+}
+.bubble p { margin: 0; font-size: 15.5px; line-height: 1.55; text-wrap: pretty; }
+.bubble.guest { align-self: flex-start; }
+.bubble.guest p { color: var(--sage); }
+.bubble.heidi { align-self: flex-end; }
+.bubble.heidi > div {
+  --cut: 12px;
+  background: var(--forest-2); border: 1px solid var(--hairline); padding: 13px 16px;
+}
+.bubble.heidi p { color: var(--cream); }
+.bubble.sms { align-self: flex-end; width: 100%; max-width: 100%; margin-top: 4px; }
+.sms-card {
+  --cut: 14px;
+  position: relative; background: var(--forest-2); border: 1px solid var(--hairline);
+  padding: 15px 18px 15px 21px;
+}
+.sms-card::before { content: ""; position: absolute; left: 0; top: 14px; bottom: 0; width: 3px; background: var(--olive); }
+.sms-card .who { color: var(--olive); }
+.sms-card p { color: var(--cream); font-size: 14.5px; }
+.sms-card .code { font-variant-numeric: tabular-nums; letter-spacing: .04em; color: var(--olive); }
+
+/* staged play-in */
+.scene.armed .bubble { opacity: 0; transform: translateY(10px); }
+.scene.play .bubble {
+  animation: rise .6s ease forwards;
+  animation-delay: calc(var(--i) * .9s);
+}
+@keyframes rise { to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .scene.armed .bubble { opacity: 1; transform: none; animation: none; }
+}
+
+.scene-facts { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 26px 0 0; padding: 0; list-style: none; }
+.scene-facts li { font-size: 13px; color: var(--sage); display: flex; align-items: center; gap: 8px; }
+.scene-facts .tick { color: var(--olive); }
+
+/* ----------------------------------------------------------- capability */
+.cards {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  gap: 14px; margin: 36px 0 0;
+}
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+.card {
+  --cut: 14px;
+  background: var(--forest-2); border: 1px solid var(--hairline);
+  padding: 22px 22px 20px;
+}
+.card svg { display: block; margin: 0 0 14px; }
+.card h3 {
+  font-family: var(--serif); font-weight: 600; font-size: 19px; letter-spacing: -.01em;
+  margin: 0; color: var(--cream);
+}
+.card p { margin: 8px 0 0; font-size: 14.5px; line-height: 1.55; color: var(--sage); text-wrap: pretty; }
+
+/* ----------------------------------------------------------------- app */
+.app-grid { display: flex; flex-wrap: wrap; gap: clamp(28px, 5vw, 64px); align-items: center; margin-top: 8px; }
+.app-copy { flex: 1 1 380px; min-width: 280px; }
+.app-visual { flex: 1 1 320px; min-width: 260px; }
+.rail {
+  --cut: 16px;
+  background: var(--forest-deep); border: 1px solid var(--hairline);
+  padding: 26px 22px 22px;
+}
+.rail-title { font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--sage); margin: 0 0 18px; }
+.rail-tabs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.rail-tab {
+  --cut: 10px;
+  border: 1px solid var(--hairline); padding: 14px 14px 12px; background: var(--forest-2);
+}
+.rail-tab b { display: block; font-size: 14px; font-weight: 700; color: var(--cream); letter-spacing: .01em; }
+.rail-tab span { display: block; margin-top: 4px; font-size: 12.5px; color: var(--sage); line-height: 1.45; }
+
+/* --------------------------------------------------------- transparency */
+.quote {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(1.3rem, 3vw, 1.9rem); line-height: 1.35; letter-spacing: -.015em;
+  max-width: 30ch; margin: 26px 0 0; color: var(--cream);
+}
+.quote em { font-style: normal; color: var(--olive); }
+
+/* --------------------------------------------------------------- kommt */
+.kommt { list-style: none; margin: 30px 0 0; padding: 0; max-width: 720px; }
+.kommt li {
+  display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: baseline;
+  padding: 14px 0; border-top: 1px solid var(--hairline);
+}
+.kommt li:last-child { border-bottom: 1px solid var(--hairline); }
+.kommt b { flex: 0 0 15em; font-weight: 600; color: var(--cream); font-size: 15px; }
+.kommt span { flex: 1 1 240px; color: var(--sage); font-size: 14px; line-height: 1.5; }
+
+/* --------------------------------------------------------------- pilot */
+.pilot-final {
+  --cut: 18px;
+  position: relative; background: var(--forest-2); border: 1px solid var(--hairline);
+  padding: clamp(26px, 4vw, 40px);
+  max-width: 720px;
+}
+.pilot-final::before { content: ""; position: absolute; left: 0; top: 18px; bottom: 0; width: 3px; background: var(--olive); }
+.pilot-final .big {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(1.25rem, 2.6vw, 1.6rem); line-height: 1.35; letter-spacing: -.015em;
+  margin: 0; color: var(--cream); text-wrap: pretty;
+}
+.pilot-final .after { margin: 18px 0 0; font-size: 15px; color: var(--sage); }
+
+/* -------------------------------------------------------------- footer */
+footer.site {
+  border-top: 1px solid var(--hairline);
+  padding: 30px 0 36px; margin-top: clamp(48px, 9vh, 104px);
+  font-size: 13px; color: var(--sage);
+}
+.foot-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 24px; }
+.foot-left { display: flex; align-items: center; gap: 10px; }
+.foot-left img { width: 22px; height: 22px; }
+.foot-links { display: flex; flex-wrap: wrap; gap: 4px 22px; }
+.foot-links a { color: var(--sage); }
+.foot-links a:hover { color: var(--cream); }
+.madein { letter-spacing: .1em; text-transform: uppercase; font-weight: 700; font-size: 11px; }
+
+/* -------------------------------------------------------------- legal */
+.legal { max-width: 680px; padding: clamp(32px, 6vh, 64px) 0; }
+.legal h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); }
+.legal h2 { font-size: 1.25rem; margin-top: 2.2em; max-width: none; }
+.legal p, .legal li { color: var(--sage); font-size: 15.5px; line-height: 1.65; }
+.legal .slot {
+  --cut: 10px;
+  display: inline-block; border: 1px dashed var(--hairline); color: var(--sage);
+  padding: 2px 10px; font-size: 14px;
+}
+
+/* --------------------------------------------------------- responsive */
+@media (max-width: 880px) {
+  .hero { padding-top: 8px; }
+  .hero-grid { gap: 22px; }
+  .hero-stage { order: -1; gap: 10px; }
+  .stage-box { max-width: 250px; }
+  .ring { --r: calc(50% - 18px); }
+  .ring .node { width: 30px; height: 30px; }
+  .bubble { max-width: 94%; }
+  .kommt b { flex-basis: 100%; }
+}
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  .rail-tabs { grid-template-columns: 1fr; }
+}
+/* Datenschutz — Tabellen und Hinweiskästen aus der kanonischen Fassung */
+.legal table {
+  width: 100%; border-collapse: collapse; margin: 1.2em 0; font-size: 14.5px;
+  display: block; overflow-x: auto;
+}
+.legal th, .legal td {
+  text-align: left; padding: .6em .7em; border-bottom: 1px solid var(--hairline);
+  vertical-align: top; color: var(--sage);
+}
+.legal th { color: var(--cream); font-weight: 600; white-space: nowrap; }
+.legal .box {
+  --cut: 12px;
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut));
+  background: var(--forest-2); border: 1px solid var(--hairline);
+  padding: 16px 18px; margin: 1.4em 0;
+}
+.legal .box p:first-child { margin-top: 0; }
+.legal .box p:last-child { margin-bottom: 0; }
+.legal h3 { font-family: var(--serif); font-weight: 600; font-size: 17px; color: var(--cream); margin: 1.6em 0 .4em; }
+.legal .stand { color: var(--sage); font-size: 14px; margin: 0 0 2em; }
+.legal ul { padding-left: 1.2em; }
+.legal li { margin: .35em 0; }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="site wrap">
+  <div class="site-inner">
+    <a class="mark" href="./" aria-label="Colomba — Startseite">
+      <img src="assets/colomba-dove.svg" alt="" width="34" height="34">
+      <b>Colomba</b>
+    </a>
+  </div>
+</header>
+
+<main id="main" class="wrap legal">
+  <h1>Datenschutz</h1>
+
+<p class="stand">Stand: 1. September 2026</p>
+
+<p>Diese Erklärung beschreibt, welche Personendaten wir im Zusammenhang mit der Colomba-App und
+der telefonischen KI-Assistentin bearbeiten, zu welchen Zwecken das geschieht und welche Rechte
+Ihnen zustehen. Sie richtet sich nach dem revidierten Schweizer Datenschutzgesetz (revDSG) und,
+soweit anwendbar, nach der DSGVO.</p>
+
+<h2 id="verantwortlich">1. Verantwortliche Stelle</h2>
+
+<div class="box">
+  <p><strong>Roman Gerčák</strong><br>
+  Wiesenschanzweg 46<br>
+  4057 Basel<br>
+  Schweiz<br>
+  E-Mail: <a href="mailto:info@colomba-swiss.ch">info@colomba-swiss.ch</a></p>
+</div>
+<p>Für sämtliche Anliegen zum Datenschutz und zur Ausübung Ihrer Rechte erreichen Sie uns unter
+der oben genannten E-Mail-Adresse.</p>
+
+<h2 id="geltung">2. Geltungsbereich</h2>
+<p>Diese Erklärung gilt für die Colomba-App (Android und iOS), die zugehörige Web-Anwendung sowie
+die telefonische KI-Assistentin, die Anrufe für angeschlossene Gastronomiebetriebe entgegennimmt.</p>
+
+<h2 id="rollen">3. Wer ist wofür verantwortlich</h2>
+<p>Die Rollenverteilung ist für das Verständnis dieser Erklärung zentral:</p>
+<ul>
+  <li><strong>Kontodaten der App-Nutzerinnen und -Nutzer</strong> (Personal und Leitung des
+  Betriebs): Colomba ist <strong>verantwortliche Stelle</strong>.</li>
+  <li><strong>Gästedaten</strong> (Reservationsnamen, Telefonnummern, Notizen, Allergien,
+  Anrufaufzeichnungen): der jeweilige <strong>Gastronomiebetrieb ist die verantwortliche
+  Stelle</strong>. Colomba handelt insoweit als <strong>Auftragsbearbeiter</strong> und
+  bearbeitet diese Daten ausschliesslich weisungsgebunden. Ergänzend gilt die
+  Datenschutzerklärung des jeweiligen Betriebs.</li>
+</ul>
+
+<p>Mit jedem angeschlossenen Betrieb wird eine Vereinbarung zur Auftragsbearbeitung
+abgeschlossen.</p>
+
+<h2 id="app">4. Daten, welche die Colomba-App bearbeitet</h2>
+
+<h3>4.1 Kontodaten</h3>
+<table>
+  <tr><th>Daten</th><th>Zweck</th><th>Pflicht?</th></tr>
+  <tr><td>E-Mail-Adresse und Passwort</td><td>Anmeldung und Kontoverwaltung</td><td>erforderlich</td></tr>
+  <tr><td>Name, Google-Kennung (bei «Mit Google anmelden»)</td><td>Zuordnung des Kontos</td><td>nur bei Google-Anmeldung</td></tr>
+  <tr><td>Telefonnummer</td><td>Verifizierung per SMS, Missbrauchsprävention</td><td>freiwillig</td></tr>
+  <tr><td>Betriebszuordnung und Rolle</td><td>Zugriff auf den richtigen Betrieb</td><td>erforderlich</td></tr>
+</table>
+<p>Passwörter werden ausschliesslich als kryptografischer Hash gespeichert, nie im Klartext.
+Anmeldetoken, Betriebszuordnung und E-Mail-Adresse werden auf dem Gerät <strong>verschlüsselt</strong>
+abgelegt und sind von der Cloud-Sicherung sowie der Geräteübertragung ausgenommen. Aktivieren Sie
+die App-Sperre, wird lediglich ein Hash Ihrer PIN gespeichert, nie die PIN selbst.</p>
+
+<h3>4.2 Betriebsdaten (im Auftrag des Betriebs)</h3>
+<p>Reservationen (Name, Telefonnummer, Personenzahl, Zeitpunkt, Anlass, Sitzplatzwunsch,
+<strong>Allergien</strong>, Notizen), Anrufe (Rufnummer, Zusammenfassung, Transkript,
+Aufzeichnung, Dauer, Ergebnis), Aufgaben und Rückrufe sowie Raum- und Tischpläne.</p>
+<div class="box">
+  <p><strong>Angaben zu Allergien können Gesundheitsdaten darstellen</strong> und gelten damit als
+  besonders schützenswerte Personendaten (revDSG) bzw. als besondere Kategorie personenbezogener
+  Daten (Art. 9 DSGVO). Sie werden ausschliesslich zur Durchführung der Reservation bearbeitet und
+  sind stets eine freiwillige Angabe.</p>
+</div>
+<p>Diese Daten werden <strong>nicht auf dem Gerät gespeichert</strong>; die App zeigt sie jeweils
+aktuell aus unserem System an.</p>
+
+<h3>4.3 Was die App nicht tut</h3>
+<p>Die App verwendet <strong>keine Werbe-ID</strong>, keine Analyse-, Tracking- oder
+Absturzberichts-Dienste, erhebt <strong>keine Standortdaten</strong> und greift nicht auf
+Kontakte, Kalender, Fotos oder Dateien zu. Es findet keine Weitergabe zu Werbezwecken statt und
+es gibt keine Käufe in der App.</p>
+
+<h3>4.4 Berechtigungen</h3>
+<ul>
+  <li><strong>Internet</strong> — Kommunikation mit unserem System.</li>
+  <li><strong>Mitteilungen</strong> — Hinweise zu neuen Reservationen und verpassten Anrufen,
+  nur nach Ihrer ausdrücklichen Zustimmung.</li>
+  <li><strong>Biometrie</strong> — optionales Entsperren der App-Sperre; die Prüfung erfolgt
+  ausschliesslich lokal auf Ihrem Gerät, biometrische Merkmale erreichen uns nie.</li>
+</ul>
+
+<h2 id="heidi">5. Die telefonische KI-Assistentin</h2>
+<p>Ruft eine Person im Betrieb an, kann das Gespräch von einer KI-Assistentin entgegengenommen
+werden. Dabei werden die Rufnummer, der Gesprächsinhalt, ein Transkript, eine Zusammenfassung und
+eine Audioaufzeichnung bearbeitet, damit die Reservation korrekt erfasst und im Streitfall
+nachvollzogen werden kann.</p>
+
+<p>Zu Beginn des Gesprächs weist die Assistentin ausdrücklich darauf hin, dass es sich um ein
+KI-System handelt. Sie können das Gespräch jederzeit beenden und den Betrieb auf einem anderen
+Weg erreichen.</p>
+<p>Transparenzhinweis: Es handelt sich um ein KI-System. Anrufende werden entsprechend informiert.</p>
+
+<h2 id="google">6. Anmeldung mit Google</h2>
+<p>Nutzen Sie «Mit Google anmelden», übermittelt Google uns ein Identitätsmerkmal, welches Ihre
+Google-Kennung, Ihre E-Mail-Adresse, Ihren Namen und einen Link auf Ihr Profilbild enthalten kann.
+
+Wir verwenden diese Angaben zur Zuordnung Ihres Kontos; dauerhaft gespeichert werden dabei Ihre
+Google-Kennung und Ihre E-Mail-Adresse.</p>
+<p>Die Anmeldung selbst wird von Google durchgeführt; dabei gelten zusätzlich die
+Datenschutzbestimmungen von Google.</p>
+
+<h2 id="zwecke">7. Zwecke und Rechtsgrundlagen</h2>
+<table>
+  <tr><th>Zweck</th><th>Rechtsgrundlage</th></tr>
+  <tr><td>Bereitstellung von Konto und App</td><td>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)</td></tr>
+  <tr><td>Durchführung von Reservationen im Auftrag des Betriebs</td><td>Vertragserfüllung / Auftragsbearbeitung</td></tr>
+  <tr><td>Sicherheit, Missbrauchs- und Betrugsprävention</td><td>Berechtigtes Interesse (lit. f)</td></tr>
+  <tr><td>Mitteilungen (Push)</td><td>Einwilligung (lit. a)</td></tr>
+
+  <tr><td>Gesprächsaufzeichnung</td><td>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)</td></tr>
+
+  <tr><td>Angaben zu Allergien</td><td>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO) — freiwillige Angabe des Gastes zur Durchführung der Reservation</td></tr>
+</table>
+
+<h2 id="dritte">8. Auftragsbearbeiter, Hosting und Auslandbekanntgabe</h2>
+
+<table>
+  <tr><th>Empfänger</th><th>Zweck</th><th>Ort der Bearbeitung</th></tr>
+  <tr><td>Hetzner Online GmbH</td><td>Hosting der Anwendung und der Datenbank</td><td>Finnland, Helsinki (EU)</td></tr>
+  <tr><td>Google Ireland Ltd. / Google LLC</td><td>«Mit Google anmelden»; Kalender-Synchronisation und Verwaltung von Google-Bewertungen, sofern vom Betrieb verbunden; Versand von Push-Mitteilungen, sofern aktiviert; E-Mail-Postfach info@colomba-swiss.ch</td><td>EU / USA</td></tr>
+  <tr><td>Retell AI</td><td>Entgegennahme und Verarbeitung von Telefonanrufen (Call-Handling der KI-Assistentin)</td><td>EU / USA</td></tr>
+  <tr><td>Anthropic</td><td>Sprachmodell zur Gesprächsführung der KI-Assistentin</td><td>EU / USA</td></tr>
+  <tr><td>ElevenLabs</td><td>Sprachsynthese (Text-zu-Sprache) der KI-Assistentin</td><td>EU / USA</td></tr>
+  <tr><td>Twilio</td><td>Versand von SMS (z. B. Storno-Code, Buchungsbestätigung)</td><td>EU / USA</td></tr>
+</table>
+<div class="box">
+  <p><strong>Hinweis zum Serverstandort:</strong> Unsere Anwendung und die Datenbank werden in
+  einem Rechenzentrum in <strong>Helsinki, Finnland</strong> betrieben (Hetzner Online GmbH). Die
+  Daten werden damit innerhalb des EU-/EWR-Raums bearbeitet und <strong>nicht in der
+  Schweiz</strong> gespeichert. Finnland verfügt aus Sicht des schweizerischen Rechts über einen
+  angemessenen Datenschutz; eine Bekanntgabe ins Ausland ist damit zulässig.</p>
+</div>
+<p>Erfolgt ausnahmsweise eine Bearbeitung in einem Land ohne angemessenes Schutzniveau, stützen
+wir diese auf anerkannte Garantien wie die Standardvertragsklauseln. Wir verkaufen keine
+Personendaten und geben sie nicht zu Werbezwecken weiter.</p>
+
+<h2 id="aufbewahrung">9. Aufbewahrung</h2>
+
+<table>
+  <tr><th>Kategorie</th><th>Aufbewahrung</th></tr>
+  <tr><td>Kontodaten</td><td>für die Dauer des Kontos, danach Löschung innert 30 Tagen</td></tr>
+  <tr><td>Reservationsdaten</td><td>24 Monate nach dem Reservationsdatum</td></tr>
+  <tr><td>Anrufaufzeichnungen und Transkripte</td><td>90 Tage; beim Telefonie-Anbieter erfolgt die Löschung automatisch spätestens innert 90 Tagen</td></tr>
+  <tr><td>Aufgaben und Rückrufe</td><td>12 Monate</td></tr>
+</table>
+<p>Längere Fristen gelten, soweit gesetzliche Aufbewahrungspflichten dies verlangen.</p>
+
+<h2 id="rechte">10. Ihre Rechte</h2>
+<p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Bearbeitung,
+Datenherausgabe bzw. -übertragung sowie das Recht, einer Bearbeitung zu widersprechen. Erteilte
+Einwilligungen können Sie jederzeit mit Wirkung für die Zukunft widerrufen.</p>
+<div class="box">
+  <p><strong>Konto und Daten löschen:</strong> Wie Sie die Löschung Ihres Kontos und der
+  zugehörigen Daten verlangen, ist ausführlich auf einer eigenen Seite beschrieben —
+  <a href="https://api.colomba-swiss.ch/app/konto-loeschen.html">Konto und Daten löschen</a>.</p>
+</div>
+<p>Betrifft Ihr Anliegen Gästedaten eines bestimmten Betriebs, richten Sie es bitte an diesen
+Betrieb als verantwortliche Stelle; wir unterstützen ihn dabei.</p>
+<p>Ihnen steht ausserdem das Recht zu, sich bei einer Aufsichtsbehörde zu beschweren — in der
+Schweiz beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB), in der EU bei
+der für Sie zuständigen Aufsichtsbehörde.</p>
+
+<h2 id="sicherheit">11. Sicherheit</h2>
+<p>Die Übertragung erfolgt ausschliesslich verschlüsselt über TLS. Der Zugriff ist nach dem
+Grundsatz der geringstmöglichen Berechtigung geregelt. Anmeldedaten werden auf dem Gerät im
+verschlüsselten Speicher des Betriebssystems abgelegt.</p>
+
+<h2 id="kinder">12. Kinder</h2>
+<p>Die App richtet sich an Gastronomiebetriebe und deren Personal und nicht an Kinder.</p>
+
+<h2 id="cookies">13. Cookies</h2>
+
+<p>Die Web-Anwendung setzt ausschliesslich technisch notwendige Speichermerkmale, die für die
+Anmeldung und den Schutz vor Cross-Site-Request-Forgery erforderlich sind: eine Anmelde-Cookie
+mit einer Laufzeit von 30 Tagen sowie eine CSRF-Schutz-Cookie. Es werden keine Analyse- oder
+Marketing-Cookies verwendet. Für die Darstellung wird die Schriftart über Google Fonts
+nachgeladen, wobei Ihre IP-Adresse an Google übertragen wird; dabei wird kein Cookie gesetzt.</p>
+
+<h2 id="aenderungen">14. Änderungen</h2>
+<p>Wir können diese Erklärung anpassen. Massgebend ist die jeweils auf dieser Seite
+veröffentlichte Fassung.</p>
+</main>
+
+<footer class="site">
+  <div class="wrap foot-inner">
+    <div class="foot-left">
+      <img src="assets/colomba-dove.svg" alt="">
+      <span>© 2026 Colomba · Basel</span>
+    </div>
+    <nav class="foot-links" aria-label="Rechtliches">
+      <a href="./">Zur Startseite</a>
+      <a href="impressum.html">Impressum</a>
+    </nav>
+    <span class="madein">Made in Switzerland</span>
+  </div>
+</footer>
+</body>
+</html>

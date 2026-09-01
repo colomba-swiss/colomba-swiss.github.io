@@ -3,131 +3,983 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Colomba — KI-Telefon-Empfang für Schweizer Restaurants</title>
-<meta name="description" content="Der KI-Telefon-Empfang für Schweizer Restaurants. Heidi nimmt jeden Anruf entgegen, bucht Tische und bestätigt per SMS.">
+<title>Colomba — Heidi, die Betriebsassistentin für Schweizer Restaurants</title>
+<meta name="description" content="Heidi, die Betriebsassistentin für Schweizer Restaurants. Heute nimmt sie Anrufe entgegen, bucht Tische und bestätigt per SMS — rund um die Uhr, auch wenn im Service gerade niemand ans Telefon kann.">
 <link rel="canonical" href="https://colomba-swiss.ch/">
+
 <meta property="og:type" content="website">
-<meta property="og:title" content="Colomba — KI-Telefon-Empfang für Schweizer Restaurants">
-<meta property="og:description" content="Der KI-Telefon-Empfang für Schweizer Restaurants. Heidi nimmt jeden Anruf entgegen, bucht Tische und bestätigt per SMS.">
+<meta property="og:title" content="Colomba — Heidi, die Betriebsassistentin für Schweizer Restaurants">
+<meta property="og:description" content="Heidi nimmt Anrufe entgegen, bucht Tische und bestätigt per SMS — rund um die Uhr, auch wenn im Service gerade niemand ans Telefon kann.">
 <meta property="og:url" content="https://colomba-swiss.ch/">
 <meta property="og:locale" content="de_CH">
+<meta property="og:image" content="https://colomba-swiss.ch/assets/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1C2B26">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231C2B26'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='40' fill='%23FBF4E9' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/fraunces-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-  :root{
-    --paper:#1C2B26;
-    --ink:#FBF4E9;
-    --ink-2:#A6B39C;
-    --olive:#9DBE86;
-    --hairline:#33403A;
-    --card:#233530;
-    --serif:"Fraunces",Georgia,"Times New Roman",serif;
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,"Helvetica Neue",Arial,sans-serif;
+/* ==========================================================================
+   colomba-swiss.ch — Elite rebuild (WEBSITE-ELITE-1)
+   Brand lineage: brand-kit / live-page / colomba-website.dc.html
+   Ground forest #1C2B26 · cream #FBF4E9 · sage #A6B39C · olive #9DBE86
+   terracotta #C89B7B (warm accent — speaking / hover only, never state-idle)
+   Type: Fraunces (display, variable) · Inter (UI, variable) — self-hosted.
+   Signature geometry: cut corners (clip-path notches), from the founder canvas.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("assets/fonts/fraunces-var.woff2") format("woff2");
+  font-weight: 100 900;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/inter-var.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --forest: #1C2B26;
+  --forest-2: #233530;
+  --forest-deep: #16211D;
+  --hairline: #33403A;
+  --cream: #FBF4E9;
+  --sage: #A6B39C;
+  --text: #DDE3D5;
+  --olive: #9DBE86;
+  --terra: #C89B7B;
+  --terra-deep: #B47D5D;
+
+  --serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+  --wrap: 1160px;
+  --pad-x: clamp(20px, 5vw, 56px);
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 78% 12%, rgba(157, 190, 134, .08), transparent 42%),
+    radial-gradient(circle at 6% 4%, rgba(200, 155, 123, .09), transparent 30%),
+    var(--forest);
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 16.5px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: rgba(200, 155, 123, .32); color: var(--cream); }
+
+.wrap { max-width: var(--wrap); margin: 0 auto; padding-left: var(--pad-x); padding-right: var(--pad-x); }
+
+a { color: var(--olive); text-decoration: none; }
+a:hover { color: var(--terra); }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--olive);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.skip {
+  position: absolute; left: -999px; top: 8px;
+  background: var(--forest-2); color: var(--cream);
+  padding: 10px 16px; z-index: 20; border: 1px solid var(--hairline);
+}
+.skip:focus { left: 8px; }
+
+/* Cut-corner motif — the founder canvas' notch geometry */
+.cut {
+  --cut: 12px;
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut));
+}
+
+.eyebrow {
+  font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--sage); margin: 0 0 14px;
+}
+
+/* ---------------------------------------------------------------- header */
+header.site {
+  /* Kurzform mit 0 hätte die seitliche Polsterung von .wrap gelöscht. */
+  padding: 22px var(--pad-x);
+}
+.site-inner {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.mark { display: flex; align-items: center; gap: 11px; color: var(--cream); }
+.mark img { display: block; width: 34px; height: 34px; }
+.mark b {
+  font-family: var(--serif);
+  font-variation-settings: "wght" 560, "opsz" 105;
+  font-size: 19px; letter-spacing: -.03em; font-weight: normal;
+}
+.pilot-chip {
+  --cut: 9px;
+  display: inline-flex; align-items: center; gap: 9px; padding: 8px 14px;
+  border: 1px solid var(--hairline); color: var(--sage);
+  font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase;
+  white-space: nowrap;
+}
+.pilot-chip:hover { color: var(--cream); border-color: var(--sage); }
+.dot { width: 7px; height: 7px; border-radius: 999px; background: var(--olive); flex: none; }
+@keyframes pulse { 0%, 100% { transform: scale(.9); opacity: .7 } 50% { transform: scale(1.15); opacity: 1 } }
+.dot.live { animation: pulse 1.6s infinite; }
+
+/* ------------------------------------------------------------------ hero */
+/* Die padding-Kurzform hat die seitliche Polsterung von .wrap überschrieben —
+   auf 390 px klebte der Hero am linken Rand, während der Kopf eingerückt war.
+   Vorbestehend, hier mitgenommen. */
+/* ------------------------------------------------------------ paper hero */
+/* Full-bleed opener (WEBSITE-FLUG-V1.2) — Romans Bild «Der Flug», Kapitel 01.
+   Kein harter Rand: das Bild löst sich über einen Verlauf in --forest auf, nie eine
+   Textur- oder Hard-Cut-Kante. Die Karte unten links liegt frei über dem Bild. */
+.paper-hero { position: relative; overflow: hidden; }
+.paper-hero-media {
+  position: relative; width: 100%; height: clamp(320px, 62vh, 720px);
+}
+.paper-hero-media picture, .paper-hero-media img, .paper-hero-media video {
+  position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover;
+}
+/* V1.3 HERO-MOTION: video is the enhancement, the still (poster, same asset)
+   is the resting state underneath. Opacity-only crossfade both ways — never
+   removed from layout, so no reflow when it starts or ends. Autoplay-once,
+   no loop: `is-active` is added by site.js right before .play() and removed
+   on the `ended` event, which is what drives the fade back to the still. */
+.paper-hero-video { opacity: 0; transition: opacity .8s ease; pointer-events: none; }
+.paper-hero-video.is-active { opacity: 1; }
+.paper-hero::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 40%;
+  background: linear-gradient(to bottom, rgba(28,43,38,0) 0%, var(--forest) 92%);
+  pointer-events: none;
+}
+.paper-hero-card {
+  --cut: 14px;
+  position: absolute; left: var(--pad-x); bottom: clamp(20px, 4vh, 40px);
+  max-width: 420px; background: var(--forest-2); border: 1px solid var(--hairline);
+  padding: 20px 22px; z-index: 2;
+}
+.paper-hero-card .eyebrow { margin-bottom: 10px; }
+.paper-hero-card h2 {
+  font-family: var(--serif); font-weight: 600; font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+  line-height: 1.25; letter-spacing: -.01em; margin: 0 0 10px; color: var(--cream);
+}
+.paper-hero-card p { margin: 0; color: var(--text); font-size: 15px; line-height: 1.55; }
+@media (max-width: 880px) {
+  .paper-hero-media { height: 46vh; min-height: 240px; }
+  .paper-hero-card {
+    position: static; max-width: none; margin: 0; border-top: none;
   }
-  *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
-  body{
-    margin:0;
-    background:var(--paper);
-    color:var(--ink);
-    font-family:var(--sans);
-    font-size:17px;
-    line-height:1.6;
-    -webkit-font-smoothing:antialiased;
-    display:flex;
-    flex-direction:column;
-    min-height:100vh;
-  }
-  .wrap{
-    width:100%;
-    max-width:37rem;
-    margin:0 auto;
-    padding:clamp(3rem,14vh,7rem) 1.5rem 2rem;
-    flex:1 0 auto;
-  }
-  h1{
-    font-family:var(--serif);
-    font-weight:400;
-    font-size:clamp(3.2rem,13vw,4.6rem);
-    line-height:1.02;
-    letter-spacing:-0.015em;
-    margin:0;
-  }
-  .sub{
-    font-family:var(--serif);
-    font-size:clamp(1.15rem,4.4vw,1.4rem);
-    line-height:1.35;
-    color:var(--ink);
-    margin:1.1rem 0 0;
-    max-width:22ch;
-  }
-  .body{
-    color:var(--ink-2);
-    margin:1.6rem 0 0;
-    max-width:34ch;
-  }
-  .rule{
-    border:0;
-    border-top:1px solid var(--hairline);
-    margin:2.5rem 0 0;
-  }
-  .pilot{
-    margin:2.5rem 0 0;
-    padding:1.25rem 1.35rem;
-    background:var(--card);
-    border:1px solid var(--hairline);
-    border-left:3px solid var(--olive);
-    border-radius:12px;
-    font-size:0.95rem;
-    line-height:1.55;
-    color:var(--ink);
-  }
-  .contact{
-    margin:2.25rem 0 0;
-    font-size:0.95rem;
-    color:var(--ink-2);
-  }
-  .contact a{
-    color:var(--olive);
-    text-decoration:none;
-    border-bottom:1px solid rgba(157,190,134,.4);
-    padding-bottom:1px;
-    transition:border-color .15s ease;
-  }
-  .contact a:hover{border-bottom-color:var(--olive)}
-  .contact a:focus-visible{
-    outline:2px solid var(--olive);
-    outline-offset:3px;
-    border-radius:2px;
-  }
-  footer{
-    flex-shrink:0;
-    padding:2rem 1.5rem 2.25rem;
-    font-size:0.8rem;
-    color:var(--ink-2);
-  }
-  .footer-inner{max-width:37rem;margin:0 auto}
-  @media (min-width:40rem){
-    body{font-size:18px}
-    .wrap{padding-top:clamp(5rem,18vh,9rem)}
-    /* let the paragraph fill the measure the rule and card already set */
-    .sub{max-width:26ch}
-    .body{max-width:46ch}
-  }
-  @media (prefers-reduced-motion:reduce){
-    *{transition:none!important;animation:none!important}
-  }
+  .paper-hero::after { display: none; }
+}
+
+.hero { padding: clamp(24px, 6vh, 72px) var(--pad-x) clamp(40px, 8vh, 96px); }
+.hero-grid {
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: clamp(28px, 5vw, 64px);
+}
+.hero-copy { flex: 1 1 400px; min-width: 280px; }
+h1 {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(3.4rem, 9vw, 5.6rem); line-height: 1.0; letter-spacing: -.02em;
+  margin: 0; color: var(--cream);
+}
+.claim {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(1.25rem, 2.4vw, 1.65rem); line-height: 1.3; letter-spacing: -.02em;
+  max-width: 24ch; margin: 18px 0 0; color: var(--cream);
+}
+.lead {
+  font-size: 16.5px; line-height: 1.62; max-width: 46ch;
+  margin: 22px 0 0; color: var(--text); text-wrap: pretty;
+}
+.hero-rule { width: 100%; max-width: 460px; height: 1px; background: var(--hairline); border: 0; margin: 34px 0 0; }
+
+/* CTA slot — fallback active; the call variant flips on when the line is live */
+.cta { margin: 30px 0 0; max-width: 460px; }
+.cta-call {
+  --cut: 14px;
+  display: block; padding: 20px 22px; background: var(--forest-2);
+  border: 1px solid var(--hairline); color: var(--cream);
+}
+.cta-call .big {
+  font-family: var(--serif); font-weight: 600; font-size: 21px; letter-spacing: -.01em;
+  display: block; color: var(--cream);
+}
+.cta-call .tel { display: block; margin-top: 6px; color: var(--olive); font-size: 17px; font-variant-numeric: tabular-nums; }
+.cta-call:hover { border-color: var(--olive); }
+.pilot-card {
+  --cut: 16px;
+  position: relative; padding: 20px 22px 20px 25px; background: var(--forest-2);
+  border: 1px solid var(--hairline);
+}
+.pilot-card::before {
+  content: ""; position: absolute; left: 0; top: 16px; bottom: 0; width: 3px; background: var(--olive);
+}
+.pilot-card p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--cream); text-wrap: pretty; }
+.contact-line { margin: 22px 0 0; font-size: 15px; color: var(--sage); }
+.contact-line a { border-bottom: 1px solid rgba(157, 190, 134, .4); padding-bottom: 1px; }
+
+/* orb stage */
+.hero-stage { flex: 1 1 340px; min-width: 260px; display: flex; flex-direction: column; align-items: center; gap: 18px; }
+/* Kapitel-02-Grösse — der Orb ist hier ein Akzent neben dem Gespräch, keine Hero-Bühne mehr. */
+.hero-stage--compact { flex: none; max-width: 180px; margin: 28px 0 0; gap: 10px; }
+.hero-stage--compact .stage-box { max-width: 150px; }
+.stage-box { position: relative; width: 100%; max-width: 420px; aspect-ratio: 1; }
+.ring { position: absolute; inset: 0; pointer-events: none; --r: calc(50% - 26px); }
+.ring .node {
+  position: absolute; transform: translate(-50%, -50%);
+  width: 34px; height: 34px; display: grid; place-items: center;
+  border: 1px solid rgba(157, 190, 134, .38);
+  background: rgba(35, 53, 48, .55);
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.ring svg { display: block; }
+.orb-mount { position: absolute; left: 50%; top: 50%; width: 62%; height: 62%; transform: translate(-50%, -50%); }
+/* Static ember: the resting light before (or instead of) WebGL — a bright,
+   saturated centre falling off fast, per the design-bar »light, not fog« rule. */
+.ember {
+  position: absolute; inset: 0; border-radius: 999px;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(251, 244, 233, .85) 0%, rgba(168, 205, 150, .55) 7%, rgba(110, 138, 118, .28) 22%, rgba(62, 90, 76, .12) 40%, transparent 62%);
+  transition: opacity 1.2s ease;
+}
+.ember.faded { opacity: 0; }
+.orb-mount heidi-orb { position: absolute; inset: 0; }
+.status-chip {
+  --cut: 10px;
+  display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px;
+  border: 1px solid var(--hairline);
+  font-size: 12.5px; font-weight: 700; color: var(--cream);
+}
+
+/* -------------------------------------------------------------- sections */
+section.band { padding: clamp(48px, 9vh, 104px) 0; border-top: 1px solid var(--hairline); }
+/* Weicher Verlauf statt harter Naht (WEBSITE-FLUG-V1.2, Polierstelle a): kein border-top mehr
+   auf den Tiefen-Bändern — die Kante ist der Verlauf selbst, ~80px an jedem Rand. */
+section.band.deep {
+  border-top: none;
+  background: linear-gradient(to bottom,
+    var(--forest) 0, var(--forest-deep) 80px,
+    var(--forest-deep) calc(100% - 80px), var(--forest) 100%);
+}
+h2 {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(1.7rem, 4vw, 2.5rem); line-height: 1.12; letter-spacing: -.02em;
+  margin: 0; color: var(--cream); max-width: 22ch;
+}
+.band-lead { margin: 16px 0 0; max-width: 56ch; color: var(--text); text-wrap: pretty; }
+
+/* reveal — armed only when JS is live (html.js), so no-JS renders everything */
+.js .rv { opacity: 0; transform: translateY(14px); transition: opacity .7s ease, transform .7s ease; }
+.js .rv.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .js .rv { opacity: 1; transform: none; transition: none; }
+}
+
+/* --------------------------------------------------- call scene (Anruf) */
+.anruf-grid { display: flex; flex-wrap: wrap; gap: clamp(24px, 4vw, 40px); align-items: flex-start; margin: 36px 0 0; }
+.scene { max-width: 640px; margin: 0; flex: 1 1 460px; }
+.call-shot {
+  /* Polierstelle b: 380px -> ~460px, damit auf der Platte erkennbar ist, DASS es ein
+     Transkript ist. scene(460) + call-shot(460) + gap(<=40) = <=960px, passt locker in
+     --wrap: 1160px bei 1440 — kein Wechsel unter die Bubbles nötig. */
+  --cut: 14px;
+  flex: 0 1 460px; min-width: 260px; max-width: 460px; margin: 0;
+  background: var(--forest-2); border: 1px solid var(--hairline); padding: 10px;
+}
+.call-shot picture, .call-shot img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; }
+.call-shot figcaption { margin: 10px 0 0; }
+.scene-tag {
+  display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--olive); border: 1px solid rgba(157, 190, 134, .35);
+  padding: 5px 10px; --cut: 7px;
+}
+.bubbles { list-style: none; margin: 22px 0 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.bubble { max-width: 85%; }
+.bubble .who {
+  display: block; font-size: 11px; font-weight: 800; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--sage); margin: 0 0 5px;
+}
+.bubble p { margin: 0; font-size: 15.5px; line-height: 1.55; text-wrap: pretty; }
+.bubble.guest { align-self: flex-start; }
+.bubble.guest p { color: var(--text); }
+.bubble.heidi { align-self: flex-end; }
+.bubble.heidi > div {
+  --cut: 12px;
+  background: var(--forest-2); border: 1px solid var(--hairline); padding: 13px 16px;
+}
+.bubble.heidi p { color: var(--cream); }
+.bubble.sms { align-self: flex-end; width: 100%; max-width: 100%; margin-top: 4px; }
+.sms-card {
+  --cut: 14px;
+  position: relative; background: var(--forest-2); border: 1px solid var(--hairline);
+  padding: 15px 18px 15px 21px;
+}
+.sms-card::before { content: ""; position: absolute; left: 0; top: 14px; bottom: 0; width: 3px; background: var(--olive); }
+.sms-card .who { color: var(--olive); }
+.sms-card p { color: var(--cream); font-size: 14.5px; }
+.sms-card .code { font-variant-numeric: tabular-nums; letter-spacing: .04em; color: var(--olive); }
+
+/* staged play-in */
+.scene.armed .bubble { opacity: 0; transform: translateY(10px); }
+.scene.play .bubble {
+  animation: rise .6s ease forwards;
+  animation-delay: calc(var(--i) * .9s);
+}
+@keyframes rise { to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .scene.armed .bubble { opacity: 1; transform: none; animation: none; }
+}
+
+.scene-facts { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 26px 0 0; padding: 0; list-style: none; }
+.scene-facts li { font-size: 13px; color: var(--sage); display: flex; align-items: center; gap: 8px; }
+.scene-facts .tick { color: var(--olive); }
+
+/* ----------------------------------------------------------- capability */
+.cards {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  gap: 14px; margin: 36px 0 0;
+}
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+  /* Grenzen sind vier — zwei mal zwei liest sich als Satz, drei plus eins als Rest. */
+  .cards.pairs { grid-template-columns: repeat(2, 1fr); }
+}
+.card {
+  --cut: 14px;
+  background: var(--forest-2); border: 1px solid var(--hairline);
+  padding: 22px 22px 20px;
+}
+.card svg { display: block; margin: 0 0 14px; }
+.card h3 {
+  font-family: var(--serif); font-weight: 600; font-size: 19px; letter-spacing: -.01em;
+  margin: 0; color: var(--cream);
+}
+.card p { margin: 8px 0 0; font-size: 14.5px; line-height: 1.55; color: var(--text); text-wrap: pretty; }
+
+/* ----------------------------------------------------------------- app */
+.app-grid { display: flex; flex-wrap: wrap; gap: clamp(28px, 5vw, 64px); align-items: center; margin-top: 8px; }
+.app-copy { flex: 1 1 380px; min-width: 280px; }
+.app-visual { flex: 1 1 320px; min-width: 260px; }
+.rail {
+  --cut: 16px;
+  background: var(--forest-deep); border: 1px solid var(--hairline);
+  padding: 26px 22px 22px;
+}
+.rail-title { font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--sage); margin: 0 0 18px; }
+.rail-tabs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.rail-tab {
+  --cut: 10px;
+  border: 1px solid var(--hairline); padding: 14px 14px 12px; background: var(--forest-2);
+}
+.rail-tab b { display: block; font-size: 14px; font-weight: 700; color: var(--cream); letter-spacing: .01em; }
+.rail-tab span { display: block; margin-top: 4px; font-size: 12.5px; color: var(--text); line-height: 1.45; }
+.app-shot {
+  --cut: 16px;
+  background: var(--forest-deep); border: 1px solid var(--hairline); padding: 10px; margin: 0 0 18px;
+}
+.app-shot picture, .app-shot img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; }
+.app-shot figcaption { margin: 10px 0 0; }
+
+/* --------------------------------------------------------- transparency */
+.quote {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(1.3rem, 3vw, 1.9rem); line-height: 1.35; letter-spacing: -.015em;
+  max-width: 30ch; margin: 26px 0 0; color: var(--cream);
+}
+.quote em { font-style: normal; color: var(--olive); }
+
+/* --------------------------------------------------------------- kommt */
+.kommt { list-style: none; margin: 30px 0 0; padding: 0; max-width: 720px; }
+.kommt li {
+  display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: baseline;
+  padding: 14px 0; border-top: 1px solid var(--hairline);
+}
+.kommt li:last-child { border-bottom: 1px solid var(--hairline); }
+.kommt b { flex: 0 0 15em; font-weight: 600; color: var(--cream); font-size: 15px; }
+.kommt span { flex: 1 1 240px; color: var(--sage); font-size: 14px; line-height: 1.5; }
+
+/* --------------------------------------------------------------- pilot */
+.pilot-final {
+  --cut: 18px;
+  position: relative; background: var(--forest-2); border: 1px solid var(--hairline);
+  padding: clamp(26px, 4vw, 40px);
+  max-width: 720px;
+}
+.pilot-final::before { content: ""; position: absolute; left: 0; top: 18px; bottom: 0; width: 3px; background: var(--olive); }
+.pilot-final .big {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(1.25rem, 2.6vw, 1.6rem); line-height: 1.35; letter-spacing: -.015em;
+  margin: 0; color: var(--cream); text-wrap: pretty;
+}
+.pilot-final .after { margin: 18px 0 0; font-size: 15px; color: var(--text); }
+
+/* -------------------------------------------------------------- footer */
+footer.site {
+  border-top: 1px solid var(--hairline);
+  padding: 30px 0 36px; margin-top: clamp(48px, 9vh, 104px);
+  font-size: 13px; color: var(--sage);
+}
+.foot-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 24px; }
+.foot-left { display: flex; align-items: center; gap: 10px; }
+.foot-left img { width: 22px; height: 22px; }
+.foot-links { display: flex; flex-wrap: wrap; gap: 4px 22px; }
+.foot-links a { color: var(--sage); }
+.foot-links a:hover { color: var(--cream); }
+.madein { letter-spacing: .1em; text-transform: uppercase; font-weight: 700; font-size: 11px; }
+.ai-image-note { margin: 10px 0 0; font-size: 11.5px; color: var(--sage); opacity: .8; }
+
+/* -------------------------------------------------------------- legal */
+.legal { max-width: 680px; padding: clamp(32px, 6vh, 64px) 0; }
+.legal h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); }
+.legal h2 { font-size: 1.25rem; margin-top: 2.2em; max-width: none; }
+.legal p, .legal li { color: var(--sage); font-size: 15.5px; line-height: 1.65; }
+.legal .slot {
+  --cut: 10px;
+  display: inline-block; border: 1px dashed var(--hairline); color: var(--sage);
+  padding: 2px 10px; font-size: 14px;
+}
+
+/* --------------------------------------------------------- responsive */
+@media (max-width: 880px) {
+  .hero { padding-top: 8px; }
+  .hero-grid { gap: 22px; }
+  .hero-stage { order: -1; gap: 10px; }
+  .stage-box { max-width: 250px; }
+  .ring { --r: calc(50% - 18px); }
+  .ring .node { width: 30px; height: 30px; }
+  .bubble { max-width: 94%; }
+  .kommt b { flex-basis: 100%; }
+  .call-shot { flex-basis: 100%; max-width: 100%; }
+  .app-shot { max-width: 100%; }
+}
+@media (max-width: 560px) {
+  /* Auf schmalen Geräten steht der Betrag unter seiner Zeile statt daneben:
+     `white-space: nowrap` auf .num würde die Seite sonst breiter machen als das
+     Fenster, und eine Seite, die seitlich scrollt, hat kein Layout mehr. */
+  .price-list li { grid-template-columns: 1fr; }
+  .price-list .num { text-align: left; white-space: normal; margin-top: 2px; }
+}
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  .rail-tabs { grid-template-columns: 1fr; }
+}
+/* ------------------------------------------------------- Kapitel «Der Flug» */
+.eyebrow .ch {
+  color: var(--olive); font-variant-numeric: tabular-nums;
+  margin-right: 10px; padding-right: 10px; border-right: 1px solid var(--hairline);
+}
+.hero-kicker { margin: 0 0 16px; }
+
+/* Die Flugbahn — EINE Bewegung, an jeder Kapitelnaht dieselbe: die gestrichelte
+   Linie zieht sich einmal durch, wenn die Naht ins Bild kommt. Bei reduzierter
+   Bewegung steht sie einfach da. Kein zweiter Effekt kommt dazu. */
+.flightpath { width: 24px; height: clamp(38px, 5.5vh, 68px); margin: 0 auto; }
+.flightpath svg { display: block; width: 100%; height: 100%; }
+.flightpath path { stroke-dasharray: 5 7; }
+.js .flightpath.rv { opacity: 1; transform: none; transition: none; }
+.js .flightpath.rv path { stroke-dashoffset: 300; transition: stroke-dashoffset 1.8s ease-out; }
+.js .flightpath.rv.in path { stroke-dashoffset: 0; }
+@media (prefers-reduced-motion: reduce) {
+  .js .flightpath.rv path { stroke-dashoffset: 0; transition: none; }
+}
+
+/* ------------------------------------------------------------- Kopf-Chips */
+.chip-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.login-chip { color: var(--cream); }
+.login-chip:hover { border-color: var(--olive); color: var(--cream); }
+
+/* ------------------------------------------------------------------ Preis */
+.prices {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 14px; margin: 36px 0 0;
+}
+@media (min-width: 980px) { .prices { grid-template-columns: repeat(3, 1fr); } }
+.price-card {
+  --cut: 16px;
+  background: var(--forest-2); border: 1px solid var(--hairline);
+  padding: 24px 22px 22px; display: flex; flex-direction: column;
+}
+.price-kicker {
+  font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--olive); margin: 0;
+}
+.price-sub { margin: 10px 0 0; font-size: 14px; line-height: 1.5; color: var(--text); text-wrap: pretty; }
+.price-list { list-style: none; margin: 18px 0 0; padding: 0; }
+.price-list li {
+  display: grid; grid-template-columns: 1fr auto; gap: 2px 14px; align-items: baseline;
+  padding: 12px 0; border-top: 1px solid var(--hairline);
+}
+.price-list li:last-child { border-bottom: 1px solid var(--hairline); }
+.price-list b { font-size: 15px; font-weight: 600; color: var(--cream); }
+.price-list .num {
+  font-family: var(--serif); font-weight: 600; font-size: 16px; color: var(--cream);
+  font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right;
+}
+.price-list .note { grid-column: 1 / -1; font-size: 13px; line-height: 1.45; color: var(--text); text-wrap: pretty; }
+.price-foot { margin: 16px 0 0; font-size: 13px; line-height: 1.55; color: var(--text); text-wrap: pretty; }
+.price-foot b { color: var(--cream); font-weight: 600; }
+.price-legal { margin: 26px 0 0; font-size: 13px; color: var(--sage); }
+
+/* ------------------------------------------------------------------- Haus */
+.haus-grid { display: flex; flex-wrap: wrap; gap: clamp(28px, 5vw, 64px); align-items: center; margin-top: 8px; }
+.haus-copy { flex: 1 1 380px; min-width: 280px; }
+.haus-copy .band-lead + .band-lead { margin-top: 14px; }
+.haus-visual { flex: 1 1 320px; min-width: 260px; }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Colomba",
+  "url": "https://colomba-swiss.ch/",
+  "logo": "https://colomba-swiss.ch/assets/favicon-512.png",
+  "email": "info@colomba-swiss.ch",
+  "sameAs": ["https://www.instagram.com/colombaswiss/"],
+  "address": { "@type": "PostalAddress", "addressLocality": "Basel", "addressCountry": "CH" }
+}
+</script>
 </head>
 <body>
-  <main class="wrap">
-    <h1>Colomba</h1>
-    <p class="sub">Der KI-Telefon-Empfang für Schweizer Restaurants.</p>
-    <p class="body">Heidi nimmt jeden Anruf entgegen, bucht Tische und bestätigt per SMS — auch dann, wenn im Service gerade niemand ans Telefon kann.</p>
-    <hr class="rule">
-    <p class="pilot">Pilotprogramm 2026 — wir richten ausgewählten Basler Restaurants eine kostenlose Testinstallation ein.</p>
-    <p class="contact">Anfragen: <a href="https://www.instagram.com/colombaswiss/" rel="me noopener">Instagram @colombaswiss</a></p>
-  </main>
-  <footer><div class="footer-inner">© 2026 Colomba · Basel</div></footer>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<header class="site wrap">
+  <div class="site-inner">
+    <a class="mark" href="./" aria-label="Colomba — Startseite">
+      <img src="assets/colomba-dove.svg" alt="" width="34" height="34">
+      <b>Colomba</b>
+    </a>
+    <div class="chip-row">
+      <a class="pilot-chip cut" href="#pilot">
+        <span class="dot live" aria-hidden="true"></span>
+        Pilotprogramm 2026
+      </a>
+      <a class="pilot-chip login-chip cut" href="https://api.colomba-swiss.ch/app/login">
+        Anmelden
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="paper-hero">
+    <div class="paper-hero-media">
+      <picture>
+        <source type="image/webp" srcset="assets/flug/01-aufbruch.webp">
+        <img src="assets/flug/01-aufbruch.jpg" width="1792" height="1008" loading="eager"
+             alt="Papierlandschaft bei Tag: Tannen und ein Städtchen am Fluss vor Bergen, darüber eine Origami-Taube im Flug (Illustration, Kapitel 01: Der Flug)">
+      </picture>
+      <video class="paper-hero-video" id="paper-hero-video" muted playsinline preload="none"
+             width="1936" height="1040" aria-hidden="true" tabindex="-1"
+             data-webm="assets/flug/01-aufbruch-motion.webm"
+             data-mp4="assets/flug/01-aufbruch-motion.mp4"></video>
+    </div>
+    <div class="paper-hero-card cut">
+      <p class="eyebrow"><span class="ch">01</span> Der Flug · Basel</p>
+      <h2>Die Nachricht hebt ab.</h2>
+      <p>Der Anruf wird zur Taube. Heidi trägt den Tisch — nicht ein Formular.</p>
+    </div>
+  </section>
+
+  <section class="hero wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow hero-kicker"><span class="ch">01</span> Der Flug · Basel</p>
+        <h1>Colomba</h1>
+        <p class="claim">Heidi, die Betriebsassistentin für Schweizer Restaurants.</p>
+        <p class="lead">Heidi nimmt Anrufe entgegen, bucht Tische und bestätigt per SMS — rund um die Uhr, auch wenn im Service gerade niemand ans Telefon kann.</p>
+        <hr class="hero-rule">
+
+        <div class="cta">
+
+          <div class="cta-fallback">
+            <div class="pilot-card cut">
+              <p>Pilotprogramm 2026 — wir richten ausgewählten Basler Restaurants eine kostenlose Testinstallation ein.</p>
+            </div>
+            <p class="contact-line">Anfragen: <a href="mailto:info@colomba-swiss.ch">info@colomba-swiss.ch</a> oder <a href="https://www.instagram.com/colombaswiss/" rel="me noopener">Instagram&nbsp;@colombaswiss</a> — wir melden uns persönlich.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="flightpath rv" aria-hidden="true">
+    <svg viewBox="0 0 24 120" width="24" height="120" preserveAspectRatio="none">
+      <path d="M12 0 C 3 32, 21 74, 12 120" fill="none" stroke="#9DBE86" stroke-width="1.3" stroke-linecap="round" opacity=".42"/>
+    </svg>
+  </div>
+
+  <section class="band" id="anruf">
+    <div class="wrap">
+    <p class="eyebrow"><span class="ch">02</span> Über den Bergen</p>
+    <h2 class="rv">So klingt ein Anruf bei Heidi.</h2>
+    <p class="band-lead rv">Kein Videodreh, keine Behauptung — ein Gespräch, wie Heidi es führt. Nachgestellt, damit kein echter Gast darin vorkommt.</p>
+
+    <div class="hero-stage hero-stage--compact" aria-label="Heidi, dargestellt als lebendige Lichtkugel">
+      <div class="stage-box">
+        <div class="ring" aria-hidden="true" id="ring"></div>
+        <div class="orb-mount" id="orb-mount">
+          <div class="ember" id="ember"></div>
+        </div>
+      </div>
+      <p class="status-chip cut" id="status-chip">
+        <span class="dot live" id="status-dot" aria-hidden="true"></span>
+        <span id="status-text">Heidi hört zu.</span>
+      </p>
+    </div>
+
+    <div class="anruf-grid">
+      <div class="scene" id="scene">
+        <span class="scene-tag cut">Beispiel · nachgestellt</span>
+        <ol class="bubbles">
+          <li class="bubble heidi" style="--i:0">
+            <div class="cut">
+              <span class="who">Heidi</span>
+              <p>Grüezi, hier ist Heidi, die KI-Assistentin von Zum Rhyboge. Womit darf ich Ihnen helfen?</p>
+            </div>
+          </li>
+          <li class="bubble guest" style="--i:1">
+            <span class="who">Gast</span>
+            <p>Grüezi! Haben Sie heute Abend noch einen Tisch für vier Personen?</p>
+          </li>
+          <li class="bubble heidi" style="--i:2">
+            <div class="cut">
+              <span class="who">Heidi</span>
+              <p>Gern — einen Moment, ich prüfe die Verfügbarkeit. Um 19 Uhr hätte es Platz. Passt Ihnen das?</p>
+            </div>
+          </li>
+          <li class="bubble guest" style="--i:3">
+            <span class="who">Gast</span>
+            <p>Ja, das passt gut.</p>
+          </li>
+          <li class="bubble heidi" style="--i:4">
+            <div class="cut">
+              <span class="who">Heidi</span>
+              <p>Dann ist der Tisch für Sie reserviert. Sie erhalten gleich eine SMS-Bestätigung mit Ihrem Stornocode.</p>
+            </div>
+          </li>
+          <li class="bubble sms" style="--i:5">
+            <div class="sms-card cut">
+              <span class="who">SMS an den Gast</span>
+              <p>Ihre Reservation bei Zum Rhyboge: heute, 19:00 Uhr, 4 Personen. Stornocode <span class="code">S-4172</span>.</p>
+            </div>
+          </li>
+        </ol>
+        <ul class="scene-facts">
+          <li><svg class="tick" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#9DBE86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg> Offenlegung im ersten Satz</li>
+          <li><svg class="tick" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#9DBE86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg> Verfügbarkeit geprüft, dann gebucht</li>
+          <li><svg class="tick" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#9DBE86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg> SMS mit Stornocode</li>
+        </ul>
+      </div>
+      <figure class="call-shot cut rv">
+        <picture>
+          <source type="image/webp" srcset="assets/app/s3-anrufe@1x.webp 1x, assets/app/s3-anrufe@2x.webp 2x">
+          <img src="assets/app/s3-anrufe@1x.webp" width="1440" height="900" loading="lazy" alt="App-Ansicht: Anrufe, Transkript aufgeklappt, Beispiel nachgestellt (Zum Rhyboge)">
+        </picture>
+        <figcaption class="eyebrow">So sieht der Wirt das Gespräch in der App</figcaption>
+      </figure>
+    </div>
+    </div>
+  </section>
+
+  <div class="flightpath rv" aria-hidden="true">
+    <svg viewBox="0 0 24 120" width="24" height="120" preserveAspectRatio="none">
+      <path d="M12 0 C 3 32, 21 74, 12 120" fill="none" stroke="#9DBE86" stroke-width="1.3" stroke-linecap="round" opacity=".42"/>
+    </svg>
+  </div>
+
+  <section class="band deep" id="heute">
+    <div class="wrap">
+    <p class="eyebrow"><span class="ch">03</span> Heute im Einsatz</p>
+    <h2 class="rv">Was Heidi übernimmt.</h2>
+    <p class="band-lead rv">Heidi nimmt heute auf unserer Basler Pilotlinie echte Anrufe entgegen — 78 seit Juni. Von ihren sieben Aufgabenbereichen sind zwei im Einsatz: Telefon und Reservationen. Das kann sie:</p>
+
+    <div class="cards">
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4l3 3-2 3a11 11 0 005 5l3-2 3 3-2 2A16 16 0 014 6z"/></svg>
+        <h3>Erreichbar, wenn niemand abnehmen kann</h3>
+        <p>Mittags-Service, Abendbetrieb, Ruhetag: Heidi nimmt ab.</p>
+      </div>
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10h18 M12 10v9 M8 19h8"/></svg>
+        <h3>Tische, richtig gebucht</h3>
+        <p>Heidi prüft die Verfügbarkeit und trägt die Reservation direkt ein.</p>
+      </div>
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z M8 9h8 M8 12h5"/></svg>
+        <h3>Bestätigt per SMS</h3>
+        <p>Der Gast erhält sofort eine Bestätigung mit Stornocode.</p>
+      </div>
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.3a2.5 2.5 0 113.6 2.2c-.8.4-1.1.9-1.1 1.8 M12 16.6h.01"/></svg>
+        <h3>Antworten aus Ihrem Haus</h3>
+        <p>Öffnungszeiten, Anreise, Fragen zur Karte: Heidi antwortet mit dem Wissen Ihres Betriebs.</p>
+      </div>
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h16v11H4z M4 8l2.5-3h11L20 8 M4 13h5a3 3 0 006 0h5"/></svg>
+        <h3>Rückrufe werden zur Aufgabe</h3>
+        <p>Rückrufe landen als Aufgabe in Ihrer App.</p>
+      </div>
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11v2 M7 8v8 M11 4v16 M15 7v10 M19 10v4"/></svg>
+        <h3>So klingt Heidi am Telefon</h3>
+        <p>Schweizer Hochdeutsch — ruhig, warm und professionell.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="band" id="grenzen">
+    <div class="wrap">
+    <p class="eyebrow"><span class="ch">04</span> Grenzen</p>
+    <h2 class="rv">Was die Taube nicht trägt.</h2>
+    <p class="band-lead rv">Eine Assistentin, die ihre Grenzen kennt, ist eine Assistentin, der man vertraut.</p>
+
+    <div class="cards pairs">
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 9h6 M9 15h6 M12 6.5v11"/></svg>
+        <h3>Heidi entscheidet nichts über Geld.</h3>
+        <p>Preise, Gebühren, Ausnahmen — das sagt der Wirt, nicht die Assistentin.</p>
+      </div>
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5h7a2 2 0 012 2V19a2 2 0 00-2-1.6H4z M20 5.5h-7a2 2 0 00-2 2V19a2 2 0 012-1.6h7z"/></svg>
+        <h3>Heidi verspricht nichts, was nicht in Ihrer Wissensbasis steht.</h3>
+        <p>Was sie nicht weiss, sagt sie — und legt es Ihnen als Aufgabe hin.</p>
+      </div>
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7.5h18v9H3z M3 11h18"/><path d="M4 4l16 16"/></svg>
+        <h3>Heidi nimmt keine Zahlungen entgegen.</h3>
+        <p>Keine Kartendaten, keine Anzahlung, keine Rechnung am Telefon.</p>
+      </div>
+      <div class="card cut rv">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11a3 3 0 100-6 3 3 0 000 6z M3.5 19.5a5.5 5.5 0 0111 0 M16 11.5a2.6 2.6 0 100-5.2 M17 19.5a5 5 0 00-1.6-3.6"/></svg>
+        <h3>Heidi ersetzt kein Team.</h3>
+        <p>Sie nimmt ab, wenn niemand kann — den Gast am Tisch begrüssen Sie.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="flightpath rv" aria-hidden="true">
+    <svg viewBox="0 0 24 120" width="24" height="120" preserveAspectRatio="none">
+      <path d="M12 0 C 3 32, 21 74, 12 120" fill="none" stroke="#9DBE86" stroke-width="1.3" stroke-linecap="round" opacity=".42"/>
+    </svg>
+  </div>
+
+  <section class="band deep" id="app">
+    <div class="wrap">
+    <p class="eyebrow"><span class="ch">05</span> Die Landung</p>
+    <div class="app-grid">
+      <div class="app-copy">
+        <h2 class="rv">Ihr Betrieb, in einer App.</h2>
+        <p class="band-lead rv">Alles, was Heidi annimmt, sehen Sie sofort: jede Buchung, jeder Anruf, jede Aufgabe. Für Web und Android — iOS folgt.</p>
+      </div>
+      <div class="app-visual rv">
+        <figure class="app-shot main cut">
+          <picture>
+            <source type="image/webp" srcset="assets/app/s1-reservationen@1x.webp 1x, assets/app/s1-reservationen@2x.webp 2x">
+            <img src="assets/app/s1-reservationen@1x.webp" width="1440" height="900" loading="lazy" alt="App-Ansicht: Heute, Reservationsliste (Zum Rhyboge)">
+          </picture>
+          <figcaption class="eyebrow">Heute · Reservationsliste</figcaption>
+        </figure>
+        <figure class="app-shot cut">
+          <picture>
+            <source type="image/webp" srcset="assets/app/s4-buchungen@1x.webp 1x, assets/app/s4-buchungen@2x.webp 2x">
+            <img src="assets/app/s4-buchungen@1x.webp" width="1440" height="900" loading="lazy" alt="App-Ansicht: Buchungen, Reservationsliste, nachgestellt (Zum Rhyboge)">
+          </picture>
+          <figcaption class="eyebrow">Buchungen · Reservationsliste, nachgestellt</figcaption>
+        </figure>
+        <div class="rail cut">
+          <p class="rail-title">Vier Ansichten, ein Tag</p>
+          <div class="rail-tabs">
+            <div class="rail-tab cut"><b>Heute</b><span>Der Tag auf einen Blick.</span></div>
+            <div class="rail-tab cut"><b>Buchungen</b><span>Jede Reservation, live.</span></div>
+            <div class="rail-tab cut"><b>Anrufe</b><span>Jedes Gespräch, nachvollziehbar.</span></div>
+            <div class="rail-tab cut"><b>Aufgaben</b><span>Rückrufe und offene Punkte.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="flightpath rv" aria-hidden="true">
+    <svg viewBox="0 0 24 120" width="24" height="120" preserveAspectRatio="none">
+      <path d="M12 0 C 3 32, 21 74, 12 120" fill="none" stroke="#9DBE86" stroke-width="1.3" stroke-linecap="round" opacity=".42"/>
+    </svg>
+  </div>
+
+  <section class="band" id="preis">
+    <div class="wrap">
+    <p class="eyebrow"><span class="ch">06</span> Der Preis des Flugs</p>
+    <h2 class="rv">Was Colomba kostet.</h2>
+    <p class="band-lead rv">Drei Dinge, die Sie wählen: wie viel Assistentin, wie viele Minuten, und ob Heidi bei Ihnen im Haus läuft.</p>
+
+    <div class="prices">
+      <div class="price-card cut rv">
+        <p class="price-kicker">Assistent</p>
+        <p class="price-sub">Die App und Heidis Arbeit darin — monatlich, Nutzungsbalken mit Monatsreset.</p>
+        <ul class="price-list">
+          <li><b>Free</b><span class="num">CHF 0</span><span class="note">1 Anruf pro Monat, kleiner Aufgaben-Pool, 10 SMS</span></li>
+          <li><b>Start</b><span class="num">CHF 39</span></li>
+          <li><b>Plus</b><span class="num">CHF 89</span><span class="note">4× Balken, Analytik, Integrationen</span></li>
+          <li><b>Max</b><span class="num">CHF 169</span><span class="note">10× Balken, Priorität, Multi-Brand, Early Access</span></li>
+        </ul>
+      </div>
+
+      <div class="price-card cut rv">
+        <p class="price-kicker">Telefonminuten</p>
+        <p class="price-sub">Gesprächsminuten auf Ihrer Linie — der Aufgabenbereich Telefon. SMS zählen 1:1 gegen die Minuten.</p>
+        <ul class="price-list">
+          <li><b>100&nbsp;Min</b><span class="num">CHF 69</span><span class="note">CHF 0.69 pro Minute</span></li>
+          <li><b>250&nbsp;Min</b><span class="num">CHF 159</span><span class="note">CHF 0.636 pro Minute</span></li>
+          <li><b>500&nbsp;Min</b><span class="num">CHF 309</span><span class="note">CHF 0.618 pro Minute</span></li>
+          <li><b>1000&nbsp;Min</b><span class="num">CHF 549</span><span class="note">CHF 0.549 pro Minute</span></li>
+        </ul>
+        <p class="price-foot"><b>Überhang</b>, gestaffelt nach Monatsverbrauch: bis 100&nbsp;Min CHF 0.85 · 101–200 CHF 0.75 · 201–500 CHF 0.68 · ab 501 CHF 0.62 pro Minute. Jede weitere SMS CHF 0.20.</p>
+      </div>
+
+      <div class="price-card cut rv">
+        <p class="price-kicker">Colomba Haus</p>
+        <p class="price-sub">Heidi läuft auf einer Box bei Ihnen im Haus.</p>
+        <ul class="price-list">
+          <li><b>Monatlich</b><span class="num">CHF 399</span><span class="note">Max inklusive, unbegrenzte Minuten auf der Box im Haus</span></li>
+          <li><b>Jährlich</b><span class="num">CHF 3'990</span></li>
+          <li><b>Haus Kit</b><span class="num">ab CHF 1'290</span><span class="note">Box und ein Tablet, Selbstinstallation mit Heidi</span></li>
+          <li><b>Vor-Ort-Installation</b><span class="num">+CHF 199</span><span class="note">optional</span></li>
+          <li><b>Einzeln</b><span class="num">Box CHF 790 · Tablet CHF 490</span></li>
+        </ul>
+        <p class="price-foot">Enthalten ist <b>eine gleichzeitige Leitung</b>. Jede weitere Leitung ist mit CHF 49 pro Monat bepreist; wie viele Ihr Haus trägt, messen wir vor der Installation.</p>
+      </div>
+    </div>
+
+    <p class="price-legal rv">Alle Preise CHF, exkl. 8.1&nbsp;% MWST · monatlich kündbar · keine Einrichtungsgebühr.</p>
+    </div>
+  </section>
+
+  <div class="flightpath rv" aria-hidden="true">
+    <svg viewBox="0 0 24 120" width="24" height="120" preserveAspectRatio="none">
+      <path d="M12 0 C 3 32, 21 74, 12 120" fill="none" stroke="#9DBE86" stroke-width="1.3" stroke-linecap="round" opacity=".42"/>
+    </svg>
+  </div>
+
+  <section class="band deep" id="haus">
+    <div class="wrap">
+    <p class="eyebrow"><span class="ch">07</span> Das Nest</p>
+    <div class="haus-grid">
+      <div class="haus-copy">
+        <h2 class="rv">Wenn Heidi bei Ihnen wohnt.</h2>
+        <p class="band-lead rv">Colomba Haus ist die Variante für Betriebe, die alles im eigenen Haus behalten wollen: Heidi läuft auf einer Box in Ihrem Betrieb, die Minuten auf dieser Box sind unbegrenzt, und die Max-Stufe der App ist eingeschlossen.</p>
+        <p class="band-lead rv">Eine gleichzeitige Leitung ist enthalten — das ist die Zahl, die wir auf der Zielhardware gemessen haben, nicht die, die sich am besten liest. Was Ihr Haus darüber hinaus trägt, messen wir vor der Installation.</p>
+      </div>
+      <div class="haus-visual rv">
+        <div class="rail cut">
+          <p class="rail-title">Was im Haus bleibt</p>
+          <div class="rail-tabs">
+            <div class="rail-tab cut"><b>Die Box</b><span>Heidi läuft vor Ort, nicht irgendwo.</span></div>
+            <div class="rail-tab cut"><b>Die Minuten</b><span>Unbegrenzt auf der Box im Haus.</span></div>
+            <div class="rail-tab cut"><b>Die App</b><span>Max-Stufe, ohne Aufpreis.</span></div>
+            <div class="rail-tab cut"><b>Die Leitung</b><span>Eine gleichzeitige, gemessen.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="flightpath rv" aria-hidden="true">
+    <svg viewBox="0 0 24 120" width="24" height="120" preserveAspectRatio="none">
+      <path d="M12 0 C 3 32, 21 74, 12 120" fill="none" stroke="#9DBE86" stroke-width="1.3" stroke-linecap="round" opacity=".42"/>
+    </svg>
+  </div>
+
+  <section class="band" id="transparenz">
+    <div class="wrap">
+    <p class="eyebrow"><span class="ch">08</span> Transparenz</p>
+    <h2 class="rv">Ihre Gäste wissen, mit wem sie sprechen.</h2>
+    <p class="quote rv">Heidi gibt sich im ersten Satz jedes Anrufs als KI-Assistentin zu erkennen. <em>Immer.</em></p>
+    <p class="band-lead rv">Wir halten das für eine Stärke. Eine Assistentin, die ehrlich ist, schafft Vertrauen — beim Gast und im Team.</p>
+    </div>
+  </section>
+
+  <div class="flightpath rv" aria-hidden="true">
+    <svg viewBox="0 0 24 120" width="24" height="120" preserveAspectRatio="none">
+      <path d="M12 0 C 3 32, 21 74, 12 120" fill="none" stroke="#9DBE86" stroke-width="1.3" stroke-linecap="round" opacity=".42"/>
+    </svg>
+  </div>
+
+  <section class="band deep" id="kommt">
+    <div class="wrap">
+    <p class="eyebrow"><span class="ch">09</span> In Entwicklung</p>
+    <h2 class="rv">Woran wir gerade bauen.</h2>
+    <p class="band-lead rv">Heidi wächst vom Telefon zur Betriebsassistentin — Aufgabenbereich für Aufgabenbereich, ohne Datum: sichtbar wird, was unsere Messlatte besteht.</p>
+    <ul class="kommt rv">
+      <li><b>Büro</b><span>Dokumente erfassen: Lieferscheine und Belege direkt aus der App fotografieren.</span></li>
+      <li><b>Team</b><span>Stempeluhr, Dienstplan und Nachrichten für den Betrieb.</span></li>
+      <li><b>Zahlen</b><span>Der Tagesblick: das Wichtigste des Tages, morgens bereit — mit Wetter und Bewertungen.</span></li>
+      <li><b>Gäste &amp; Marketing</b><span>Der Gastlink: Gäste sehen und ändern ihre Reservation über ihren SMS-Link.</span></li>
+      <li><b>Einkauf &amp; Lager</b><span>Bestand, Lieferanten, Bestellungen — als Nächstes auf dem Plan.</span></li>
+      <li><b>Telefon, weiter ausgebaut</b><span>Tonalität pro Betrieb — per Du oder per Sie — und weitere Sprachen: Englisch, Französisch, Italienisch.</span></li>
+    </ul>
+    </div>
+  </section>
+
+  <div class="flightpath rv" aria-hidden="true">
+    <svg viewBox="0 0 24 120" width="24" height="120" preserveAspectRatio="none">
+      <path d="M12 0 C 3 32, 21 74, 12 120" fill="none" stroke="#9DBE86" stroke-width="1.3" stroke-linecap="round" opacity=".42"/>
+    </svg>
+  </div>
+
+  <section class="band" id="pilot">
+    <div class="wrap">
+    <p class="eyebrow"><span class="ch">10</span> Pilotprogramm</p>
+    <div class="pilot-final cut rv">
+      <p class="big">Pilotprogramm 2026 — wir richten ausgewählten Basler Restaurants eine kostenlose Testinstallation ein.</p>
+      <p class="after">Anfragen: <a href="mailto:info@colomba-swiss.ch">info@colomba-swiss.ch</a> oder <a href="https://www.instagram.com/colombaswiss/" rel="me noopener">Instagram&nbsp;@colombaswiss</a> — wir melden uns persönlich.</p>
+    </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap foot-inner">
+    <div class="foot-left">
+      <img src="assets/colomba-dove.svg" alt="">
+      <span>© 2026 Colomba · Basel</span>
+    </div>
+    <nav class="foot-links" aria-label="Rechtliches">
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="mailto:info@colomba-swiss.ch">info@colomba-swiss.ch</a>
+      <a href="https://www.instagram.com/colombaswiss/" rel="me noopener">Instagram</a>
+
+    </nav>
+    <span class="madein">Made in Switzerland</span>
+  </div>
+  <div class="wrap">
+    <p class="ai-image-note">Bildwelt teilweise KI-generiert.</p>
+  </div>
+</footer>
+
+<script src="site.js" defer></script>
 </body>
 </html>
