@@ -233,30 +233,44 @@ h1 {
 }
 .pilot-card p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--cream); text-wrap: pretty; }
 .contact-line { margin: 22px 0 0; font-size: 15px; color: var(--sage); }
+.btn {
+  --cut: 12px;
+  display: inline-block; padding: 13px 24px; background: var(--olive);
+  color: var(--forest-deep); border: 1px solid var(--olive);
+  font-family: var(--sans); font-size: 15px; font-weight: 700; letter-spacing: .01em;
+}
+.btn:hover { background: var(--cream); border-color: var(--cream); }
+.btn:focus-visible { outline: 2px solid var(--cream); outline-offset: 3px; }
+.cta-row { margin: 20px 0 0; }
 .contact-line a { border-bottom: 1px solid rgba(157, 190, 134, .4); padding-bottom: 1px; }
 
 /* orb stage */
 .hero-stage { flex: 1 1 340px; min-width: 260px; display: flex; flex-direction: column; align-items: center; gap: 18px; }
 /* Kapitel-02-Grösse — der Orb ist hier ein Akzent neben dem Gespräch, keine Hero-Bühne mehr. */
-.hero-stage--compact { flex: none; max-width: 180px; margin: 28px 0 0; gap: 10px; }
-.hero-stage--compact .stage-box { max-width: 150px; }
+.hero-stage--compact { flex: none; max-width: 470px; margin: 28px 0 0; gap: 42px; padding: 46px 0 10px; }
+.hero-stage--compact .stage-box { max-width: 232px; }
 .stage-box { position: relative; width: 100%; max-width: 420px; aspect-ratio: 1; }
-.ring { position: absolute; inset: 0; pointer-events: none; --r: calc(50% - 26px); }
+.ring { position: absolute; inset: 0; pointer-events: none; --r: calc(50% + 30px); }
 .ring .node {
-  position: absolute; transform: translate(-50%, -50%);
-  width: 34px; height: 34px; display: grid; place-items: center;
-  border: 1px solid rgba(157, 190, 134, .38);
-  background: rgba(35, 53, 48, .55);
-  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  --cut: 6px;
+  position: absolute; transform: translate(-50%, -50%); white-space: nowrap;
+  padding: 5px 10px; font-size: 11.5px; font-weight: 600; letter-spacing: .01em;
+  color: var(--sage); border: 1px solid var(--hairline);
+  background: rgba(22, 33, 29, .86);
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut));
 }
-.ring svg { display: block; }
+/* In use today — the only two that are lit. */
+.ring .node.live { color: var(--cream); border-color: rgba(157, 190, 134, .5); }
+/* In development — dimmed AND set back, so the split does not rest on hue alone. */
+.ring .node:not(.live) { opacity: .8; }
+.orb-legend { margin: 0; font-size: 12px; color: var(--sage); text-align: center; }
 .orb-mount { position: absolute; left: 50%; top: 50%; width: 62%; height: 62%; transform: translate(-50%, -50%); }
 /* Static ember: the resting light before (or instead of) WebGL — a bright,
    saturated centre falling off fast, per the design-bar »light, not fog« rule. */
 .ember {
   position: absolute; inset: 0; border-radius: 999px;
   background:
-    radial-gradient(circle at 50% 50%, rgba(251, 244, 233, .85) 0%, rgba(168, 205, 150, .55) 7%, rgba(110, 138, 118, .28) 22%, rgba(62, 90, 76, .12) 40%, transparent 62%);
+    radial-gradient(circle at 50% 50%, rgba(251, 244, 233, .62) 0%, rgba(157, 190, 134, .36) 7%, rgba(110, 138, 118, .16) 22%, rgba(62, 90, 76, .07) 40%, transparent 62%);
   transition: opacity 1.2s ease;
 }
 .ember.faded { opacity: 0; }
@@ -407,6 +421,7 @@ h2 {
 
 /* --------------------------------------------------------------- kommt */
 .kommt { list-style: none; margin: 30px 0 0; padding: 0; max-width: 720px; }
+.rail .kommt { margin: 0; max-width: none; }
 .kommt li {
   display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: baseline;
   padding: 14px 0; border-top: 1px solid var(--hairline);
@@ -462,19 +477,17 @@ footer.site {
   .hero-grid { gap: 22px; }
   .hero-stage { order: -1; gap: 10px; }
   .stage-box { max-width: 250px; }
-  .ring { --r: calc(50% - 18px); }
-  .ring .node { width: 30px; height: 30px; }
+  .hero-stage--compact { max-width: 100%; padding: 0; }
+  .hero-stage--compact .stage-box { max-width: 178px; margin-bottom: 96px; }
+  /* No room to orbit at 390px — the ring unwraps into a centred row below. */
+  .ring { inset: auto; top: calc(100% + 16px); left: 50%; transform: translateX(-50%);
+          display: flex; flex-wrap: wrap; justify-content: center; gap: 6px;
+          width: min(86vw, 420px); }
+  .ring .node { position: static; transform: none; left: auto; top: auto; }
   .bubble { max-width: 94%; }
   .kommt b { flex-basis: 100%; }
   .call-shot { flex-basis: 100%; max-width: 100%; }
   .app-shot { max-width: 100%; }
-}
-@media (max-width: 560px) {
-  /* Auf schmalen Geräten steht der Betrag unter seiner Zeile statt daneben:
-     `white-space: nowrap` auf .num würde die Seite sonst breiter machen als das
-     Fenster, und eine Seite, die seitlich scrollt, hat kein Layout mehr. */
-  .price-list li { grid-template-columns: 1fr; }
-  .price-list .num { text-align: left; white-space: normal; margin-top: 2px; }
 }
 @media (max-width: 480px) {
   body { font-size: 16px; }
@@ -533,6 +546,13 @@ footer.site {
   font-variant-numeric: tabular-nums; white-space: nowrap; text-align: right;
 }
 .price-list .note { grid-column: 1 / -1; font-size: 13px; line-height: 1.45; color: var(--text); text-wrap: pretty; }
+/* Moved down from above the base rules, where it was inert: same specificity, and a
+   media query adds none, so `white-space: nowrap` won and narrow phones could scroll
+   sideways. Declarations unchanged — only the position. */
+@media (max-width: 560px) {
+  .price-list li { grid-template-columns: 1fr; }
+  .price-list .num { text-align: left; white-space: normal; margin-top: 2px; }
+}
 .price-foot { margin: 16px 0 0; font-size: 13px; line-height: 1.55; color: var(--text); text-wrap: pretty; }
 .price-foot b { color: var(--cream); font-weight: 600; }
 .price-legal { margin: 26px 0 0; font-size: 13px; color: var(--sage); }
@@ -612,9 +632,9 @@ footer.site {
 
           <div class="cta-fallback">
             <div class="pilot-card cut">
-              <p>Pilotprogramm 2026 — wir richten ausgewählten Basler Restaurants eine kostenlose Testinstallation ein.</p>
+              <p>Pilotprogramm 2026 — kostenlose Testinstallation für ausgewählte Basler Restaurants.</p>
             </div>
-            <p class="contact-line">Anfragen: <a href="mailto:info@colomba-swiss.ch">info@colomba-swiss.ch</a> oder <a href="https://www.instagram.com/colombaswiss/" rel="me noopener">Instagram&nbsp;@colombaswiss</a> — wir melden uns persönlich.</p>
+            <p class="cta-row"><a class="btn cut" href="#pilot">Pilotplatz anfragen</a></p>
           </div>
         </div>
       </div>
@@ -644,6 +664,7 @@ footer.site {
         <span class="dot live" id="status-dot" aria-hidden="true"></span>
         <span id="status-text">Heidi hört zu.</span>
       </p>
+      <p class="orb-legend">Zwei Aufgabenbereiche sind im Einsatz, fünf in Entwicklung.</p>
     </div>
 
     <div class="anruf-grid">
@@ -762,7 +783,7 @@ footer.site {
       <div class="card cut rv">
         <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5h7a2 2 0 012 2V19a2 2 0 00-2-1.6H4z M20 5.5h-7a2 2 0 00-2 2V19a2 2 0 012-1.6h7z"/></svg>
         <h3>Heidi verspricht nichts, was nicht in Ihrer Wissensbasis steht.</h3>
-        <p>Was sie nicht weiss, sagt sie — und legt es Ihnen als Aufgabe hin.</p>
+        <p>Was sie nicht weiss, sagt sie — und gibt es ans Team weiter.</p>
       </div>
       <div class="card cut rv">
         <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#A6B39C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7.5h18v9H3z M3 11h18"/><path d="M4 4l16 16"/></svg>
@@ -790,30 +811,32 @@ footer.site {
     <div class="app-grid">
       <div class="app-copy">
         <h2 class="rv">Ihr Betrieb, in einer App.</h2>
-        <p class="band-lead rv">Alles, was Heidi annimmt, sehen Sie sofort: jede Buchung, jeder Anruf, jede Aufgabe. Für Web und Android — iOS folgt.</p>
+        <p class="band-lead rv">Was Heidi annimmt, sehen Sie in der App: Reservationen, Anrufe und Rückrufe.
+        Web ist heute nutzbar; Android läuft im geschlossenen Test, iOS im TestFlight.</p>
       </div>
       <div class="app-visual rv">
         <figure class="app-shot main cut">
           <picture>
             <source type="image/webp" srcset="assets/app/s1-reservationen@1x.webp 1x, assets/app/s1-reservationen@2x.webp 2x">
-            <img src="assets/app/s1-reservationen@1x.webp" width="1440" height="900" loading="lazy" alt="App-Ansicht: Heute, Reservationsliste (Zum Rhyboge)">
+            <img src="assets/app/s1-reservationen@1x.webp" width="1440" height="900" loading="lazy" alt="App-Ansicht: Heute, Reservationsliste, nachgestellt (Zum Rhyboge)">
           </picture>
-          <figcaption class="eyebrow">Heute · Reservationsliste</figcaption>
+          <figcaption class="eyebrow">Heute · Beispiel, nachgestellt</figcaption>
         </figure>
         <figure class="app-shot cut">
           <picture>
             <source type="image/webp" srcset="assets/app/s4-buchungen@1x.webp 1x, assets/app/s4-buchungen@2x.webp 2x">
-            <img src="assets/app/s4-buchungen@1x.webp" width="1440" height="900" loading="lazy" alt="App-Ansicht: Buchungen, Reservationsliste, nachgestellt (Zum Rhyboge)">
+            <img src="assets/app/s4-buchungen@1x.webp" width="1440" height="900" loading="lazy" alt="App-Ansicht: Reservationen, nachgestellt (Zum Rhyboge)">
           </picture>
-          <figcaption class="eyebrow">Buchungen · Reservationsliste, nachgestellt</figcaption>
+          <figcaption class="eyebrow">Reservationen · Beispiel, nachgestellt</figcaption>
         </figure>
         <div class="rail cut">
-          <p class="rail-title">Vier Ansichten, ein Tag</p>
+          <p class="rail-title">Fünf Flächen, ein Betrieb</p>
           <div class="rail-tabs">
             <div class="rail-tab cut"><b>Heute</b><span>Der Tag auf einen Blick.</span></div>
-            <div class="rail-tab cut"><b>Buchungen</b><span>Jede Reservation, live.</span></div>
-            <div class="rail-tab cut"><b>Anrufe</b><span>Jedes Gespräch, nachvollziehbar.</span></div>
-            <div class="rail-tab cut"><b>Aufgaben</b><span>Rückrufe und offene Punkte.</span></div>
+            <div class="rail-tab cut"><b>Reservationen</b><span>Jede Reservation, live.</span></div>
+            <div class="rail-tab cut"><b>Anrufe</b><span>Gespräche nachlesen, mit Transkript.</span></div>
+            <div class="rail-tab cut"><b>Heidi</b><span>Fragen Sie sie direkt — auf jeder Fläche.</span></div>
+            <div class="rail-tab cut"><b>Mehr</b><span>Wissen, Abo, Einstellungen, Aufgaben.</span></div>
           </div>
         </div>
       </div>
@@ -839,7 +862,7 @@ footer.site {
         <p class="price-sub">Die App und Heidis Arbeit darin — monatlich, Nutzungsbalken mit Monatsreset.</p>
         <ul class="price-list">
           <li><b>Free</b><span class="num">CHF 0</span><span class="note">1 Anruf pro Monat, kleiner Aufgaben-Pool, 10 SMS</span></li>
-          <li><b>Start</b><span class="num">CHF 39</span></li>
+          <li><b>Start</b><span class="num">CHF 39</span><span class="note">Der Einstieg in die bezahlten Pläne.</span></li>
           <li><b>Plus</b><span class="num">CHF 89</span><span class="note">4× Balken, Analytik, Integrationen</span></li>
           <li><b>Max</b><span class="num">CHF 169</span><span class="note">10× Balken, Priorität, Multi-Brand, Early Access</span></li>
         </ul>
@@ -951,9 +974,47 @@ footer.site {
   <section class="band" id="pilot">
     <div class="wrap">
     <p class="eyebrow"><span class="ch">10</span> Pilotprogramm</p>
+    <h2 class="rv">Pilotprogramm 2026.</h2>
+    <p class="band-lead rv">Wir richten ausgewählten Basler Restaurants eine kostenlose Testinstallation ein — und
+    lernen dabei, was eine Betriebsassistentin im Alltag wirklich können muss.</p>
+
+    <div class="cards">
+      <div class="card cut rv">
+        <h3>Für wen</h3>
+        <p>Restaurants in Basel. Wir öffnen drei bis fünf Plätze — so viele, wie wir persönlich begleiten
+        können, und nur solange sie frei sind.</p>
+      </div>
+      <div class="card cut rv">
+        <h3>Was Sie bekommen</h3>
+        <p>Eine kostenlose Testinstallation bis zum 31. Oktober 2026: Telefon, Reservationen und die App —
+        eingerichtet und begleitet. Von uns kommt keine Rechnung; was die Umleitung Ihrer Nummer kostet,
+        entscheidet Ihr Telefontarif.</p>
+      </div>
+      <div class="card cut rv">
+        <h3>Was wir brauchen</h3>
+        <p>Eine Rufumleitung auf Ihre Colomba-Nummer — je nach Anbieter richten wir sie zusammen ein —,
+        rund 30 Minuten Ihrer Zeit und ehrliches Feedback, auch wenn es unbequem ist.</p>
+      </div>
+      <div class="card cut rv">
+        <h3>Danach</h3>
+        <p>Ab dem 1. November 2026 entscheiden Sie: weiter oder Stopp. Keine Verpflichtung, keine Kündigungsfrist.</p>
+      </div>
+    </div>
+
+    <div class="rail cut rv">
+      <p class="rail-title">So läuft es</p>
+      <ul class="kommt">
+        <li><b>1 · Anfrage</b><span>Eine Zeile per E-Mail genügt.</span></li>
+        <li><b>2 · Gespräch</b><span>Wir schauen gemeinsam, ob Heidi zu Ihrem Betrieb passt.</span></li>
+        <li><b>3 · Einrichtung</b><span>Wissensbasis und Tischplan in rund 30 Minuten; die Umleitung je nach Anbieter.</span></li>
+        <li><b>4 · Heidi nimmt ab</b><span>Sie hören mit und korrigieren, was nicht passt.</span></li>
+        <li><b>5 · Auswertung</b><span>Was hat funktioniert, was fehlt noch — offen besprochen.</span></li>
+      </ul>
+    </div>
+
     <div class="pilot-final cut rv">
-      <p class="big">Pilotprogramm 2026 — wir richten ausgewählten Basler Restaurants eine kostenlose Testinstallation ein.</p>
-      <p class="after">Anfragen: <a href="mailto:info@colomba-swiss.ch">info@colomba-swiss.ch</a> oder <a href="https://www.instagram.com/colombaswiss/" rel="me noopener">Instagram&nbsp;@colombaswiss</a> — wir melden uns persönlich.</p>
+      <p class="big">Ein Pilotplatz ist ein Gespräch entfernt.</p>
+      <p class="after"><a class="btn cut" href="mailto:info@colomba-swiss.ch?subject=Pilotplatz%20anfragen">Pilotplatz anfragen</a></p>
     </div>
     </div>
   </section>

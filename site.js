@@ -19,24 +19,29 @@
     rv.forEach(el => el.classList.add('in'));
   }
 
-  /* ── capability ring around the orb (decorative, aria-hidden) ─────── */
-  const MARKS = [
-    'M4 6h16v14H4z M4 10h16 M9 3v4 M15 3v4',
-    'M6 4l3 3-2 3a11 11 0 005 5l3-2 3 3-2 2A16 16 0 014 6z',
-    'M3 10h18 M12 10v9 M8 19h8',
-    'M4 5h16v11H8l-4 4z',
-    'M3 11v2 M7 8v8 M11 4v16 M15 7v10 M19 10v4',
-    'M4 8h16v11H4z M4 8l2.5-3h11L20 8'
+  /* ── the seven Aufgabenbereiche orbit the orb ──────────────────────
+     Wording is identical to chapters 03 and 09 — one vocabulary, three
+     places. Two are in use today, five are in development; the ring says
+     which, and nothing else orbits. Still aria-hidden: chapters 03 and 09
+     already state all seven as real text, so this is the picture of it. */
+  const AREAS = [
+    { label: 'Telefon',           live: true  },
+    { label: 'Reservationen',     live: true  },
+    { label: 'Büro',              live: false },
+    { label: 'Team',              live: false },
+    { label: 'Zahlen',            live: false },
+    { label: 'Gäste & Marketing', live: false },
+    { label: 'Einkauf & Lager',   live: false }
   ];
   const ring = doc.getElementById('ring');
   if (ring) {
-    MARKS.forEach((d, i) => {
-      const a = (-90 + i * (360 / MARKS.length)) * Math.PI / 180;
-      const node = doc.createElement('div');
-      node.className = 'node';
+    AREAS.forEach((area, i) => {
+      const a = (-90 + i * (360 / AREAS.length)) * Math.PI / 180;
+      const node = doc.createElement('span');
+      node.className = area.live ? 'node live' : 'node';
       node.style.left = `calc(50% + ${Math.cos(a).toFixed(3)} * var(--r))`;
       node.style.top = `calc(50% + ${Math.sin(a).toFixed(3)} * var(--r))`;
-      node.innerHTML = `<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="rgba(166,179,156,.95)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg>`;
+      node.textContent = area.label;
       ring.appendChild(node);
     });
   }
